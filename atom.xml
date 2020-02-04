@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>0810-CAO Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-02-03T09:11:53.003Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>CCX-99</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1018 Public Bike Management</title>
+    <link href="http://yoursite.com/2020/02/03/1018-Public-Bike-Management/"/>
+    <id>http://yoursite.com/2020/02/03/1018-Public-Bike-Management/</id>
+    <published>2020-02-03T07:15:26.000Z</published>
+    <updated>2020-02-03T09:11:53.003Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;There is a public bike service in Hangzhou City which provides great convenience to the tourists from all over the world. One may rent a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="图" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/%E5%9B%BE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1017 Queueing at Bank</title>
+    <link href="http://yoursite.com/2020/02/03/1017-Queueing-at-Bank/"/>
+    <id>http://yoursite.com/2020/02/03/1017-Queueing-at-Bank/</id>
+    <published>2020-02-03T06:46:16.000Z</published>
+    <updated>2020-02-03T06:52:04.445Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Suppose a bank has &lt;em&gt;K&lt;/em&gt; windows open for service. There is a yellow line in front of the windows which devides the waiting area
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1016 Phone Bills</title>
+    <link href="http://yoursite.com/2020/02/02/1016-Phone-Bills/"/>
+    <id>http://yoursite.com/2020/02/02/1016-Phone-Bills/</id>
+    <published>2020-02-02T08:20:31.000Z</published>
+    <updated>2020-02-02T09:09:32.721Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A long-distance telephone company charges its customers by the following rules:&lt;/p&gt;
+&lt;p&gt;Making a long-distance call costs a certain
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1014 Waiting in Line</title>
+    <link href="http://yoursite.com/2020/02/01/1014-Waiting-in-Line/"/>
+    <id>http://yoursite.com/2020/02/01/1014-Waiting-in-Line/</id>
+    <published>2020-02-01T06:53:21.000Z</published>
+    <updated>2020-02-01T08:16:00.566Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Suppose a bank has &lt;em&gt;N&lt;/em&gt; windows open for service. There is a yellow line in front of the windows which devides the waiting area
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1013 Battle Over Cities</title>
+    <link href="http://yoursite.com/2020/02/01/1013-Battle-Over-Cities/"/>
+    <id>http://yoursite.com/2020/02/01/1013-Battle-Over-Cities/</id>
+    <published>2020-02-01T05:47:15.000Z</published>
+    <updated>2020-02-01T06:37:24.761Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;It is vitally important to have all the cities connected by highways in a war. If a city is occupied by the enemy, all the highways
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="图" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/%E5%9B%BE/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1012 The Best Rank</title>
+    <link href="http://yoursite.com/2020/02/01/1012-The-Best-Rank/"/>
+    <id>http://yoursite.com/2020/02/01/1012-The-Best-Rank/</id>
+    <published>2020-02-01T05:34:53.000Z</published>
+    <updated>2020-02-01T05:41:04.351Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;To evaluate the performance of our first year CS majored students, we consider their grades of three courses only: &lt;code&gt;C&lt;/code&gt; - C
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1010 Radix</title>
+    <link href="http://yoursite.com/2020/01/31/1010-Radix/"/>
+    <id>http://yoursite.com/2020/01/31/1010-Radix/</id>
+    <published>2020-01-31T06:43:34.000Z</published>
+    <updated>2020-01-31T07:00:40.494Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Given a pair of positive integers, for example, 6 and 110, can this equation 6 = 110 be true? The answer is &lt;code&gt;yes&lt;/code&gt;, if 6 is a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1009 Product of Polynomials</title>
+    <link href="http://yoursite.com/2020/01/31/1009-Product-of-Polynomials/"/>
+    <id>http://yoursite.com/2020/01/31/1009-Product-of-Polynomials/</id>
+    <published>2020-01-31T03:44:07.000Z</published>
+    <updated>2020-01-31T03:46:11.394Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;This time, you are supposed to find &lt;em&gt;A&lt;/em&gt;×&lt;em&gt;B&lt;/em&gt; where &lt;em&gt;A&lt;/em&gt; and &lt;em&gt;B&lt;/em&gt; are two polynomials.&lt;/p&gt;
+&lt;h3
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1007 Maximum Subsequence Sum</title>
+    <link href="http://yoursite.com/2020/01/30/1007-Maximum-Subsequence-Sum/"/>
+    <id>http://yoursite.com/2020/01/30/1007-Maximum-Subsequence-Sum/</id>
+    <published>2020-01-30T07:56:21.000Z</published>
+    <updated>2020-01-30T07:57:41.679Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Given a sequence of &lt;em&gt;K&lt;/em&gt; integers { &lt;em&gt;N&lt;/em&gt;1, &lt;em&gt;N&lt;/em&gt;2, …, &lt;em&gt;N**K&lt;/em&gt; }. A continuous subsequence is defined to be {
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1006 Sign In and Sign Out</title>
+    <link href="http://yoursite.com/2020/01/30/1006-Sign-In-and-Sign-Out/"/>
+    <id>http://yoursite.com/2020/01/30/1006-Sign-In-and-Sign-Out/</id>
+    <published>2020-01-30T07:46:19.000Z</published>
+    <updated>2020-01-31T03:45:15.010Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;At the beginning of every day, the first person who signs in the computer room will unlock the door, and the last one who signs out will
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1005 Spell It Right</title>
+    <link href="http://yoursite.com/2020/01/30/1005-Spell-It-Right/"/>
+    <id>http://yoursite.com/2020/01/30/1005-Spell-It-Right/</id>
+    <published>2020-01-30T07:20:46.000Z</published>
+    <updated>2020-01-30T07:36:54.042Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Given a non-negative integer &lt;em&gt;N&lt;/em&gt;, your task is to compute the sum of all the digits of &lt;em&gt;N&lt;/em&gt;, and output every digit of the
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hello</title>
+    <link href="http://yoursite.com/2020/01/29/hello/"/>
+    <id>http://yoursite.com/2020/01/29/hello/</id>
+    <published>2020-01-29T05:27:15.000Z</published>
+    <updated>2020-01-30T07:37:31.314Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/categories/linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ccx</title>
+    <link href="http://yoursite.com/2020/01/29/ccx/"/>
+    <id>http://yoursite.com/2020/01/29/ccx/</id>
+    <published>2020-01-29T04:28:13.000Z</published>
+    <updated>2020-01-31T07:18:08.762Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;遇见即是缘分，而错过亦是注定&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="mine" scheme="http://yoursite.com/tags/mine/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/01/29/hello-world/"/>
+    <id>http://yoursite.com/2020/01/29/hello-world/</id>
+    <published>2020-01-29T03:34:11.802Z</published>
+    <updated>2020-01-30T01:55:35.780Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+</feed>
