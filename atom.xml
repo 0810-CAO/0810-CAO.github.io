@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-03T09:11:53.003Z</updated>
+  <updated>2020-02-04T08:19:20.686Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1020 Tree Traversals</title>
+    <link href="http://yoursite.com/2020/02/04/1020-Tree-Traversals/"/>
+    <id>http://yoursite.com/2020/02/04/1020-Tree-Traversals/</id>
+    <published>2020-02-04T08:13:06.000Z</published>
+    <updated>2020-02-04T08:19:20.686Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Suppose that all the keys in a binary tree are distinct positive integers. Given the postorder and inorder traversal sequences, you are
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="二叉树" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1018 Public Bike Management</title>
