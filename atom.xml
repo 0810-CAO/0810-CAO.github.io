@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-04T08:19:20.686Z</updated>
+  <updated>2020-02-05T08:32:07.213Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1021 Deepest Root</title>
+    <link href="http://yoursite.com/2020/02/04/1021-Deepest-Root/"/>
+    <id>http://yoursite.com/2020/02/04/1021-Deepest-Root/</id>
+    <published>2020-02-04T08:20:49.000Z</published>
+    <updated>2020-02-05T08:32:07.213Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A graph which is connected and acyclic can be considered a tree. The height of the tree depends on the selected root. Now you are
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="图" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/%E5%9B%BE/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1020 Tree Traversals</title>
