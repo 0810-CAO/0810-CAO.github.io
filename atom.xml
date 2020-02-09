@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-05T09:13:33.070Z</updated>
+  <updated>2020-02-09T06:12:24.089Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1023 Have Fun with Numbers</title>
+    <link href="http://yoursite.com/2020/02/09/1023-Have-Fun-with-Numbers/"/>
+    <id>http://yoursite.com/2020/02/09/1023-Have-Fun-with-Numbers/</id>
+    <published>2020-02-09T05:20:28.000Z</published>
+    <updated>2020-02-09T06:12:24.089Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Notice that the number 123456789 is a 9-digit number consisting exactly the numbers from 1 to 9, with no duplication. Double it we will
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1022 Digital Library</title>
