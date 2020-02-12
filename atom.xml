@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-11T09:08:52.824Z</updated>
+  <updated>2020-02-12T08:01:03.141Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,12 +21,24 @@
     <link href="http://yoursite.com/2020/02/11/1034-Head-of-a-Gang/"/>
     <id>http://yoursite.com/2020/02/11/1034-Head-of-a-Gang/</id>
     <published>2020-02-11T09:08:52.000Z</published>
-    <updated>2020-02-11T09:08:52.824Z</updated>
+    <updated>2020-02-12T08:01:03.141Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;p&gt;One way that the police finds the head of a gang is to check people’s phone calls. If there is a phone call between &lt;em&gt;A&lt;/em&gt; and
+        
+      
+    
     </summary>
     
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="图" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/%E5%9B%BE/"/>
     
     
   </entry>
