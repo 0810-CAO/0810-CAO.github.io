@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-13T08:07:16.434Z</updated>
+  <updated>2020-02-13T09:11:49.065Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1044 Shopping in Mars</title>
+    <link href="http://yoursite.com/2020/02/13/1044-Shopping-in-Mars/"/>
+    <id>http://yoursite.com/2020/02/13/1044-Shopping-in-Mars/</id>
+    <published>2020-02-13T08:51:57.000Z</published>
+    <updated>2020-02-13T09:11:49.065Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Shopping in Mars is quite a different experience. The Mars people pay by chained diamonds. Each diamond has a value (in Mars dollars
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1043 Is It a Binary Search Tree</title>
@@ -496,31 +521,6 @@
         
         
           &lt;p&gt;At the beginning of every day, the first person who signs in the computer room will unlock the door, and the last one who signs out will
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1005 Spell It Right</title>
-    <link href="http://yoursite.com/2020/01/30/1005-Spell-It-Right/"/>
-    <id>http://yoursite.com/2020/01/30/1005-Spell-It-Right/</id>
-    <published>2020-01-30T07:20:46.000Z</published>
-    <updated>2020-01-30T07:36:54.042Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Given a non-negative integer &lt;em&gt;N&lt;/em&gt;, your task is to compute the sum of all the digits of &lt;em&gt;N&lt;/em&gt;, and output every digit of the
         
       
     
