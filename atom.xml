@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-12T08:01:03.141Z</updated>
+  <updated>2020-02-13T08:07:16.434Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1043 Is It a Binary Search Tree</title>
+    <link href="http://yoursite.com/2020/02/13/1043-Is-It-a-Binary-Search-Tree/"/>
+    <id>http://yoursite.com/2020/02/13/1043-Is-It-a-Binary-Search-Tree/</id>
+    <published>2020-02-13T07:46:25.000Z</published>
+    <updated>2020-02-13T08:07:16.434Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A Binary Search Tree (BST) is recursively defined as a binary tree which has the following properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The left subtree of
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="树" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1034 Head of a Gang</title>
@@ -499,23 +528,6 @@
     
     
       <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hello</title>
-    <link href="http://yoursite.com/2020/01/29/hello/"/>
-    <id>http://yoursite.com/2020/01/29/hello/</id>
-    <published>2020-01-29T05:27:15.000Z</published>
-    <updated>2020-01-30T07:37:31.314Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="linux" scheme="http://yoursite.com/categories/linux/"/>
     
     
   </entry>
