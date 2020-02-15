@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-13T09:11:49.065Z</updated>
+  <updated>2020-02-15T03:26:48.573Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1045 Favorite Color Stripe</title>
+    <link href="http://yoursite.com/2020/02/15/1045-Favorite-Color-Stripe/"/>
+    <id>http://yoursite.com/2020/02/15/1045-Favorite-Color-Stripe/</id>
+    <published>2020-02-15T02:41:53.000Z</published>
+    <updated>2020-02-15T03:26:48.573Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Eva is trying to make her own color stripe out of a given one. She would like to keep only her favorite colors in her favorite order by
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1044 Shopping in Mars</title>
@@ -496,31 +521,6 @@
         
         
           &lt;p&gt;Given a sequence of &lt;em&gt;K&lt;/em&gt; integers { &lt;em&gt;N&lt;/em&gt;1, &lt;em&gt;N&lt;/em&gt;2, …, &lt;em&gt;N**K&lt;/em&gt; }. A continuous subsequence is defined to be {
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="http://yoursite.com/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1006 Sign In and Sign Out</title>
-    <link href="http://yoursite.com/2020/01/30/1006-Sign-In-and-Sign-Out/"/>
-    <id>http://yoursite.com/2020/01/30/1006-Sign-In-and-Sign-Out/</id>
-    <published>2020-01-30T07:46:19.000Z</published>
-    <updated>2020-01-31T03:45:15.010Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;At the beginning of every day, the first person who signs in the computer room will unlock the door, and the last one who signs out will
         
       
     
