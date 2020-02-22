@@ -80,12 +80,14 @@
 
 
 
-<meta name="description" content="Keep moving">
-<meta property="og:type" content="website">
-<meta property="og:title" content="0810-CAO Blog">
-<meta property="og:url" content="https://0810-cao.github.io/tags/mine/index.html">
+<meta name="description" content="In computer science, a heap is a specialized tree-based data structure that satisfies the heap property: if P is a parent node of C, then the key (the value) of P is either greater than or equal to (i">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1155 Heap Paths">
+<meta property="og:url" content="https://0810-cao.github.io/2020/02/22/1155-Heap-Paths/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="Keep moving">
+<meta property="og:description" content="In computer science, a heap is a specialized tree-based data structure that satisfies the heap property: if P is a parent node of C, then the key (the value) of P is either greater than or equal to (i">
+<meta property="article:published_time" content="2020-02-22T08:55:27.000Z">
+<meta property="article:modified_time" content="2020-02-22T11:44:37.238Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -117,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://0810-cao.github.io/tags/mine/"/>
+  <link rel="canonical" href="https://0810-cao.github.io/2020/02/22/1155-Heap-Paths/"/>
 
 
 
 
 
-  <title>标签: mine | 0810-CAO Blog</title>
+  <title>1155 Heap Paths | 0810-CAO Blog</title>
   
 
 
@@ -142,7 +144,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -270,54 +272,218 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>mine<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/02/22/1155-Heap-Paths/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="CCX-99">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/head.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="0810-CAO Blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2020/01/29/ccx/" itemprop="url">
-              
-                <span itemprop="name">ccx</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">1155 Heap Paths</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-01-29T12:28:13+08:00"
-              content="2020-01-29" >
-          01-29
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-22T16:55:27+08:00">
+                2020-02-22
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/pat%E7%94%B2%E7%BA%A7/" itemprop="url" rel="index">
+                    <span itemprop="name">pat甲级</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/" itemprop="url" rel="index">
+                    <span itemprop="name">树</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>In computer science, a <strong>heap</strong> is a specialized tree-based data structure that satisfies the heap property: if P is a parent node of C, then the key (the value) of P is either greater than or equal to (in a max heap) or less than or equal to (in a min heap) the key of C. A common implementation of a heap is the binary heap, in which the tree is a complete binary tree. (Quoted from Wikipedia at <a href="https://en.wikipedia.org/wiki/Heap_(data_structure)" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Heap_(data_structure)</a>)</p>
+<p>One thing for sure is that all the keys along any path from the root to a leaf in a max/min heap must be in non-increasing/non-decreasing order.</p>
+<p>Your job is to check every path in a given complete binary tree, in order to tell if it is a heap or not.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives a positive integer <em>N</em> (1&lt;<em>N</em>≤1,000), the number of keys in the tree. Then the next line contains <em>N</em> distinct integer keys (all in the range of <strong>int</strong>), which gives the level order traversal sequence of a complete binary tree.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each given tree, first print all the paths from the root to the leaves. Each path occupies a line, with all the numbers separated by a space, and no extra space at the beginning or the end of the line. The paths must be printed in the following order: for each node in the tree, all the paths in its right subtree must be printed before those in its left subtree.</p>
+<p>Finally print in a line <code>Max Heap</code> if it is a max heap, or <code>Min Heap</code> for a min heap, or <code>Not Heap</code> if it is not a heap at all. </p>
+<h3 id="Sample-Input-1"><a href="#Sample-Input-1" class="headerlink" title="Sample Input 1:"></a>Sample Input 1:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">98 72 86 60 65 12 23 50</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output-1"><a href="#Sample-Output-1" class="headerlink" title="Sample Output 1:"></a>Sample Output 1:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">98 86 23</span><br><span class="line">98 86 12</span><br><span class="line">98 72 65</span><br><span class="line">98 72 60 50</span><br><span class="line">Max Heap</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Input-2"><a href="#Sample-Input-2" class="headerlink" title="Sample Input 2:"></a>Sample Input 2:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">8 38 25 58 52 82 70 60</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output-2"><a href="#Sample-Output-2" class="headerlink" title="Sample Output 2:"></a>Sample Output 2:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">8 25 70</span><br><span class="line">8 25 82</span><br><span class="line">8 38 52</span><br><span class="line">8 38 58 60</span><br><span class="line">Min Heap</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Input-3"><a href="#Sample-Input-3" class="headerlink" title="Sample Input 3:"></a>Sample Input 3:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">10 28 15 12 34 9 8 56</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output-3"><a href="#Sample-Output-3" class="headerlink" title="Sample Output 3:"></a>Sample Output 3:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">10 15 8</span><br><span class="line">10 15 9</span><br><span class="line">10 28 34</span><br><span class="line">10 28 12 56</span><br><span class="line">Not Heap</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">vector&lt;int&gt; v;</span><br><span class="line">int a[1001], n, isMin &#x3D; 1, isMax &#x3D; 1;</span><br><span class="line">void Dfs(int index) &#123;</span><br><span class="line">	if (index * 2 &gt; n &amp;&amp; index * 2 + 1 &gt; n) &#123;</span><br><span class="line">		if (index &lt;&#x3D; n) &#123;</span><br><span class="line">			for (int i &#x3D; 0; i &lt; v.size(); i++)</span><br><span class="line">				printf(&quot;%d%s&quot;, v[i], i !&#x3D; v.size() - 1 ? &quot; &quot; : &quot;\n&quot;);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125; else &#123;</span><br><span class="line">		v.push_back(a[index * 2 + 1]);</span><br><span class="line">		Dfs(index * 2 + 1);</span><br><span class="line">		v.pop_back();</span><br><span class="line">		v.push_back(a[index * 2]);</span><br><span class="line">		Dfs(index * 2);</span><br><span class="line">		v.pop_back();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">int main() &#123;</span><br><span class="line">	scanf(&quot;%d&quot;,&amp;n);</span><br><span class="line">	for (int i &#x3D; 1; i &lt;&#x3D; n; i++)</span><br><span class="line">		scanf(&quot;%d&quot;, &amp;a[i]);</span><br><span class="line">	v.push_back(a[1]);</span><br><span class="line">	Dfs(1);</span><br><span class="line">	for (int i &#x3D; 2; i &lt;&#x3D; n; i++) &#123;&#x2F;&#x2F;与子节点比较</span><br><span class="line">		if (a[i&#x2F;2] &gt; a[i]) isMin &#x3D; 0;</span><br><span class="line">		if (a[i&#x2F;2] &lt; a[i]) isMax &#x3D; 0;</span><br><span class="line">	&#125;</span><br><span class="line">	if (isMin &#x3D;&#x3D; 1)&#123;</span><br><span class="line">		printf(&quot;Min Heap&quot;);</span><br><span class="line">	&#125;else &#123;</span><br><span class="line">		printf(&quot;%s&quot;, isMax &#x3D;&#x3D; 1 ? &quot;Max Heap&quot; : &quot;Not Heap&quot;); </span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>给出一个层次遍历的一组数据，判断其深度优先遍历后的排序情况</p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>坚持原创分享，您的支持将鼓励我继续创作!</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/receive.jpg" alt="CCX-99 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/02/22/1154-Vertex-Coloring/" rel="next" title="1154 Vertex Coloring">
+                <i class="fa fa-chevron-left"></i> 1154 Vertex Coloring
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -325,6 +491,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -345,8 +515,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -426,6 +605,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Input-Specification"><span class="nav-number">1.</span> <span class="nav-text">Input Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-Specification"><span class="nav-number">2.</span> <span class="nav-text">Output Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input-1"><span class="nav-number">3.</span> <span class="nav-text">Sample Input 1:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output-1"><span class="nav-number">4.</span> <span class="nav-text">Sample Output 1:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input-2"><span class="nav-number">5.</span> <span class="nav-text">Sample Input 2:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output-2"><span class="nav-number">6.</span> <span class="nav-text">Sample Output 2:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input-3"><span class="nav-number">7.</span> <span class="nav-text">Sample Input 3:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output-3"><span class="nav-number">8.</span> <span class="nav-text">Sample Output 3:</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -577,6 +772,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

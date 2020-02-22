@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-02-22T08:54:20.048Z</updated>
+  <updated>2020-02-22T11:44:37.238Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1155 Heap Paths</title>
+    <link href="https://0810-cao.github.io/2020/02/22/1155-Heap-Paths/"/>
+    <id>https://0810-cao.github.io/2020/02/22/1155-Heap-Paths/</id>
+    <published>2020-02-22T08:55:27.000Z</published>
+    <updated>2020-02-22T11:44:37.238Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;In computer science, a &lt;strong&gt;heap&lt;/strong&gt; is a specialized tree-based data structure that satisfies the heap property: if P is a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1154 Vertex Coloring</title>
@@ -495,32 +522,6 @@
         
         
           &lt;p&gt;Given a pair of positive integers, for example, 6 and 110, can this equation 6 = 110 be true? The answer is &lt;code&gt;yes&lt;/code&gt;, if 6 is a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1009 Product of Polynomials</title>
-    <link href="https://0810-cao.github.io/2020/01/31/1009-Product-of-Polynomials/"/>
-    <id>https://0810-cao.github.io/2020/01/31/1009-Product-of-Polynomials/</id>
-    <published>2020-01-31T03:44:07.000Z</published>
-    <updated>2020-01-31T03:46:11.394Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;This time, you are supposed to find &lt;em&gt;A&lt;/em&gt;×&lt;em&gt;B&lt;/em&gt; where &lt;em&gt;A&lt;/em&gt; and &lt;em&gt;B&lt;/em&gt; are two polynomials.&lt;/p&gt;
-&lt;h3
         
       
     
