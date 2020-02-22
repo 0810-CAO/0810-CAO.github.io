@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-02-15T03:26:48.573Z</updated>
+  <updated>2020-02-22T08:54:20.048Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1154 Vertex Coloring</title>
+    <link href="https://0810-cao.github.io/2020/02/22/1154-Vertex-Coloring/"/>
+    <id>https://0810-cao.github.io/2020/02/22/1154-Vertex-Coloring/</id>
+    <published>2020-02-22T08:51:58.000Z</published>
+    <updated>2020-02-22T08:54:20.048Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A &lt;strong&gt;proper vertex coloring&lt;/strong&gt; is a labeling of the graph’s vertices with colors such that no two vertices sharing the same
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat 甲级" scheme="https://0810-cao.github.io/categories/pat-%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1045 Favorite Color Stripe</title>
@@ -496,31 +521,6 @@
         
           &lt;p&gt;This time, you are supposed to find &lt;em&gt;A&lt;/em&gt;×&lt;em&gt;B&lt;/em&gt; where &lt;em&gt;A&lt;/em&gt; and &lt;em&gt;B&lt;/em&gt; are two polynomials.&lt;/p&gt;
 &lt;h3
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1007 Maximum Subsequence Sum</title>
-    <link href="https://0810-cao.github.io/2020/01/30/1007-Maximum-Subsequence-Sum/"/>
-    <id>https://0810-cao.github.io/2020/01/30/1007-Maximum-Subsequence-Sum/</id>
-    <published>2020-01-30T07:56:21.000Z</published>
-    <updated>2020-01-30T07:57:41.679Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Given a sequence of &lt;em&gt;K&lt;/em&gt; integers { &lt;em&gt;N&lt;/em&gt;1, &lt;em&gt;N&lt;/em&gt;2, …, &lt;em&gt;N**K&lt;/em&gt; }. A continuous subsequence is defined to be {
         
       
     
