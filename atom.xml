@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-02-23T09:22:04.447Z</updated>
+  <updated>2020-02-23T09:34:46.605Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1149 Dangerous Goods Packaging</title>
+    <link href="https://0810-cao.github.io/2020/02/23/1149-Dangerous-Goods-Packaging/"/>
+    <id>https://0810-cao.github.io/2020/02/23/1149-Dangerous-Goods-Packaging/</id>
+    <published>2020-02-23T09:32:52.000Z</published>
+    <updated>2020-02-23T09:34:46.605Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;When shipping goods with containers, we have to be careful not to pack some incompatible goods into the same container, or we might get
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1148 Werewolf - Simple Version</title>
@@ -504,31 +529,6 @@
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
     
       <category term="图" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E5%9B%BE/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1012 The Best Rank</title>
-    <link href="https://0810-cao.github.io/2020/02/01/1012-The-Best-Rank/"/>
-    <id>https://0810-cao.github.io/2020/02/01/1012-The-Best-Rank/</id>
-    <published>2020-02-01T05:34:53.000Z</published>
-    <updated>2020-02-01T05:41:04.351Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;To evaluate the performance of our first year CS majored students, we consider their grades of three courses only: &lt;code&gt;C&lt;/code&gt; - C
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
     
     
   </entry>
