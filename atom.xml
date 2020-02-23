@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-02-22T11:44:37.238Z</updated>
+  <updated>2020-02-23T09:22:04.447Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1148 Werewolf - Simple Version</title>
+    <link href="https://0810-cao.github.io/2020/02/23/1148-Werewolf-Simple-Version/"/>
+    <id>https://0810-cao.github.io/2020/02/23/1148-Werewolf-Simple-Version/</id>
+    <published>2020-02-23T09:19:12.000Z</published>
+    <updated>2020-02-23T09:22:04.447Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Werewolf（狼人杀） is a game in which the players are partitioned into two parties: the werewolves and the human beings. Suppose that in a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1155 Heap Paths</title>
@@ -497,31 +522,6 @@
         
         
           &lt;p&gt;To evaluate the performance of our first year CS majored students, we consider their grades of three courses only: &lt;code&gt;C&lt;/code&gt; - C
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1010 Radix</title>
-    <link href="https://0810-cao.github.io/2020/01/31/1010-Radix/"/>
-    <id>https://0810-cao.github.io/2020/01/31/1010-Radix/</id>
-    <published>2020-01-31T06:43:34.000Z</published>
-    <updated>2020-01-31T07:00:40.494Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Given a pair of positive integers, for example, 6 and 110, can this equation 6 = 110 be true? The answer is &lt;code&gt;yes&lt;/code&gt;, if 6 is a
         
       
     
