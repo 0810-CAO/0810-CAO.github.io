@@ -104,17 +104,9 @@
     <link href="https://0810-cao.github.io/2020/03/08/struts2%E6%8B%A6%E6%88%AA%E5%99%A8/"/>
     <id>https://0810-cao.github.io/2020/03/08/struts2%E6%8B%A6%E6%88%AA%E5%99%A8/</id>
     <published>2020-03-08T01:47:15.000Z</published>
-    <updated>2020-03-08T02:32:15.301Z</updated>
+    <updated>2020-03-08T02:40:48.775Z</updated>
     
     <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Struts2框架不能见到web常用对象（request、respond、session），减少耦合&lt;br&gt;在struts2框架中获取servlet
-        
-      
     
     </summary>
     
@@ -129,9 +121,17 @@
     <link href="https://0810-cao.github.io/2020/03/08/struts2%E6%A0%B8%E5%BF%83%E9%85%8D%E7%BD%AE/"/>
     <id>https://0810-cao.github.io/2020/03/08/struts2%E6%A0%B8%E5%BF%83%E9%85%8D%E7%BD%AE/</id>
     <published>2020-03-08T01:47:07.000Z</published>
-    <updated>2020-03-08T02:06:41.035Z</updated>
+    <updated>2020-03-08T02:41:13.838Z</updated>
     
     <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Struts2框架不能见到web常用对象（request、respond、session），减少耦合&lt;br&gt;在struts2框架中获取servlet
+        
+      
     
     </summary>
     
