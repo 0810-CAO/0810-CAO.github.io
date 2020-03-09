@@ -104,7 +104,7 @@
     <link href="https://0810-cao.github.io/2020/03/08/struts2%E6%8B%A6%E6%88%AA%E5%99%A8/"/>
     <id>https://0810-cao.github.io/2020/03/08/struts2%E6%8B%A6%E6%88%AA%E5%99%A8/</id>
     <published>2020-03-08T01:47:15.000Z</published>
-    <updated>2020-03-08T02:50:22.314Z</updated>
+    <updated>2020-03-09T01:06:05.513Z</updated>
     
     <summary type="html">
     
@@ -112,7 +112,8 @@
       
         
         
-          &lt;p&gt;strutsh中的拦截器interceptor&lt;br&gt;1、应用&lt;br&gt;struts2中的拦截器信息在哪定义的？struts-default.xml文件&lt;br&gt;struts2中的拦截器怎样定义：&lt;br&gt;在struts.xml文件中按照以下语法来配置：&lt;interceptor
+          &lt;p&gt;strutsh中的拦截器interceptor&lt;br&gt;1、应用&lt;br&gt;struts2中的拦截器信息在哪定义的？struts-default.xml文件&lt;br&gt;struts2中的拦截器怎样定义：&lt;br&gt;在struts.xml文件中按照以下语法来配置：&lt;/p&gt;
+&lt;figure
         
       
     
