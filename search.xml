@@ -24,7 +24,49 @@
   <entry>
     <title>ognl表达式</title>
     <url>/2020/03/08/ognl%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>1）ognl表达式：是对象导航图语言。也是一种struts2默认的表达式语言，xwork提供ognl支持。支持对象方法调用、支持类静态的方法调用和值访问、访问ognl上下文和actioncontext、支持赋值操作和表达式串联、操作集合对象。OGNL上下文概念就是一个map结构，实现了java.utils.Map的接口。</p>
+<p>2）访问ognl上下文和actioncontext：</p>
+<p>ognl存在一个上下文对象（map），ognl可以操作这个上下文，即可以向这个map存储和取出数据。在struts2中这个上下文对象就是actioncontext。</p>
+<p>ognl与valuestack</p>
+<p>3）什么是值栈（valuestack）？</p>
+<p>valuestack是struts2中的一个接口，ognl操作的就是这个valuestack，真正操作的是其实现类，ognlvaluestack就是一个map。它是ognl基础。</p>
+<p>valuestack：贯穿整个action的生命周期（每个action类的对象实例都拥有一个valuestack对象），相当于一个数据中转站，在其中保存当前action对象和其他相关对象。上述也就是说valuestack是随着action生命周期一致，每个action都拥有自己的valuestack。valuestack中存储的时action的相关信息与常用的web对象。</p>
+<p>struts框架将valuestack对象保存在request范围中，名称是“struts.valuestack”</p>
+<p>request.setAttribute(“struts.valuestack”,valuestack对象）</p>
+<p>4）如何获得值栈对象？</p>
+<p>1、通过request对象获取</p>
+<p>ValueStack valuestack=(ValueStack) ServletActionContext.getrequest().getAttribute(</p>
+<p>ServletActionContext.STRUTS_VALUESTACK_KEY);</p>
+<p>2、通过actioncontext对象获取</p>
+<p>ValueStack valuestack=ActionContext.getContext().getValueStack();</p>
+<p>5）值栈的内部结构</p>
+<p>valueStack 中包含两个部分arraylist（root） Map（context）</p>
+<p>map中包含root。root中存储了action相关信息，map中存储常用的web对象（reuqest、session、application、parameters）</p>
+<p>值栈在开发中的应用</p>
+<p>valueStack 在开发中作用：在页面与action之间数据交换。</p>
+<p>自动存储在valuestack中的对象：1）action对象会被自动压入valuestack中2）action如果实现了modeldriven接口那么modeldriveninterceptor拦截器会生效，将model对象压入valuestack中。如果是属性驱动，bean对象存在action对象中，模型驱动，bean对象直接存储在root中。</p>
+<p>前提：使用模型驱动时，可以从action中获取model对象，转为在action中提供一个getmodel方法，如果在action中提供了get方法，就会在&lt;s:debug&gt;中查看到该属性</p>
+<p>属性驱动</p>
+<p>product.java</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">package cn.itcast.domain;</span><br><span class="line">public class Product &#123;</span><br><span class="line">	private String name; &#x2F;&#x2F;商品名称</span><br><span class="line">	private double price; &#x2F;&#x2F;商品价格</span><br><span class="line">	public String getName() &#123;</span><br><span class="line">		return name;</span><br><span class="line">	&#125;</span><br><span class="line">	public void setName(String name) &#123;</span><br><span class="line">		this.name &#x3D; name;</span><br><span class="line">	&#125;</span><br><span class="line">	public double getPrice() &#123;</span><br><span class="line">		return price;</span><br><span class="line">	&#125;</span><br><span class="line">	public void setPrice(double price) &#123;</span><br><span class="line">		this.price &#x3D; price;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>ValueStack2Action.java</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">package cn.itcast.action;</span><br><span class="line">import cn.itcast.domain.Product;</span><br><span class="line">import com.opensymphony.xwork2.ActionSupport;</span><br><span class="line">public class ValueStack2Action extends ActionSupport &#123;</span><br><span class="line">	private Product p3;</span><br><span class="line">	public Product getP3() &#123;</span><br><span class="line">		return p3;</span><br><span class="line">	&#125;</span><br><span class="line">	public void setP3(Product p3) &#123;</span><br><span class="line">		this.p3 &#x3D; p3;</span><br><span class="line">	&#125;</span><br><span class="line">	@Override</span><br><span class="line">	public String execute() throws Exception &#123;</span><br><span class="line">		return SUCCESS;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>valueStack2.jsp</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;%@ page language&#x3D;&quot;java&quot; contentType&#x3D;&quot;text&#x2F;html; charset&#x3D;UTF-8&quot;</span><br><span class="line">	pageEncoding&#x3D;&quot;UTF-8&quot;%&gt;</span><br><span class="line">&lt;%@ taglib prefix&#x3D;&quot;s&quot; uri&#x3D;&quot;&#x2F;struts-tags&quot;%&gt;</span><br><span class="line">&lt;!DOCTYPE HTML PUBLIC &quot;-&#x2F;&#x2F;W3C&#x2F;&#x2F;DTD HTML 4.01 Transitional&#x2F;&#x2F;EN&quot;&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt;查看valueStack信息&lt;&#x2F;title&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	&lt;s:debug &#x2F;&gt;</span><br><span class="line">	商品名称：</span><br><span class="line">	&lt;s:property value&#x3D;&quot;p3.name&quot; &#x2F;&gt;</span><br><span class="line">	&lt;&#x2F;br&gt; 商品价格：</span><br><span class="line">	&lt;s:property value&#x3D;&quot;p3.price&quot; &#x2F;&gt;</span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
+
+<p>struts2.xml</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot; ?&gt;</span><br><span class="line">&lt;!DOCTYPE struts PUBLIC</span><br><span class="line">	&quot;-&#x2F;&#x2F;Apache Software Foundation&#x2F;&#x2F;DTD Struts Configuration 2.3&#x2F;&#x2F;EN&quot;</span><br><span class="line">	&quot;http:&#x2F;&#x2F;struts.apache.org&#x2F;dtds&#x2F;struts-2.3.dtd&quot;&gt;</span><br><span class="line">&lt;struts&gt;</span><br><span class="line">	&lt;!-- 开启访问静态方法支持 --&gt;</span><br><span class="line">	&lt;constant name&#x3D;&quot;struts.ognl.allowStaticMethodAccess&quot; value&#x3D;&quot;true&quot; &#x2F;&gt;</span><br><span class="line">	&lt;package name&#x3D;&quot;struts2&quot; namespace&#x3D;&quot;&#x2F;&quot; extends&#x3D;&quot;struts-default&quot;&gt;</span><br><span class="line">		&lt;action name&#x3D;&quot;valueStack2&quot; class&#x3D;&quot;cn.itcast.action.ValueStack2Action&quot;&gt;</span><br><span class="line">			&lt;result&gt;&#x2F;valueStack2.jsp&lt;&#x2F;result&gt;</span><br><span class="line">		&lt;&#x2F;action&gt;</span><br><span class="line">		&lt;action name&#x3D;&quot;valueStack3&quot; class&#x3D;&quot;cn.itcast.action.ValueStack3Action&quot;&gt;</span><br><span class="line">			&lt;result&gt;&#x2F;valueStack3.jsp&lt;&#x2F;result&gt;</span><br><span class="line">		&lt;&#x2F;action&gt;</span><br><span class="line">	&lt;&#x2F;package&gt;</span><br><span class="line">&lt;&#x2F;struts&gt;</span><br></pre></td></tr></table></figure>
+
+<p>模型驱动</p>
+<p>ValueStack2Action.java</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">package cn.itcast.action;</span><br><span class="line">import com.opensymphony.xwork2.ActionSupport;</span><br><span class="line">import com.opensymphony.xwork2.ModelDriven;</span><br><span class="line">import cn.itcast.domain.Product;</span><br><span class="line">&#x2F;&#x2F;模型驱动</span><br><span class="line">public class ValueStack3Action extends ActionSupport implements</span><br><span class="line">		ModelDriven&lt;Product&gt; &#123;</span><br><span class="line">	private Product p3 &#x3D; new Product();</span><br><span class="line">	@Override</span><br><span class="line">	public Product getModel() &#123;</span><br><span class="line">		return p3;</span><br><span class="line">	&#125;</span><br><span class="line">	@Override</span><br><span class="line">	public String execute() throws Exception &#123;</span><br><span class="line">		return SUCCESS;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>valueStack3.jsp</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;%@ page language&#x3D;&quot;java&quot; import&#x3D;&quot;java.util.*&quot; pageEncoding&#x3D;&quot;UTF-8&quot;%&gt;</span><br><span class="line">&lt;%@ taglib prefix&#x3D;&quot;s&quot; uri&#x3D;&quot;&#x2F;struts-tags&quot;%&gt;</span><br><span class="line">&lt;!DOCTYPE HTML PUBLIC &quot;-&#x2F;&#x2F;W3C&#x2F;&#x2F;DTD HTML 4.01 Transitional&#x2F;&#x2F;EN&quot;&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;title&gt;查看valueStack信息&lt;&#x2F;title&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">	&lt;s:debug &#x2F;&gt;</span><br><span class="line">	商品名称：</span><br><span class="line">	&lt;s:property value&#x3D;&quot;model.name&quot; &#x2F;&gt;</span><br><span class="line">	&lt;&#x2F;br&gt; 商品价格：</span><br><span class="line">	&lt;s:property value&#x3D;&quot;model.price&quot; &#x2F;&gt;</span><br><span class="line">	&lt;&#x2F;br&gt;</span><br><span class="line">	使用EL表达式访问值栈中的数据：&lt;&#x2F;br&gt;</span><br><span class="line">	商品名称：$&#123;model.name&#125;</span><br><span class="line">	&lt;&#x2F;br&gt;</span><br><span class="line">        商品价格：$&#123;model.price&#125;</span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
+
+]]></content>
       <categories>
         <category>java高级应用</category>
       </categories>
