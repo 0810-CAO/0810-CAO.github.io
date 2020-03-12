@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1142 Maximal Clique</title>
+    <url>/2020/03/12/1142-Maximal-Clique/</url>
+    <content><![CDATA[<p>A <strong>clique</strong> is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. A <strong>maximal clique</strong> is a clique that cannot be extended by including one more adjacent vertex. (Quoted from <a href="https://en.wikipedia.org/wiki/Clique_(graph_theory)" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Clique_(graph_theory)</a>)</p>
+<p>Now it is your job to judge if a given subset of vertices can form a maximal clique.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives two positive integers Nv (≤200), the number of vertices in the graph, and Ne, the number of undirected edges. Then Ne lines follow, each gives a pair of vertices of an edge. The vertices are numbered from 1 to Nv.</p>
+<p>After the graph, there is another positive integer M (≤ 100). Then M lines of query follow, each first gives a positive number K (≤ Nv), then followed by a sequence of K distinct vertices. All the numbers in a line are separated by a space.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each of the M queries, print in a line <code>Yes</code> if the given subset of vertices can form a maximal clique; or if it is a clique but not a <strong>maximal clique</strong>, print <code>Not Maximal</code>; or if it is not a clique at all, print <code>Not a Clique</code>.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">8 10</span><br><span class="line">5 6</span><br><span class="line">7 8</span><br><span class="line">6 4</span><br><span class="line">3 6</span><br><span class="line">4 5</span><br><span class="line">2 3</span><br><span class="line">8 2</span><br><span class="line">2 7</span><br><span class="line">5 3</span><br><span class="line">3 4</span><br><span class="line">6</span><br><span class="line">4 5 4 3 6</span><br><span class="line">3 2 8 7</span><br><span class="line">2 2 3</span><br><span class="line">1 1</span><br><span class="line">3 4 3 6</span><br><span class="line">3 3 2 1</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Yes</span><br><span class="line">Yes</span><br><span class="line">Yes</span><br><span class="line">Yes</span><br><span class="line">Not Maximal</span><br><span class="line">Not a Clique</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>pat甲级</category>
+      </categories>
+  </entry>
+  <entry>
     <title>1143 Lowest Common Ancestor</title>
     <url>/2020/03/12/1143-Lowest-Common-Ancestor/</url>
     <content><![CDATA[<p>The lowest common ancestor (LCA) of two nodes U and V in a tree is the deepest node that has both U and V as descendants.</p>

@@ -80,18 +80,16 @@
 
 
 
-<meta name="description" content="There is a public bike service in Hangzhou City which provides great convenience to the tourists from all over the world. One may rent a bike at any station and return it to any other stations in the">
+<meta name="description" content="A clique is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. A maximal clique is a clique that cannot be extended by including one more adj">
 <meta property="og:type" content="article">
-<meta property="og:title" content="1018 Public Bike Management">
-<meta property="og:url" content="https://0810-cao.github.io/2020/02/03/1018-Public-Bike-Management/index.html">
+<meta property="og:title" content="1142 Maximal Clique">
+<meta property="og:url" content="https://0810-cao.github.io/2020/03/12/1142-Maximal-Clique/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="There is a public bike service in Hangzhou City which provides great convenience to the tourists from all over the world. One may rent a bike at any station and return it to any other stations in the">
-<meta property="og:image" content="https://images.ptausercontent.com/213">
-<meta property="article:published_time" content="2020-02-03T07:15:26.000Z">
-<meta property="article:modified_time" content="2020-02-03T09:11:53.003Z">
+<meta property="og:description" content="A clique is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. A maximal clique is a clique that cannot be extended by including one more adj">
+<meta property="article:published_time" content="2020-03-12T13:02:52.000Z">
+<meta property="article:modified_time" content="2020-03-12T13:03:20.469Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://images.ptausercontent.com/213">
 
 
 
@@ -121,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://0810-cao.github.io/2020/02/03/1018-Public-Bike-Management/"/>
+  <link rel="canonical" href="https://0810-cao.github.io/2020/03/12/1142-Maximal-Clique/"/>
 
 
 
 
 
-  <title>1018 Public Bike Management | 0810-CAO Blog</title>
+  <title>1142 Maximal Clique | 0810-CAO Blog</title>
   
 
 
@@ -283,12 +281,12 @@
   
   
 
-  <article class="post post-type-categories" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/02/03/1018-Public-Bike-Management/">
+    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/03/12/1142-Maximal-Clique/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCX-99">
@@ -305,7 +303,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">1018 Public Bike Management</h1>
+          <h1 class="post-title" itemprop="name headline">1142 Maximal Clique</h1>
         
 
         <div class="post-meta">
@@ -317,8 +315,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-03T15:15:26+08:00">
-                2020-02-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-12T21:02:52+08:00">
+                2020-03-12
               </time>
             
 
@@ -342,17 +340,6 @@
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/pat%E7%94%B2%E7%BA%A7/" itemprop="url" rel="index">
                     <span itemprop="name">pat甲级</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/pat%E7%94%B2%E7%BA%A7/%E5%9B%BE/" itemprop="url" rel="index">
-                    <span itemprop="name">图</span>
                   </a>
                 </span>
 
@@ -388,26 +375,14 @@
       
 
       
-        <p>There is a public bike service in Hangzhou City which provides great convenience to the tourists from all over the world. One may rent a bike at any station and return it to any other stations in the city.</p>
-<p>The Public Bike Management Center (PBMC) keeps monitoring the real-time capacity of all the stations. A station is said to be in <strong>perfect</strong> condition if it is exactly half-full. If a station is full or empty, PBMC will collect or send bikes to adjust the condition of that station to perfect. And more, all the stations on the way will be adjusted as well.</p>
-<p>When a problem station is reported, PBMC will always choose the shortest path to reach that station. If there are more than one shortest path, the one that requires the least number of bikes sent from PBMC will be chosen.</p>
-<p><img src="https://images.ptausercontent.com/213" alt="img"></p>
-<p>The above figure illustrates an example. The stations are represented by vertices and the roads correspond to the edges. The number on an edge is the time taken to reach one end station from another. The number written inside a vertex <em>S</em> is the current number of bikes stored at <em>S</em>. Given that the maximum capacity of each station is 10. To solve the problem at <em>S</em>3, we have 2 different shortest paths:</p>
-<ol>
-<li>PBMC -&gt; <em>S</em>1 -&gt; <em>S</em>3. In this case, 4 bikes must be sent from PBMC, because we can collect 1 bike from <em>S</em>1 and then take 5 bikes to <em>S</em>3, so that both stations will be in perfect conditions.</li>
-<li>PBMC -&gt; <em>S</em>2 -&gt; <em>S</em>3. This path requires the same time as path 1, but only 3 bikes sent from PBMC and hence is the one that will be chosen.</li>
-</ol>
-<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line contains 4 numbers: <em>C<strong>m</strong>a**x</em> (≤100), always an even number, is the maximum capacity of each station; <em>N</em> (≤500), the total number of stations; <em>S**p</em>, the index of the problem station (the stations are numbered from 1 to <em>N</em>, and PBMC is represented by the vertex 0); and <em>M</em>, the number of roads. The second line contains <em>N</em> non-negative numbers <em>C**i</em> (<em>i</em>=1,⋯,<em>N</em>) where each <em>C**i</em> is the current number of bikes at <em>S*<em>i</em>respectively. Then *M</em> lines follow, each contains 3 numbers: <em>S**i</em>, <em>S**j</em>, and <em>T<strong>i</strong>j</em> which describe the time <em>T<strong>i</strong>j</em> taken to move betwen stations <em>S**i</em> and <em>S**j</em>. All the numbers in a line are separated by a space.</p>
-<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each test case, print your results in one line. First output the number of bikes that PBMC must send. Then after one space, output the path in the format: 0−&gt;<em>S</em>1−&gt;⋯−&gt;<em>S**p</em>. Finally after another space, output the number of bikes that we must take back to PBMC after the condition of <em>S**p</em> is adjusted to perfect.</p>
-<p>Note that if such a path is not unique, output the one that requires minimum number of bikes that we must take back to PBMC. The judge’s data guarantee that such a path is unique.</p>
-<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">10 3 3 5</span><br><span class="line">6 7 0</span><br><span class="line">0 1 1</span><br><span class="line">0 2 1</span><br><span class="line">0 3 3</span><br><span class="line">1 3 1</span><br><span class="line">2 3 1</span><br></pre></td></tr></table></figure>
+        <p>A <strong>clique</strong> is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are adjacent. A <strong>maximal clique</strong> is a clique that cannot be extended by including one more adjacent vertex. (Quoted from <a href="https://en.wikipedia.org/wiki/Clique_(graph_theory)" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Clique_(graph_theory)</a>)</p>
+<p>Now it is your job to judge if a given subset of vertices can form a maximal clique.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives two positive integers Nv (≤200), the number of vertices in the graph, and Ne, the number of undirected edges. Then Ne lines follow, each gives a pair of vertices of an edge. The vertices are numbered from 1 to Nv.</p>
+<p>After the graph, there is another positive integer M (≤ 100). Then M lines of query follow, each first gives a positive number K (≤ Nv), then followed by a sequence of K distinct vertices. All the numbers in a line are separated by a space.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each of the M queries, print in a line <code>Yes</code> if the given subset of vertices can form a maximal clique; or if it is a clique but not a <strong>maximal clique</strong>, print <code>Not Maximal</code>; or if it is not a clique at all, print <code>Not a Clique</code>.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">8 10</span><br><span class="line">5 6</span><br><span class="line">7 8</span><br><span class="line">6 4</span><br><span class="line">3 6</span><br><span class="line">4 5</span><br><span class="line">2 3</span><br><span class="line">8 2</span><br><span class="line">2 7</span><br><span class="line">5 3</span><br><span class="line">3 4</span><br><span class="line">6</span><br><span class="line">4 5 4 3 6</span><br><span class="line">3 2 8 7</span><br><span class="line">2 2 3</span><br><span class="line">1 1</span><br><span class="line">3 4 3 6</span><br><span class="line">3 3 2 1</span><br></pre></td></tr></table></figure>
 
-<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3 0-&gt;2-&gt;3 0</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXV = <span class="number">510</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> INF = <span class="number">10000</span>;</span><br><span class="line"><span class="keyword">int</span> n, m, Cmax, Sp, numPath = <span class="number">0</span>, G[MAXV][MAXV], weight[MAXV];</span><br><span class="line"><span class="keyword">int</span> d[MAXV], minNeed = INF, minRemain = INF;</span><br><span class="line"><span class="keyword">bool</span> vis[MAXV] = &#123;<span class="literal">false</span>&#125;;</span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; pre[MAXV];</span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; tempPath, path;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Dijkstra</span><span class="params">(<span class="keyword">int</span> s)</span> </span>&#123;</span><br><span class="line">	<span class="built_in">fill</span>(d, d + MAXV, INF);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;= n; i++) &#123;</span><br><span class="line">		pre[i].push_back(i);</span><br><span class="line">	&#125;</span><br><span class="line">	d[s] = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">		<span class="keyword">int</span> u = <span class="number">-1</span>, MIN = INF;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>; j &lt;= n; j++) &#123;</span><br><span class="line">			<span class="keyword">if</span>(vis[j] == <span class="literal">false</span> &amp;&amp; d[j] &lt; MIN) &#123;</span><br><span class="line">				u = j;</span><br><span class="line">				MIN = d[j];</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(u == <span class="number">-1</span>) <span class="keyword">return</span>;</span><br><span class="line">		vis[u] = <span class="literal">true</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> v = <span class="number">0</span>; v &lt;= n; v++) &#123;</span><br><span class="line">			<span class="keyword">if</span>(vis[v] == <span class="literal">false</span> &amp;&amp; G[u][v] != INF) &#123;</span><br><span class="line">				<span class="keyword">if</span>(d[u] + G[u][v] &lt; d[v]) &#123;</span><br><span class="line">					d[v] = d[u] + G[u][v];</span><br><span class="line">					pre[v].<span class="built_in">clear</span>();</span><br><span class="line">					pre[v].push_back(u);</span><br><span class="line">				&#125; <span class="keyword">else</span> <span class="keyword">if</span>(d[u] + G[u][v] == d[v]) &#123;</span><br><span class="line">					pre[v].push_back(u);</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">DFS</span><span class="params">(<span class="keyword">int</span> v)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(v == <span class="number">0</span>) &#123;</span><br><span class="line">		tempPath.push_back(v);</span><br><span class="line">		<span class="keyword">int</span> need = <span class="number">0</span>, remain = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> i = tempPath.<span class="built_in">size</span>() - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">			<span class="keyword">int</span> id = tempPath[i];</span><br><span class="line">			<span class="keyword">if</span>(weight[id] &gt; <span class="number">0</span>) &#123;</span><br><span class="line">				remain += weight[id];</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				<span class="keyword">if</span>(remain &gt; <span class="built_in">abs</span>(weight[id])) &#123;</span><br><span class="line">					remain -= <span class="built_in">abs</span>(weight[id]);</span><br><span class="line">				&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">					need += <span class="built_in">abs</span>(weight[id]) - remain;</span><br><span class="line">					remain = <span class="number">0</span>;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span>(need &lt; minNeed) &#123;</span><br><span class="line">			minNeed = need;</span><br><span class="line">			minRemain = remain;</span><br><span class="line">			path = tempPath;</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span>(need == minNeed &amp;&amp; remain &lt; minRemain) &#123;</span><br><span class="line">			minRemain = remain;</span><br><span class="line">			path = tempPath;</span><br><span class="line">		&#125;</span><br><span class="line">		tempPath.pop_back();</span><br><span class="line">		<span class="keyword">return</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	tempPath.push_back(v);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; pre[v].<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">		DFS(pre[v][i]);</span><br><span class="line">	&#125;</span><br><span class="line">	tempPath.pop_back();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d%d%d"</span>, &amp;Cmax, &amp;n, &amp;Sp, &amp; m);</span><br><span class="line">	<span class="keyword">int</span> u, v;</span><br><span class="line">	<span class="built_in">fill</span>(G[<span class="number">0</span>], G[<span class="number">0</span>] + MAXV * MAXV, INF);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt;= n; i++) &#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;weight[i]);</span><br><span class="line">		weight[i] -= Cmax / <span class="number">2</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;u, &amp;v);</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;G[u][v]);</span><br><span class="line">		G[v][u] = G[u][v];</span><br><span class="line">	&#125;</span><br><span class="line">	Dijkstra(<span class="number">0</span>);</span><br><span class="line">	DFS(Sp);</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">"%d "</span>, minNeed);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = path.<span class="built_in">size</span>() - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"%d"</span>, path[i]);</span><br><span class="line">		<span class="keyword">if</span>(i &gt; <span class="number">0</span>) <span class="built_in">printf</span>(<span class="string">"-&gt;"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">printf</span>(<span class="string">" %d"</span>, minRemain);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>本题使用dijksta+DFS的方法来解决自行车管理，由于需要考虑到完美状态的问题，在录入数据时便将数据折半然后求最大容量与之差，得‘’-‘’则表示需要补给车辆反之需要撤走车辆。使用dijksta来解决最短路径，DFS来解决最小的need或最小的remain</p>
-
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Yes</span><br><span class="line">Yes</span><br><span class="line">Yes</span><br><span class="line">Yes</span><br><span class="line">Not Maximal</span><br><span class="line">Not a Clique</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -455,8 +430,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/02/03/1017-Queueing-at-Bank/" rel="next" title="1017 Queueing at Bank">
-                <i class="fa fa-chevron-left"></i> 1017 Queueing at Bank
+              <a href="/2020/03/12/1143-Lowest-Common-Ancestor/" rel="next" title="1143 Lowest Common Ancestor">
+                <i class="fa fa-chevron-left"></i> 1143 Lowest Common Ancestor
               </a>
             
           </div>
@@ -464,10 +439,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/02/04/1020-Tree-Traversals/" rel="prev" title="1020 Tree Traversals">
-                1020 Tree Traversals <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>

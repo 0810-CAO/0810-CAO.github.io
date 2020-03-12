@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-03-12T12:52:02.439Z</updated>
+  <updated>2020-03-12T13:03:20.469Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1142 Maximal Clique</title>
+    <link href="https://0810-cao.github.io/2020/03/12/1142-Maximal-Clique/"/>
+    <id>https://0810-cao.github.io/2020/03/12/1142-Maximal-Clique/</id>
+    <published>2020-03-12T13:02:52.000Z</published>
+    <updated>2020-03-12T13:03:20.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A &lt;strong&gt;clique&lt;/strong&gt; is a subset of vertices of an undirected graph such that every two distinct vertices in the clique are
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1143 Lowest Common Ancestor</title>
@@ -440,31 +465,6 @@
         
         
           &lt;p&gt;Eva is trying to make her own color stripe out of a given one. She would like to keep only her favorite colors in her favorite order by
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1044 Shopping in Mars</title>
-    <link href="https://0810-cao.github.io/2020/02/13/1044-Shopping-in-Mars/"/>
-    <id>https://0810-cao.github.io/2020/02/13/1044-Shopping-in-Mars/</id>
-    <published>2020-02-13T08:51:57.000Z</published>
-    <updated>2020-02-18T07:38:14.556Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Shopping in Mars is quite a different experience. The Mars people pay by chained diamonds. Each diamond has a value (in Mars dollars
         
       
     
