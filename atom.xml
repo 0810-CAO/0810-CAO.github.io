@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-03-12T12:38:47.530Z</updated>
+  <updated>2020-03-12T12:52:02.439Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1143 Lowest Common Ancestor</title>
+    <link href="https://0810-cao.github.io/2020/03/12/1143-Lowest-Common-Ancestor/"/>
+    <id>https://0810-cao.github.io/2020/03/12/1143-Lowest-Common-Ancestor/</id>
+    <published>2020-03-12T12:51:05.000Z</published>
+    <updated>2020-03-12T12:52:02.439Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;The lowest common ancestor (LCA) of two nodes U and V in a tree is the deepest node that has both U and V as descendants.&lt;/p&gt;
+&lt;p&gt;A
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1147 Heaps</title>
@@ -446,35 +472,6 @@
     
     
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1043 Is It a Binary Search Tree</title>
-    <link href="https://0810-cao.github.io/2020/02/13/1043-Is-It-a-Binary-Search-Tree/"/>
-    <id>https://0810-cao.github.io/2020/02/13/1043-Is-It-a-Binary-Search-Tree/</id>
-    <published>2020-02-13T07:46:25.000Z</published>
-    <updated>2020-02-13T08:07:16.434Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;A Binary Search Tree (BST) is recursively defined as a binary tree which has the following properties:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The left subtree of
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-      <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
     
     
   </entry>
