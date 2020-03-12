@@ -16,7 +16,7 @@
 <p>给出中序与先序序列，找到给出的点的最近公共祖先，只需要利用给出的先序序列确定出根节点，只要明白ab同侧则继续递归找到当前的子树的下一层，当ab异侧则当前子树根节点即为所求。</p>
 ]]></content>
       <categories>
-        <category>pat 甲级</category>
+        <category>pat甲级</category>
       </categories>
   </entry>
   <entry>

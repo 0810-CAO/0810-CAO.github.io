@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-03-12T09:45:30.588Z</updated>
+  <updated>2020-03-12T09:58:46.946Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://0810-cao.github.io/2020/03/12/1151-LCA-in-a-Binary-Tree/"/>
     <id>https://0810-cao.github.io/2020/03/12/1151-LCA-in-a-Binary-Tree/</id>
     <published>2020-03-12T09:40:54.000Z</published>
-    <updated>2020-03-12T09:45:30.588Z</updated>
+    <updated>2020-03-12T09:58:46.946Z</updated>
     
     <summary type="html">
     
@@ -37,7 +37,7 @@
     </summary>
     
     
-      <category term="pat 甲级" scheme="https://0810-cao.github.io/categories/pat-%E7%94%B2%E7%BA%A7/"/>
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
     
     
   </entry>
