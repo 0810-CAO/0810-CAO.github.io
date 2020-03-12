@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1147 Heaps</title>
+    <url>/2020/03/12/1147-Heaps/</url>
+    <content><![CDATA[<p>In computer science, a <strong>heap</strong> is a specialized tree-based data structure that satisfies the heap property: if P is a parent node of C, then the key (the value) of P is either greater than or equal to (in a max heap) or less than or equal to (in a min heap) the key of C. A common implementation of a heap is the binary heap, in which the tree is a complete binary tree. (Quoted from Wikipedia at <a href="https://en.wikipedia.org/wiki/Heap_(data_structure)" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Heap_(data_structure)</a>)</p>
+<p>Your job is to tell if a given complete binary tree is a heap.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives two positive integers: M (≤ 100), the number of trees to be tested; and N (1 &lt; N ≤ 1,000), the number of keys in each tree, respectively. Then M lines follow, each contains N distinct integer keys (all in the range of <strong>int</strong>), which gives the level order traversal sequence of a complete binary tree.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each given tree, print in a line <code>Max Heap</code> if it is a max heap, or <code>Min Heap</code> for a min heap, or <code>Not Heap</code> if it is not a heap at all. Then in the next line print the tree’s postorder traversal sequence. All the numbers are separated by a space, and there must no extra space at the beginning or the end of the line.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3 8</span><br><span class="line">98 72 86 60 65 12 23 50</span><br><span class="line">8 38 25 58 52 82 70 60</span><br><span class="line">10 28 15 12 34 9 8 56</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Max Heap</span><br><span class="line">50 60 65 72 12 23 86 98</span><br><span class="line">Min Heap</span><br><span class="line">60 58 52 38 82 70 25 8</span><br><span class="line">Not Heap</span><br><span class="line">56 12 34 28 9 8 15 10</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>pat甲级</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>1146 Topological Order</title>
+    <url>/2020/03/12/1146-Topological-Order/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>1145 Hashing - Average Search Time</title>
+    <url>/2020/03/12/1145-Hashing-Average-Search-Time/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>1151 LCA in a Binary Tree</title>
     <url>/2020/03/12/1151-LCA-in-a-Binary-Tree/</url>
     <content><![CDATA[<p>The lowest common ancestor (LCA) of two nodes U and V in a tree is the deepest node that has both U and V as descendants.</p>

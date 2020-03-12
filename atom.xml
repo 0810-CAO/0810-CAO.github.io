@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-03-12T09:58:46.946Z</updated>
+  <updated>2020-03-12T12:38:47.530Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1147 Heaps</title>
+    <link href="https://0810-cao.github.io/2020/03/12/1147-Heaps/"/>
+    <id>https://0810-cao.github.io/2020/03/12/1147-Heaps/</id>
+    <published>2020-03-12T12:38:08.000Z</published>
+    <updated>2020-03-12T12:38:47.530Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;In computer science, a &lt;strong&gt;heap&lt;/strong&gt; is a specialized tree-based data structure that satisfies the heap property: if P is a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1146 Topological Order</title>
+    <link href="https://0810-cao.github.io/2020/03/12/1146-Topological-Order/"/>
+    <id>https://0810-cao.github.io/2020/03/12/1146-Topological-Order/</id>
+    <published>2020-03-12T12:37:47.000Z</published>
+    <updated>2020-03-12T12:37:47.971Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1145 Hashing - Average Search Time</title>
+    <link href="https://0810-cao.github.io/2020/03/12/1145-Hashing-Average-Search-Time/"/>
+    <id>https://0810-cao.github.io/2020/03/12/1145-Hashing-Average-Search-Time/</id>
+    <published>2020-03-12T12:37:24.000Z</published>
+    <updated>2020-03-12T12:37:24.170Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>1151 LCA in a Binary Tree</title>
@@ -420,83 +475,6 @@
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
     
       <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1034 Head of a Gang</title>
-    <link href="https://0810-cao.github.io/2020/02/11/1034-Head-of-a-Gang/"/>
-    <id>https://0810-cao.github.io/2020/02/11/1034-Head-of-a-Gang/</id>
-    <published>2020-02-11T09:08:52.000Z</published>
-    <updated>2020-02-12T08:01:03.141Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;One way that the police finds the head of a gang is to check people’s phone calls. If there is a phone call between &lt;em&gt;A&lt;/em&gt; and
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-      <category term="图" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E5%9B%BE/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1033 To Fill or Not to Fill</title>
-    <link href="https://0810-cao.github.io/2020/02/11/1033-To-Fill-or-Not-to-Fill/"/>
-    <id>https://0810-cao.github.io/2020/02/11/1033-To-Fill-or-Not-to-Fill/</id>
-    <published>2020-02-11T09:08:19.000Z</published>
-    <updated>2020-02-11T09:12:27.547Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;With highways available, driving a car from Hangzhou to any other city is easy. But since the tank capacity of a car is limited, we have
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1030 Travel Plan</title>
-    <link href="https://0810-cao.github.io/2020/02/10/1030-Travel-Plan/"/>
-    <id>https://0810-cao.github.io/2020/02/10/1030-Travel-Plan/</id>
-    <published>2020-02-10T07:52:45.000Z</published>
-    <updated>2020-02-11T07:58:06.756Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;A traveler’s map gives the distances between cities along the highways, together with the cost of each highway. Now you are supposed to
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
     
     
   </entry>
