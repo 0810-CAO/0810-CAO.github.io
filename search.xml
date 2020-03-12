@@ -920,7 +920,8 @@
   <entry>
     <title>hello</title>
     <url>/2020/01/29/hello/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>搞不定了</p>
+]]></content>
       <categories>
         <category>linux</category>
       </categories>
