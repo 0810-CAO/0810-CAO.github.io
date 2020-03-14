@@ -52,6 +52,7 @@
 ]]></content>
       <categories>
         <category>pat甲级</category>
+        <category>树</category>
       </categories>
   </entry>
   <entry>
@@ -90,6 +91,7 @@
 ]]></content>
       <categories>
         <category>pat甲级</category>
+        <category>树</category>
       </categories>
   </entry>
   <entry>
@@ -296,12 +298,13 @@
 
 <h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Path 1: 11 (TS simple cycle)</span><br><span class="line">Path 2: 13 (TS simple cycle)</span><br><span class="line">Path 3: 10 (Not a TS cycle)</span><br><span class="line">Path 4: 8 (TS cycle)</span><br><span class="line">Path 5: 3 (Not a TS cycle)</span><br><span class="line">Path 6: 13 (Not a TS cycle)</span><br><span class="line">Path 7: NA (Not a TS cycle)</span><br><span class="line">Shortest Dist(4) &#x3D; 8</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">#include &lt;set&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int e[210][210], n, m, k, ans &#x3D; 100000, ansid;</span><br><span class="line">vector&lt;int&gt; v;</span><br><span class="line">void check(int index) &#123;</span><br><span class="line">	int sum &#x3D; 0, cnt, flag &#x3D; 1;</span><br><span class="line">	scanf(&quot;%d&quot;, &amp;cnt);</span><br><span class="line">	set&lt;int&gt; s;</span><br><span class="line">	vector&lt;int&gt; v(cnt);</span><br><span class="line">	for (int i &#x3D; 0; i &lt; cnt; i++) &#123;</span><br><span class="line">		scanf(&quot;%d&quot;, &amp;v[i]);</span><br><span class="line">		s.insert(v[i]);</span><br><span class="line">	&#125;</span><br><span class="line">	for (int i &#x3D; 0; i &lt; cnt - 1; i++) &#123;</span><br><span class="line">		if(e[v[i]][v[i+1]] &#x3D;&#x3D; 0) flag &#x3D; 0;</span><br><span class="line">		sum +&#x3D; e[v[i]][v[i+1]];</span><br><span class="line">	&#125;</span><br><span class="line">	if (flag &#x3D;&#x3D; 0) &#123;</span><br><span class="line">		printf(&quot;Path %d: NA (Not a TS cycle)\n&quot;, index);</span><br><span class="line">	&#125; else if(v[0] !&#x3D; v[cnt-1] || s.size() !&#x3D; n) &#123;</span><br><span class="line">		printf(&quot;Path %d: %d (Not a TS cycle)\n&quot;, index, sum);</span><br><span class="line">	&#125; else if(cnt !&#x3D; n + 1) &#123;</span><br><span class="line">		printf(&quot;Path %d: %d (TS cycle)\n&quot;, index, sum);</span><br><span class="line">		if (sum &lt; ans) &#123;</span><br><span class="line">			ans &#x3D; sum;</span><br><span class="line">			ansid &#x3D; index;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125; else &#123;</span><br><span class="line">		printf(&quot;Path %d: %d (TS simple cycle)\n&quot;, index, sum);</span><br><span class="line">		if (sum &lt; ans) &#123;</span><br><span class="line">			ans &#x3D; sum;</span><br><span class="line">			ansid &#x3D; index;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">int main() &#123;</span><br><span class="line">	scanf(&quot;%d%d&quot;, &amp;n, &amp;m);</span><br><span class="line">	for (int i &#x3D; 0; i &lt; m; i++) &#123;</span><br><span class="line">		int t1, t2, t;</span><br><span class="line">		scanf(&quot;%d%d%d&quot;, &amp;t1, &amp;t2, &amp;t);</span><br><span class="line">		e[t1][t2] &#x3D; e[t2][t1] &#x3D; t;</span><br><span class="line">	&#125;</span><br><span class="line">	scanf(&quot;%d&quot;, &amp;k);</span><br><span class="line">	for (int i &#x3D; 1; i &lt;&#x3D; k; i++)&#123;</span><br><span class="line">		check(i);</span><br><span class="line">	&#125;</span><br><span class="line">	printf(&quot;Shortest Dist(%d) &#x3D; %d\n&quot;, ansid, ans);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">#include &lt;set&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int e[210][210], n, m, k, ans &#x3D; 100000, ansid;</span><br><span class="line">vector&lt;int&gt; v;</span><br><span class="line">void check(int index) &#123;</span><br><span class="line">	int sum &#x3D; 0, cnt, flag &#x3D; 1;</span><br><span class="line">	scanf(&quot;%d&quot;, &amp;cnt);</span><br><span class="line">	set&lt;int&gt; s;</span><br><span class="line">	vector&lt;int&gt; v(cnt);</span><br><span class="line">	for (int i &#x3D; 0; i &lt; cnt; i++) &#123;</span><br><span class="line">		scanf(&quot;%d&quot;, &amp;v[i]);</span><br><span class="line">		s.insert(v[i]);</span><br><span class="line">	&#125;</span><br><span class="line">	for (int i &#x3D; 0; i &lt; cnt - 1; i++) &#123;</span><br><span class="line">		if(e[v[i]][v[i+1]] &#x3D;&#x3D; 0)&#123;</span><br><span class="line">		flag &#x3D; 0;</span><br><span class="line">		&#125;</span><br><span class="line">		sum +&#x3D; e[v[i]][v[i+1]];</span><br><span class="line">	&#125;</span><br><span class="line">	if (flag &#x3D;&#x3D; 0) &#123;</span><br><span class="line">		printf(&quot;Path %d: NA (Not a TS cycle)\n&quot;, index);</span><br><span class="line">	&#125; else if(v[0] !&#x3D; v[cnt-1] || s.size() !&#x3D; n) &#123;</span><br><span class="line">		printf(&quot;Path %d: %d (Not a TS cycle)\n&quot;, index, sum);</span><br><span class="line">	&#125; else if(cnt !&#x3D; n + 1) &#123;</span><br><span class="line">		printf(&quot;Path %d: %d (TS cycle)\n&quot;, index, sum);</span><br><span class="line">		if (sum &lt; ans) &#123;</span><br><span class="line">			ans &#x3D; sum;</span><br><span class="line">			ansid &#x3D; index;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125; else &#123;</span><br><span class="line">		printf(&quot;Path %d: %d (TS simple cycle)\n&quot;, index, sum);</span><br><span class="line">		if (sum &lt; ans) &#123;</span><br><span class="line">			ans &#x3D; sum;</span><br><span class="line">			ansid &#x3D; index;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">int main() &#123;</span><br><span class="line">	scanf(&quot;%d%d&quot;, &amp;n, &amp;m);</span><br><span class="line">	for (int i &#x3D; 0; i &lt; m; i++) &#123;</span><br><span class="line">		int t1, t2, t;</span><br><span class="line">		scanf(&quot;%d%d%d&quot;, &amp;t1, &amp;t2, &amp;t);</span><br><span class="line">		e[t1][t2] &#x3D; e[t2][t1] &#x3D; t;</span><br><span class="line">	&#125;</span><br><span class="line">	scanf(&quot;%d&quot;, &amp;k);</span><br><span class="line">	for (int i &#x3D; 1; i &lt;&#x3D; k; i++)&#123;</span><br><span class="line">		check(i);</span><br><span class="line">	&#125;</span><br><span class="line">	printf(&quot;Shortest Dist(%d) &#x3D; %d\n&quot;, ansid, ans);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>判断是否为旅行商问题，即能否形成一条每个点只经过一次的回路，起始点通过两次</p>
 ]]></content>
       <categories>
         <category>pat甲级</category>
+        <category>图</category>
       </categories>
   </entry>
   <entry>
@@ -680,7 +683,7 @@
 ]]></content>
       <categories>
         <category>pat甲级</category>
-        <category>二叉树</category>
+        <category>树</category>
       </categories>
   </entry>
   <entry>

@@ -72,7 +72,7 @@
     <link href="https://0810-cao.github.io/2020/03/12/1147-Heaps/"/>
     <id>https://0810-cao.github.io/2020/03/12/1147-Heaps/</id>
     <published>2020-03-12T12:38:08.000Z</published>
-    <updated>2020-03-12T14:12:22.824Z</updated>
+    <updated>2020-03-14T02:26:54.901Z</updated>
     
     <summary type="html">
     
@@ -88,6 +88,8 @@
     
     
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
     
     
   </entry>
@@ -137,7 +139,7 @@
     <link href="https://0810-cao.github.io/2020/03/12/1151-LCA-in-a-Binary-Tree/"/>
     <id>https://0810-cao.github.io/2020/03/12/1151-LCA-in-a-Binary-Tree/</id>
     <published>2020-03-12T09:40:54.000Z</published>
-    <updated>2020-03-12T09:58:46.946Z</updated>
+    <updated>2020-03-14T02:27:40.936Z</updated>
     
     <summary type="html">
     
@@ -154,6 +156,8 @@
     
     
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
     
     
   </entry>
@@ -339,7 +343,7 @@
     <link href="https://0810-cao.github.io/2020/02/23/1150-Travelling-Salesman-Problem/"/>
     <id>https://0810-cao.github.io/2020/02/23/1150-Travelling-Salesman-Problem/</id>
     <published>2020-02-23T09:45:48.000Z</published>
-    <updated>2020-02-23T11:56:09.623Z</updated>
+    <updated>2020-03-14T02:46:55.699Z</updated>
     
     <summary type="html">
     
@@ -355,6 +359,8 @@
     
     
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="图" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E5%9B%BE/"/>
     
     
   </entry>
