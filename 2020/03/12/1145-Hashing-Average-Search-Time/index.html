@@ -80,14 +80,14 @@
 
 
 
-<meta name="description" content="Keep moving">
+<meta name="description" content="The task of this problem is simple: insert a sequence of distinct positive integers into a hash table first. Then try to find another sequence of integer keys from the table and output the average sea">
 <meta property="og:type" content="article">
 <meta property="og:title" content="1145 Hashing - Average Search Time">
 <meta property="og:url" content="https://0810-cao.github.io/2020/03/12/1145-Hashing-Average-Search-Time/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="Keep moving">
+<meta property="og:description" content="The task of this problem is simple: insert a sequence of distinct positive integers into a hash table first. Then try to find another sequence of integer keys from the table and output the average sea">
 <meta property="article:published_time" content="2020-03-12T12:37:24.000Z">
-<meta property="article:modified_time" content="2020-03-12T12:37:24.170Z">
+<meta property="article:modified_time" content="2020-03-15T13:50:52.137Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -326,6 +326,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/pat%E7%94%B2%E7%BA%A7/" itemprop="url" rel="index">
+                    <span itemprop="name">pat甲级</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -353,7 +375,18 @@
       
 
       
-        
+        <p>The task of this problem is simple: insert a sequence of distinct positive integers into a hash table first. Then try to find another sequence of integer keys from the table and output the average search time (the number of comparisons made to find whether or not the key is in the table). The hash function is defined to be <em>H</em>(<em>k<strong>e</strong>y</em>)=<em>k<strong>e</strong>y</em>%<em>T<strong>S</strong>i<strong>z</strong>e</em> where <em>T<strong>S</strong>i<strong>z</strong>e</em> is the maximum size of the hash table. Quadratic probing (with positive increments only) is used to solve the collisions.</p>
+<p>Note that the table size is better to be prime. If the maximum size given by the user is not prime, you must re-define the table size to be the smallest prime number which is larger than the size given by the user.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line contains 3 positive numbers: MSize, N, and M, which are the user-defined table size, the number of input numbers, and the number of keys to be found, respectively. All the three numbers are no more than 104. Then N distinct positive integers are given in the next line, followed by M positive integer keys in the next line. All the numbers in a line are separated by a space and are no more than 105.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each test case, in case it is impossible to insert some number, print in a line <code>X cannot be inserted.</code> where <code>X</code> is the input number. Finally print in a line the average search time for all the M keys, accurate up to 1 decimal place.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">4 5 4</span><br><span class="line">10 6 4 15 11</span><br><span class="line">11 4 15 2</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">15 cannot be inserted.</span><br><span class="line">2.8</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;vector&gt;</span><br><span class="line">#include &lt;cmath&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">bool isprime(int n)&#123;</span><br><span class="line">	if (n&lt;&#x3D;1) &#123;</span><br><span class="line">		return false;</span><br><span class="line">	&#125;</span><br><span class="line">	for (int i&#x3D;2;i&lt;&#x3D;sqrt(n);i++) &#123;</span><br><span class="line">		if (n%i&#x3D;&#x3D;0) &#123;</span><br><span class="line">			return false;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	return true;</span><br><span class="line">&#125;</span><br><span class="line">int main( )&#123;</span><br><span class="line">	int size,m,n,a;</span><br><span class="line">	scanf(&quot;%d%d%d&quot;,&amp;size,&amp;n,&amp;m);</span><br><span class="line">	while (!isprime(size)) &#123;</span><br><span class="line">		size++;</span><br><span class="line">	&#125;</span><br><span class="line">	vector&lt;int&gt;v(size);</span><br><span class="line">	for (int i&#x3D;0;i&lt;n;i++) &#123;</span><br><span class="line">		scanf(&quot;%d&quot;,&amp;a);</span><br><span class="line">		int flag&#x3D;0;</span><br><span class="line">		for (int j&#x3D;0;j&lt;size;j++) &#123;</span><br><span class="line">			int pos&#x3D;(a+j*j)%size;</span><br><span class="line">			if (v[pos]&#x3D;&#x3D;0) &#123;</span><br><span class="line">				v[pos]&#x3D;a;</span><br><span class="line">				flag&#x3D;1;</span><br><span class="line">				break;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		if (!flag) &#123;</span><br><span class="line">			printf(&quot;%d cannot be inserted.\n&quot;,a);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	int ans&#x3D;0;</span><br><span class="line">	for (int i&#x3D;0;i&lt;m;i++) &#123;</span><br><span class="line">		scanf(&quot;%d&quot;,&amp;a);</span><br><span class="line">		for (int j&#x3D;0;j&lt;&#x3D;size;j++) &#123;</span><br><span class="line">			ans++;</span><br><span class="line">			int pos&#x3D;(a+j*j)%size;</span><br><span class="line">			if (v[pos]&#x3D;&#x3D;a||v[pos]&#x3D;&#x3D;0) &#123;</span><br><span class="line">				break;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	printf(&quot;%.1lf\n&quot;,ans*1.0&#x2F;m);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>使用平方探测法解决哈希冲突，即向长度为a的数组插入数字b时，需要插入的位置为pos=(b+i*i)%a,(i&lt;a)</p>
+
       
     </div>
     
@@ -465,8 +498,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -546,6 +588,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Input-Specification"><span class="nav-number">1.</span> <span class="nav-text">Input Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-Specification"><span class="nav-number">2.</span> <span class="nav-text">Output Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input"><span class="nav-number">3.</span> <span class="nav-text">Sample Input:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output"><span class="nav-number">4.</span> <span class="nav-text">Sample Output:</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
