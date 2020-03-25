@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-03-25T12:10:43.903Z</updated>
+  <updated>2020-03-25T14:17:02.369Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>1139 First Contact</title>
+    <link href="https://0810-cao.github.io/2020/03/25/1139-First-Contact/"/>
+    <id>https://0810-cao.github.io/2020/03/25/1139-First-Contact/</id>
+    <published>2020-03-25T14:16:16.000Z</published>
+    <updated>2020-03-25T14:17:02.369Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Unlike in nowadays, the way that boys and girls expressing their feelings of love was quite subtle in the early years. When a boy A had
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>八数码问题</title>
     <link href="https://0810-cao.github.io/2020/03/25/%E5%85%AB%E6%95%B0%E7%A0%81%E9%97%AE%E9%A2%98/"/>
     <id>https://0810-cao.github.io/2020/03/25/%E5%85%AB%E6%95%B0%E7%A0%81%E9%97%AE%E9%A2%98/</id>
     <published>2020-03-25T10:24:57.000Z</published>
-    <updated>2020-03-25T12:10:43.903Z</updated>
+    <updated>2020-03-25T12:46:41.433Z</updated>
     
     <summary type="html">
     
@@ -481,33 +506,6 @@
     
     
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1155 Heap Paths</title>
-    <link href="https://0810-cao.github.io/2020/02/22/1155-Heap-Paths/"/>
-    <id>https://0810-cao.github.io/2020/02/22/1155-Heap-Paths/</id>
-    <published>2020-02-22T08:55:27.000Z</published>
-    <updated>2020-02-22T11:44:37.238Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;In computer science, a &lt;strong&gt;heap&lt;/strong&gt; is a specialized tree-based data structure that satisfies the heap property: if P is a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-      <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
     
     
   </entry>
