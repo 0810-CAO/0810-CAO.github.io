@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-03-28T07:57:13.514Z</updated>
+  <updated>2020-03-28T13:53:25.916Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1135 Is It A Red-Black Tree</title>
+    <link href="https://0810-cao.github.io/2020/03/28/1135-Is-It-A-Red-Black-Tree/"/>
+    <id>https://0810-cao.github.io/2020/03/28/1135-Is-It-A-Red-Black-Tree/</id>
+    <published>2020-03-28T13:52:46.000Z</published>
+    <updated>2020-03-28T13:53:25.916Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;There is a kind of balanced binary search tree named &lt;strong&gt;red-black tree&lt;/strong&gt; in the data structure. It has the following 5
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1137 Final Grading</title>
@@ -481,33 +508,6 @@
     
     
       <category term="java高级应用" scheme="https://0810-cao.github.io/categories/java%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1150 Travelling Salesman Problem</title>
-    <link href="https://0810-cao.github.io/2020/02/23/1150-Travelling-Salesman-Problem/"/>
-    <id>https://0810-cao.github.io/2020/02/23/1150-Travelling-Salesman-Problem/</id>
-    <published>2020-02-23T09:45:48.000Z</published>
-    <updated>2020-03-14T02:46:55.699Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;The “travelling salesman problem” asks the following question: “Given a list of cities and the distances between each pair of cities,
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-      <category term="图" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E5%9B%BE/"/>
     
     
   </entry>

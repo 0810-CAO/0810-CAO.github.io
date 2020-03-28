@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1135 Is It A Red-Black Tree</title>
+    <url>/2020/03/28/1135-Is-It-A-Red-Black-Tree/</url>
+    <content><![CDATA[<p>There is a kind of balanced binary search tree named <strong>red-black tree</strong> in the data structure. It has the following 5 properties:</p>
+<ul>
+<li>(1) Every node is either red or black.</li>
+<li>(2) The root is black.</li>
+<li>(3) Every leaf (NULL) is black.</li>
+<li>(4) If a node is red, then both its children are black.</li>
+<li>(5) For each node, all simple paths from the node to descendant leaves contain the same number of black nodes.</li>
+</ul>
+<p>For example, the tree in Figure 1 is a red-black tree, while the ones in Figure 2 and 3 are not.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="https://images.ptausercontent.com/eff80bd4-c833-4818-9786-81680d1b304a.jpg" alt="rbf1.jpg"></th>
+<th align="center"><img src="https://images.ptausercontent.com/b11184df-eaab-451c-b7d4-7fc1dc82b028.jpg" alt="rbf2.jpg"></th>
+<th align="center"><img src="https://images.ptausercontent.com/625c532b-22fc-47b9-80ea-0537cf00d922.jpg" alt="rbf3.jpg"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Figure 1</td>
+<td align="center">Figure 2</td>
+<td align="center">Figure 3</td>
+</tr>
+</tbody></table>
+<p>For each given binary search tree, you are supposed to tell if it is a legal red-black tree.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains several test cases. The first line gives a positive integer K (≤30) which is the total number of cases. For each case, the first line gives a positive integer N (≤30), the total number of nodes in the binary tree. The second line gives the preorder traversal sequence of the tree. While all the keys in a tree are positive integers, we use negative signs to represent red nodes. All the numbers in a line are separated by a space. The sample input cases correspond to the trees shown in Figure 1, 2 and 3.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each test case, print in a line “Yes” if the given tree is a red-black tree, or “No” if not.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3</span><br><span class="line">9</span><br><span class="line">7 -2 1 5 -4 -11 8 14 -15</span><br><span class="line">9</span><br><span class="line">11 -2 1 -7 5 -4 8 14 -15</span><br><span class="line">8</span><br><span class="line">10 -7 5 -6 8 15 -11 17</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Yes</span><br><span class="line">No</span><br><span class="line">No</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>pat甲级</category>
+        <category>树</category>
+      </categories>
+  </entry>
+  <entry>
     <title>1137 Final Grading</title>
     <url>/2020/03/28/1137-Final-Grading/</url>
     <content><![CDATA[<p>For a student taking the online course “Data Structures” on China University MOOC (<a href="http://www.icourse163.org/" target="_blank" rel="noopener">http://www.icourse163.org/</a>), to be qualified for a certificate, he/she must first obtain no less than 200 points from the online programming assignments, and then receive a final grade no less than 60 out of 100. The final grade is calculated by <em>G</em>=(<em>G<strong>m</strong>i<strong>d<em>−</em>t</strong>e<strong>r</strong>m<em>×40%+</em>G<strong>f</strong>i<strong>n</strong>a<strong>l*×60%) if *G</strong>m<strong>i</strong>d<em>−</em>t<strong>e</strong>r**m</em>&gt;<em>G<strong>f</strong>i<strong>n</strong>a**l</em>, or <em>G<strong>f</strong>i<strong>n</strong>a**l</em> will be taken as the final grade <em>G</em>. Here <em>G<strong>m</strong>i<strong>d<em>−</em>t</strong>e<strong>r</strong>m</em> and <em>G<strong>f</strong>i<strong>n</strong>a**l</em> are the student’s scores of the mid-term and the final exams, respectively.</p>
