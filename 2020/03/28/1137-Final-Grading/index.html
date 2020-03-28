@@ -80,14 +80,14 @@
 
 
 
-<meta name="description" content="Werewolf（狼人杀） is a game in which the players are partitioned into two parties: the werewolves and the human beings. Suppose that in a game,  player #1 said: “Player #2 is a werewolf.”; player #2 said:">
+<meta name="description" content="For a student taking the online course “Data Structures” on China University MOOC (http:&#x2F;&#x2F;www.icourse163.org&#x2F;), to be qualified for a certificate, he&#x2F;she must first obtain no less than 200 points from">
 <meta property="og:type" content="article">
-<meta property="og:title" content="1148 Werewolf - Simple Version">
-<meta property="og:url" content="https://0810-cao.github.io/2020/02/23/1148-Werewolf-Simple-Version/index.html">
+<meta property="og:title" content="1137 Final Grading">
+<meta property="og:url" content="https://0810-cao.github.io/2020/03/28/1137-Final-Grading/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="Werewolf（狼人杀） is a game in which the players are partitioned into two parties: the werewolves and the human beings. Suppose that in a game,  player #1 said: “Player #2 is a werewolf.”; player #2 said:">
-<meta property="article:published_time" content="2020-02-23T09:19:12.000Z">
-<meta property="article:modified_time" content="2020-03-12T13:01:41.349Z">
+<meta property="og:description" content="For a student taking the online course “Data Structures” on China University MOOC (http:&#x2F;&#x2F;www.icourse163.org&#x2F;), to be qualified for a certificate, he&#x2F;she must first obtain no less than 200 points from">
+<meta property="article:published_time" content="2020-03-28T07:55:35.000Z">
+<meta property="article:modified_time" content="2020-03-28T07:57:13.514Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://0810-cao.github.io/2020/02/23/1148-Werewolf-Simple-Version/"/>
+  <link rel="canonical" href="https://0810-cao.github.io/2020/03/28/1137-Final-Grading/"/>
 
 
 
 
 
-  <title>1148 Werewolf - Simple Version | 0810-CAO Blog</title>
+  <title>1137 Final Grading | 0810-CAO Blog</title>
   
 
 
@@ -286,7 +286,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/02/23/1148-Werewolf-Simple-Version/">
+    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/03/28/1137-Final-Grading/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCX-99">
@@ -303,7 +303,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">1148 Werewolf - Simple Version</h1>
+          <h1 class="post-title" itemprop="name headline">1137 Final Grading</h1>
         
 
         <div class="post-meta">
@@ -315,8 +315,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-23T17:19:12+08:00">
-                2020-02-23
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-28T15:55:35+08:00">
+                2020-03-28
               </time>
             
 
@@ -369,7 +369,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  579
+                  714
                 </span>
               
 
@@ -385,7 +385,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3
+                  4
                 </span>
               
             </div>
@@ -406,33 +406,20 @@
       
 
       
-        <p>Werewolf（狼人杀） is a game in which the players are partitioned into two parties: the werewolves and the human beings. Suppose that in a game,</p>
-<ul>
-<li>player #1 said: “Player #2 is a werewolf.”;</li>
-<li>player #2 said: “Player #3 is a human.”;</li>
-<li>player #3 said: “Player #4 is a werewolf.”;</li>
-<li>player #4 said: “Player #5 is a human.”; and</li>
-<li>player #5 said: “Player #4 is a human.”.</li>
-</ul>
-<p>Given that there were 2 werewolves among them, at least one but not all the werewolves were lying, and there were exactly 2 liars. Can you point out the werewolves?</p>
-<p>Now you are asked to solve a harder version of this problem: given that there were <em>N</em> players, with 2 werewolves among them, at least one but not all the werewolves were lying, and there were exactly 2 liars. You are supposed to point out the werewolves.</p>
-<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives a positive integer <em>N</em> (5≤<em>N</em>≤100). Then <em>N</em> lines follow and the <em>i</em>-th line gives the statement of the <em>i</em>-th player (1≤<em>i</em>≤<em>N</em>), which is represented by the index of the player with a positive sign for a human and a negative sign for a werewolf.</p>
-<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>If a solution exists, print in a line in ascending order the indices of the two werewolves. The numbers must be separated by exactly one space with no extra spaces at the beginning or the end of the line. If there are more than one solution, you must output the smallest solution sequence – that is, for two sequences <em>A</em>=<em>a</em>[1],…,<em>a</em>[<em>M</em>] and <em>B</em>=<em>b</em>[1],…,<em>b</em>[<em>M</em>], if there exists 0≤<em>k</em>&lt;<em>M</em> such that <em>a</em>[<em>i</em>]=<em>b</em>[<em>i</em>] (<em>i</em>≤<em>k</em>) and <em>a</em>[<em>k</em>+1]&lt;<em>b</em>[<em>k</em>+1], then <em>A</em> is said to be smaller than <em>B</em>. In case there is no solution, simply print <code>No Solution</code>.</p>
-<h3 id="Sample-Input-1"><a href="#Sample-Input-1" class="headerlink" title="Sample Input 1:"></a>Sample Input 1:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">5</span><br><span class="line">-2</span><br><span class="line">+3</span><br><span class="line">-4</span><br><span class="line">+5</span><br><span class="line">+4</span><br></pre></td></tr></table></figure>
+        <p>For a student taking the online course “Data Structures” on China University MOOC (<a href="http://www.icourse163.org/" target="_blank" rel="noopener">http://www.icourse163.org/</a>), to be qualified for a certificate, he/she must first obtain no less than 200 points from the online programming assignments, and then receive a final grade no less than 60 out of 100. The final grade is calculated by <em>G</em>=(<em>G<strong>m</strong>i<strong>d<em>−</em>t</strong>e<strong>r</strong>m<em>×40%+</em>G<strong>f</strong>i<strong>n</strong>a<strong>l*×60%) if *G</strong>m<strong>i</strong>d<em>−</em>t<strong>e</strong>r**m</em>&gt;<em>G<strong>f</strong>i<strong>n</strong>a**l</em>, or <em>G<strong>f</strong>i<strong>n</strong>a**l</em> will be taken as the final grade <em>G</em>. Here <em>G<strong>m</strong>i<strong>d<em>−</em>t</strong>e<strong>r</strong>m</em> and <em>G<strong>f</strong>i<strong>n</strong>a**l</em> are the student’s scores of the mid-term and the final exams, respectively.</p>
+<p>The problem is that different exams have different grading sheets. Your job is to write a program to merge all the grading sheets into one.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives three positive integers: P , the number of students having done the online programming assignments; M, the number of students on the mid-term list; and N, the number of students on the final exam list. All the numbers are no more than 10,000.</p>
+<p>Then three blocks follow. The first block contains P online programming scores <em>G**p</em>‘s; the second one contains M mid-term scores <em>G<strong>m</strong>i<strong>d<em>−</em>t</strong>e<strong>r</strong>m</em>‘s; and the last one contains N final exam scores <em>G<strong>f</strong>i<strong>n</strong>a**l</em>‘s. Each score occupies a line with the format: <code>StudentID Score</code>, where <code>StudentID</code> is a string of no more than 20 English letters and digits, and <code>Score</code> is a nonnegative integer (the maximum score of the online programming is 900, and that of the mid-term and final exams is 100).</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each case, print the list of students who are qualified for certificates. Each student occupies a line with the format:</p>
+<p><code>StudentID</code> <em>G**p</em> <em>G<strong>m</strong>i<strong>d<em>−</em>t</strong>e<strong>r</strong>m</em> <em>G<strong>f</strong>i<strong>n</strong>a**l</em> <em>G</em></p>
+<p>If some score does not exist, output “−1” instead. The output must be sorted in descending order of their final grades (<em>G</em> must be rounded up to an integer). If there is a tie, output in ascending order of their <code>StudentID</code>‘s. It is guaranteed that the <code>StudentID</code>‘s are all distinct, and there is at least one qullified student.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">6 6 7</span><br><span class="line">01234 880</span><br><span class="line">a1903 199</span><br><span class="line">ydjh2 200</span><br><span class="line">wehu8 300</span><br><span class="line">dx86w 220</span><br><span class="line">missing 400</span><br><span class="line">ydhfu77 99</span><br><span class="line">wehu8 55</span><br><span class="line">ydjh2 98</span><br><span class="line">dx86w 88</span><br><span class="line">a1903 86</span><br><span class="line">01234 39</span><br><span class="line">ydhfu77 88</span><br><span class="line">a1903 66</span><br><span class="line">01234 58</span><br><span class="line">wehu8 84</span><br><span class="line">ydjh2 82</span><br><span class="line">missing 99</span><br><span class="line">dx86w 81</span><br></pre></td></tr></table></figure>
 
-<h3 id="Sample-Output-1"><a href="#Sample-Output-1" class="headerlink" title="Sample Output 1:"></a>Sample Output 1:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 4</span><br></pre></td></tr></table></figure>
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">missing 400 -1 99 99</span><br><span class="line">ydjh2 200 98 82 88</span><br><span class="line">dx86w 220 88 81 84</span><br><span class="line">wehu8 300 55 84 84</span><br></pre></td></tr></table></figure>
 
-<h3 id="Sample-Input-2"><a href="#Sample-Input-2" class="headerlink" title="Sample Input 2:"></a>Sample Input 2:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">6</span><br><span class="line">+6</span><br><span class="line">+3</span><br><span class="line">+1</span><br><span class="line">-5</span><br><span class="line">-2</span><br><span class="line">+4</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Node</span>&#123;</span></span><br><span class="line">	<span class="built_in">string</span> name;</span><br><span class="line">	<span class="keyword">int</span> gp,gm,gf,g;</span><br><span class="line">&#125;node;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">cmp</span><span class="params">(Node a,Node b)</span></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> a.g!=b.g?a.g&gt;b.g:a.name&lt;b.name;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">( )</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> m,n,p;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d%d"</span>,&amp;p,&amp;m,&amp;n);</span><br><span class="line">	<span class="built_in">vector</span>&lt;Node&gt;stu,ans;</span><br><span class="line">	<span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt;<span class="built_in">map</span>;</span><br><span class="line">	<span class="built_in">string</span> s;</span><br><span class="line">	<span class="keyword">int</span> score,cnt=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;p;i++) &#123;</span><br><span class="line">		<span class="built_in">cin</span>&gt;&gt;s&gt;&gt;score;</span><br><span class="line">		<span class="keyword">if</span> (score&gt;=<span class="number">200</span>) &#123;</span><br><span class="line">			node.name=s;</span><br><span class="line">			node.gp=score;</span><br><span class="line">			node.gm=node.gf=<span class="number">-1</span>;</span><br><span class="line">			node.g=<span class="number">0</span>;</span><br><span class="line">			stu.push_back(node);</span><br><span class="line">			<span class="built_in">map</span>[s]=cnt++;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;m;i++) &#123;</span><br><span class="line">		<span class="built_in">cin</span>&gt;&gt;s&gt;&gt;score;</span><br><span class="line">		<span class="keyword">if</span> (<span class="built_in">map</span>[s]!=<span class="number">0</span>) &#123;</span><br><span class="line">			stu[<span class="built_in">map</span>[s]<span class="number">-1</span>].gm=score;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;</span><br><span class="line">		<span class="built_in">cin</span>&gt;&gt;s&gt;&gt;score;</span><br><span class="line">		<span class="keyword">if</span> (<span class="built_in">map</span>[s]!=<span class="number">0</span>) &#123;</span><br><span class="line">			<span class="keyword">int</span> temp=<span class="built_in">map</span>[s]<span class="number">-1</span>;</span><br><span class="line">			stu[temp].gf=score;</span><br><span class="line">			stu[temp].g=score;</span><br><span class="line">			<span class="keyword">if</span> (stu[temp].gm&gt;score) &#123;</span><br><span class="line">				stu[temp].g=stu[temp].gm*<span class="number">0.4</span>+stu[temp].gf*<span class="number">0.6</span>+<span class="number">0.5</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;stu.<span class="built_in">size</span>();i++) &#123;</span><br><span class="line">		<span class="keyword">if</span> (stu[i].g&gt;=<span class="number">60</span>) &#123;</span><br><span class="line">			ans.push_back(stu[i]);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	sort(ans.<span class="built_in">begin</span>(), ans.<span class="built_in">end</span>(), cmp);</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;ans.<span class="built_in">size</span>();j++) &#123;</span><br><span class="line">		<span class="built_in">cout</span>&lt;&lt;ans[j].name;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">" %d %d %d %d\n"</span>,ans[j].gp,ans[j].gm,ans[j].gf,ans[j].g);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h3 id="Sample-Output-2-the-solution-is-not-unique"><a href="#Sample-Output-2-the-solution-is-not-unique" class="headerlink" title="Sample Output 2 (the solution is not unique):"></a>Sample Output 2 (the solution is not unique):</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 5</span><br></pre></td></tr></table></figure>
-
-<h3 id="Sample-Input-3"><a href="#Sample-Input-3" class="headerlink" title="Sample Input 3:"></a>Sample Input 3:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">5</span><br><span class="line">-2</span><br><span class="line">-3</span><br><span class="line">-4</span><br><span class="line">-5</span><br><span class="line">-1</span><br></pre></td></tr></table></figure>
-
-<h3 id="Sample-Output-3"><a href="#Sample-Output-3" class="headerlink" title="Sample Output 3:"></a>Sample Output 3:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">No Solution</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">judge</span><span class="params">(<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; key, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; wolf, <span class="keyword">int</span> length)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">int</span> error_count = <span class="number">0</span>;     </span><br><span class="line">	<span class="keyword">int</span> wolf_count = <span class="number">0</span>;     </span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; length; i++) &#123;</span><br><span class="line">		<span class="keyword">if</span> (wolf[<span class="built_in">abs</span>(key[i]) - <span class="number">1</span>] * key[i] &lt; <span class="number">0</span>) &#123;   </span><br><span class="line">			<span class="keyword">if</span> (wolf[i] == <span class="number">-1</span>)</span><br><span class="line">				wolf_count++;</span><br><span class="line">			error_count++;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> (error_count == <span class="number">2</span> &amp;&amp; wolf_count == <span class="number">1</span>)   </span><br><span class="line">		<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; key;</span><br><span class="line">	<span class="keyword">int</span> n, t;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; n;</span><br><span class="line">	key.resize(n);</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; key[i];</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j = i + <span class="number">1</span>; j &lt; n; j++) &#123;</span><br><span class="line">			<span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">wolf</span><span class="params">(n, <span class="number">1</span>)</span></span>;</span><br><span class="line">			wolf[i] = wolf[j] = <span class="number">-1</span>;</span><br><span class="line">			<span class="keyword">if</span> (judge(key, wolf, n)) &#123;</span><br><span class="line">				<span class="built_in">cout</span> &lt;&lt; i + <span class="number">1</span> &lt;&lt; <span class="string">" "</span> &lt;&lt; j + <span class="number">1</span> &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line">				<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"No Solution"</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>本题采用双层循环遍历，假设出狼人的位置，然后根据撒谎人数为2，狼人撒谎一人来解决问题</p>
+<p>简单的对成绩数据处理排序输出，使用vector、map即可</p>
 
       
     </div>
@@ -481,8 +468,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/02/22/1155-Heap-Paths/" rel="next" title="1155 Heap Paths">
-                <i class="fa fa-chevron-left"></i> 1155 Heap Paths
+              <a href="/2020/03/28/1138-Postorder-Traversal/" rel="next" title="1138 Postorder Traversal">
+                <i class="fa fa-chevron-left"></i> 1138 Postorder Traversal
               </a>
             
           </div>
@@ -490,10 +477,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/02/23/1149-Dangerous-Goods-Packaging/" rel="prev" title="1149 Dangerous Goods Packaging">
-                1149 Dangerous Goods Packaging <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -645,7 +628,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Input-Specification"><span class="nav-number">1.</span> <span class="nav-text">Input Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-Specification"><span class="nav-number">2.</span> <span class="nav-text">Output Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input-1"><span class="nav-number">3.</span> <span class="nav-text">Sample Input 1:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output-1"><span class="nav-number">4.</span> <span class="nav-text">Sample Output 1:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input-2"><span class="nav-number">5.</span> <span class="nav-text">Sample Input 2:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output-2-the-solution-is-not-unique"><span class="nav-number">6.</span> <span class="nav-text">Sample Output 2 (the solution is not unique):</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input-3"><span class="nav-number">7.</span> <span class="nav-text">Sample Input 3:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output-3"><span class="nav-number">8.</span> <span class="nav-text">Sample Output 3:</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Input-Specification"><span class="nav-number">1.</span> <span class="nav-text">Input Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-Specification"><span class="nav-number">2.</span> <span class="nav-text">Output Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input"><span class="nav-number">3.</span> <span class="nav-text">Sample Input:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output"><span class="nav-number">4.</span> <span class="nav-text">Sample Output:</span></a></li></ol></div>
             
 
           </div>
