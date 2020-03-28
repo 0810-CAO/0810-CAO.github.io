@@ -80,14 +80,14 @@
 
 
 
-<meta name="description" content="A Digital Library contains millions of books, stored according to their titles, authors, key words of their abstracts, publishers, and published years. Each book is assigned an unique 7-digit number a">
+<meta name="description" content="Suppose that all the keys in a binary tree are distinct positive integers. Given the preorder and inorder traversal sequences, you are supposed to output the first number of the postorder traversal se">
 <meta property="og:type" content="article">
-<meta property="og:title" content="1022 Digital Library">
-<meta property="og:url" content="https://0810-cao.github.io/2020/02/05/1022-Digital-Library/index.html">
+<meta property="og:title" content="1138 Postorder Traversal">
+<meta property="og:url" content="https://0810-cao.github.io/2020/03/28/1138-Postorder-Traversal/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="A Digital Library contains millions of books, stored according to their titles, authors, key words of their abstracts, publishers, and published years. Each book is assigned an unique 7-digit number a">
-<meta property="article:published_time" content="2020-02-05T08:44:18.000Z">
-<meta property="article:modified_time" content="2020-02-05T09:13:33.070Z">
+<meta property="og:description" content="Suppose that all the keys in a binary tree are distinct positive integers. Given the preorder and inorder traversal sequences, you are supposed to output the first number of the postorder traversal se">
+<meta property="article:published_time" content="2020-03-28T06:58:16.000Z">
+<meta property="article:modified_time" content="2020-03-28T07:07:46.447Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://0810-cao.github.io/2020/02/05/1022-Digital-Library/"/>
+  <link rel="canonical" href="https://0810-cao.github.io/2020/03/28/1138-Postorder-Traversal/"/>
 
 
 
 
 
-  <title>1022 Digital Library | 0810-CAO Blog</title>
+  <title>1138 Postorder Traversal | 0810-CAO Blog</title>
   
 
 
@@ -286,7 +286,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/02/05/1022-Digital-Library/">
+    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/03/28/1138-Postorder-Traversal/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCX-99">
@@ -303,7 +303,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">1022 Digital Library</h1>
+          <h1 class="post-title" itemprop="name headline">1138 Postorder Traversal</h1>
         
 
         <div class="post-meta">
@@ -315,8 +315,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-05T16:44:18+08:00">
-                2020-02-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-28T14:58:16+08:00">
+                2020-03-28
               </time>
             
 
@@ -340,6 +340,17 @@
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/pat%E7%94%B2%E7%BA%A7/" itemprop="url" rel="index">
                     <span itemprop="name">pat甲级</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/" itemprop="url" rel="index">
+                    <span itemprop="name">树</span>
                   </a>
                 </span>
 
@@ -369,7 +380,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  649
+                  302
                 </span>
               
 
@@ -385,7 +396,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3
+                  1
                 </span>
               
             </div>
@@ -406,33 +417,16 @@
       
 
       
-        <p>A Digital Library contains millions of books, stored according to their titles, authors, key words of their abstracts, publishers, and published years. Each book is assigned an unique 7-digit number as its ID. Given any query from a reader, you are supposed to output the resulting books, sorted in increasing order of their ID’s.</p>
-<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line contains a positive integer <em>N</em> (≤104) which is the total number of books. Then <em>N</em> blocks follow, each contains the information of a book in 6 lines:</p>
-<ul>
-<li>Line #1: the 7-digit ID number;</li>
-<li>Line #2: the book title – a string of no more than 80 characters;</li>
-<li>Line #3: the author – a string of no more than 80 characters;</li>
-<li>Line #4: the key words – each word is a string of no more than 10 characters without any white space, and the keywords are separated by exactly one space;</li>
-<li>Line #5: the publisher – a string of no more than 80 characters;</li>
-<li>Line #6: the published year – a 4-digit number which is in the range [1000, 3000].</li>
-</ul>
-<p>It is assumed that each book belongs to one author only, and contains no more than 5 key words; there are no more than 1000 distinct key words in total; and there are no more than 1000 distinct publishers.</p>
-<p>After the book information, there is a line containing a positive integer <em>M</em> (≤1000) which is the number of user’s search queries. Then <em>M</em> lines follow, each in one of the formats shown below:</p>
-<ul>
-<li>1: a book title</li>
-<li>2: name of an author</li>
-<li>3: a key word</li>
-<li>4: name of a publisher</li>
-<li>5: a 4-digit number representing the year</li>
-</ul>
-<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each query, first print the original query in a line, then output the resulting book ID’s in increasing order, each occupying a line. If no book is found, print <code>Not Found</code> instead.</p>
-<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">3</span><br><span class="line">1111111</span><br><span class="line">The Testing Book</span><br><span class="line">Yue Chen</span><br><span class="line">test code debug sort keywords</span><br><span class="line">ZUCS Print</span><br><span class="line">2011</span><br><span class="line">3333333</span><br><span class="line">Another Testing Book</span><br><span class="line">Yue Chen</span><br><span class="line">test code sort keywords</span><br><span class="line">ZUCS Print2</span><br><span class="line">2012</span><br><span class="line">2222222</span><br><span class="line">The Testing Book</span><br><span class="line">CYLL</span><br><span class="line">keywords debug book</span><br><span class="line">ZUCS Print2</span><br><span class="line">2011</span><br><span class="line">6</span><br><span class="line">1: The Testing Book</span><br><span class="line">2: Yue Chen</span><br><span class="line">3: keywords</span><br><span class="line">4: ZUCS Print</span><br><span class="line">5: 2011</span><br><span class="line">3: blablabla</span><br></pre></td></tr></table></figure>
+        <p>Suppose that all the keys in a binary tree are distinct positive integers. Given the preorder and inorder traversal sequences, you are supposed to output the first number of the postorder traversal sequence of the corresponding binary tree.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives a positive integer N (≤ 50,000), the total number of nodes in the binary tree. The second line gives the preorder sequence and the third line gives the inorder sequence. All the numbers in a line are separated by a space.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each test case, print in one line the first number of the postorder traversal sequence of the corresponding binary tree.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">7</span><br><span class="line">1 2 3 4 5 6 7</span><br><span class="line">2 3 1 5 4 7 6</span><br></pre></td></tr></table></figure>
 
-<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">1: The Testing Book</span><br><span class="line">1111111</span><br><span class="line">2222222</span><br><span class="line">2: Yue Chen</span><br><span class="line">1111111</span><br><span class="line">3333333</span><br><span class="line">3: keywords</span><br><span class="line">1111111</span><br><span class="line">2222222</span><br><span class="line">3333333</span><br><span class="line">4: ZUCS Print</span><br><span class="line">1111111</span><br><span class="line">5: 2011</span><br><span class="line">1111111</span><br><span class="line">2222222</span><br><span class="line">3: blablabla</span><br><span class="line">Not Found</span><br></pre></td></tr></table></figure>
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt; &gt; mpTitle, mpAuthor, mpKey, mpPub, mpYear;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">query</span><span class="params">(<span class="built_in">map</span>&lt;<span class="built_in">string</span>,<span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt; &gt;&amp; mp, <span class="built_in">string</span>&amp; str)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(mp.<span class="built_in">find</span>(str) == mp.<span class="built_in">end</span>()) <span class="built_in">printf</span>(<span class="string">"Not Found\n"</span>);</span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="built_in">set</span>&lt;<span class="keyword">int</span>&gt;::iterator it = mp[str].<span class="built_in">begin</span>(); it != mp[str].<span class="built_in">end</span>(); it++) &#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"%07d\n"</span>, *it);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n, m, id, type;</span><br><span class="line">	<span class="built_in">string</span> title, author, key, pub, year;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;id);</span><br><span class="line">		<span class="keyword">char</span> c = getchar();</span><br><span class="line">		getline(<span class="built_in">cin</span>, title);</span><br><span class="line">		mpTitle[title].insert(id);</span><br><span class="line">		getline(<span class="built_in">cin</span>, author);</span><br><span class="line">		mpAuthor[author].insert(id);</span><br><span class="line">		<span class="keyword">while</span>(<span class="built_in">cin</span> &gt;&gt; key) &#123;</span><br><span class="line">			mpKey[key].insert(id);</span><br><span class="line">			c = getchar();</span><br><span class="line">			<span class="keyword">if</span>(c == <span class="string">'\n'</span>) <span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		getline(<span class="built_in">cin</span>, pub);</span><br><span class="line">		mpPub[pub].insert(id);</span><br><span class="line">		getline(<span class="built_in">cin</span>, year);</span><br><span class="line">		mpYear[year].insert(id);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">string</span> temp;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;m);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d: "</span>, &amp;type);</span><br><span class="line">		getline(<span class="built_in">cin</span>, temp);</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; type &lt;&lt; <span class="string">": "</span> &lt;&lt; temp &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		<span class="keyword">if</span>(type == <span class="number">1</span>) query(mpTitle, temp);</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(type == <span class="number">2</span>) query(mpAuthor, temp);</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(type == <span class="number">3</span>) query(mpKey, temp);</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(type == <span class="number">4</span>) query(mpPub, temp);</span><br><span class="line">		<span class="keyword">else</span> query(mpYear, temp);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;pre,in;</span><br><span class="line"><span class="keyword">bool</span> flag=<span class="literal">false</span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">postorder</span><span class="params">(<span class="keyword">int</span> prel,<span class="keyword">int</span> inl,<span class="keyword">int</span> inr)</span></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (inl&gt;inr||flag==<span class="literal">true</span>) &#123;</span><br><span class="line">		<span class="keyword">return</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">int</span> i=inl;</span><br><span class="line">	<span class="keyword">while</span> (in[i]!=pre[prel]) &#123;</span><br><span class="line">		i++;</span><br><span class="line">	&#125;</span><br><span class="line">	postorder(prel+<span class="number">1</span>, inl, i<span class="number">-1</span>);</span><br><span class="line">	postorder(prel+i-inl+<span class="number">1</span>, i+<span class="number">1</span>, inr);</span><br><span class="line">	<span class="keyword">if</span> (flag==<span class="literal">false</span>) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"%d"</span>,in[i]);</span><br><span class="line">		flag=<span class="literal">true</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">( )</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;n);</span><br><span class="line">	pre.resize(n);</span><br><span class="line">	in.resize(n);</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;pre[i]);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;in[i]);</span><br><span class="line">	&#125;</span><br><span class="line">	postorder(<span class="number">0</span>, <span class="number">0</span>, n<span class="number">-1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>本题还是采用map与set嵌套使用的方式来录入一定的数据，然后通过要查询的类型数据来输出相应的id</p>
+<p>已知前序中序序列，求后序遍历第一个数，由根节点递归遍历找到最左子树（其次兄弟结点）即可</p>
 
       
     </div>
@@ -481,8 +475,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/02/04/1021-Deepest-Root/" rel="next" title="1021 Deepest Root">
-                <i class="fa fa-chevron-left"></i> 1021 Deepest Root
+              <a href="/2020/03/25/1139-First-Contact/" rel="next" title="1139 First Contact">
+                <i class="fa fa-chevron-left"></i> 1139 First Contact
               </a>
             
           </div>
@@ -490,10 +484,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/02/09/1023-Have-Fun-with-Numbers/" rel="prev" title="1023 Have Fun with Numbers">
-                1023 Have Fun with Numbers <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
