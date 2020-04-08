@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1134 Vertex Cover</title>
+    <url>/2020/04/08/1134-Vertex-Cover/</url>
+    <content><![CDATA[<p>A <strong>vertex cover</strong> of a graph is a set of vertices such that each edge of the graph is incident to at least one vertex of the set. Now given a graph with several vertex sets, you are supposed to tell if each of them is a vertex cover or not.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives two positive integers <em>N</em> and <em>M</em> (both no more than 104), being the total numbers of vertices and the edges, respectively. Then <em>M</em> lines follow, each describes an edge by giving the indices (from 0 to <em>N</em>−1) of the two ends of the edge.</p>
+<p>After the graph, a positive integer <em>K</em> (≤ 100) is given, which is the number of queries. Then <em>K</em> lines of queries follow, each in the format:</p>
+<p><em>N**v</em> <em>v</em>[1] <em>v</em>[2]⋯<em>v</em>[<em>N*</em>v*]</p>
+<p>where <em>N**v</em> is the number of vertices in the set, and <em>v</em>[<em>i</em>]’s are the indices of the vertices.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each query, print in a line <code>Yes</code> if the set is a vertex cover, or <code>No</code> if not.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">10 11</span><br><span class="line">8 7</span><br><span class="line">6 8</span><br><span class="line">4 5</span><br><span class="line">8 4</span><br><span class="line">8 1</span><br><span class="line">1 2</span><br><span class="line">1 4</span><br><span class="line">9 8</span><br><span class="line">9 1</span><br><span class="line">1 0</span><br><span class="line">2 4</span><br><span class="line">5</span><br><span class="line">4 0 3 8 4</span><br><span class="line">6 6 1 7 5 4 9</span><br><span class="line">3 1 8 4</span><br><span class="line">2 2 8</span><br><span class="line">7 9 8 7 6 5 4 2</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">No</span><br><span class="line">Yes</span><br><span class="line">Yes</span><br><span class="line">No</span><br><span class="line">No</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>pat甲级</category>
+      </categories>
+  </entry>
+  <entry>
     <title>1135 Is It A Red-Black Tree</title>
     <url>/2020/03/28/1135-Is-It-A-Red-Black-Tree/</url>
     <content><![CDATA[<p>There is a kind of balanced binary search tree named <strong>red-black tree</strong> in the data structure. It has the following 5 properties:</p>

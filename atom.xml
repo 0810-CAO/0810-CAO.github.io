@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-04-06T13:07:48.700Z</updated>
+  <updated>2020-04-08T12:37:22.599Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1134 Vertex Cover</title>
+    <link href="https://0810-cao.github.io/2020/04/08/1134-Vertex-Cover/"/>
+    <id>https://0810-cao.github.io/2020/04/08/1134-Vertex-Cover/</id>
+    <published>2020-04-08T12:35:46.000Z</published>
+    <updated>2020-04-08T12:37:22.599Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;A &lt;strong&gt;vertex cover&lt;/strong&gt; of a graph is a set of vertices such that each edge of the graph is incident to at least one vertex of
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1135 Is It A Red-Black Tree</title>
@@ -475,32 +500,6 @@
         
         
           &lt;p&gt;Struts2框架不能见到web常用对象（request、respond、session），减少耦合&lt;br&gt;在struts2框架中获取servlet
-        
-      
-    
-    </summary>
-    
-    
-      <category term="java高级应用" scheme="https://0810-cao.github.io/categories/java%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>struts2框架入门</title>
-    <link href="https://0810-cao.github.io/2020/03/08/struts2%E6%A1%86%E6%9E%B6%E5%85%A5%E9%97%A8/"/>
-    <id>https://0810-cao.github.io/2020/03/08/struts2%E6%A1%86%E6%9E%B6%E5%85%A5%E9%97%A8/</id>
-    <published>2020-03-08T01:46:41.000Z</published>
-    <updated>2020-03-08T02:06:12.618Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;hello.jsp&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
         
       
     
