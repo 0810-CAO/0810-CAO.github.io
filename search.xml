@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1131 Subway Map</title>
+    <url>/2020/04/09/1131-Subway-Map/</url>
+    <content><![CDATA[<p>In the big cities, the subway systems always look so complex to the visitors. To give you some sense, the following figure shows the map of Beijing subway. Now you are supposed to help people with your computer skills! Given the starting position of your user, your task is to find the quickest way to his/her destination.</p>
+<p><img src="https://images.ptausercontent.com/55799c23-4bdb-4e32-af7f-6d41accfdd2b.jpg" alt="subwaymap.jpg"></p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line contains a positive integer <em>N</em> (≤ 100), the number of subway lines. Then <em>N</em> lines follow, with the <em>i</em>-th (<em>i</em>=1,⋯,<em>N</em>) line describes the <em>i</em>-th subway line in the format:</p>
+<p><em>M</em> S[1] S[2] … S[<em>M</em>]</p>
+<p>where <em>M</em> (≤ 100) is the number of stops, and S[<em>i</em>]’s (<em>i</em>=1,⋯,<em>M</em>) are the indices of the stations (the indices are 4-digit numbers from 0000 to 9999) along the line. It is guaranteed that the stations are given in the correct order – that is, the train travels between S[<em>i</em>] and S[<em>i</em>+1] (<em>i</em>=1,⋯,<em>M</em>−1) without any stop.</p>
+<p>Note: It is possible to have loops, but not self-loop (no train starts from S and stops at S without passing through another station). Each station interval belongs to a unique subway line. Although the lines may cross each other at some stations (so called “transfer stations”), no station can be the conjunction of more than 5 lines.</p>
+<p>After the description of the subway, another positive integer <em>K</em> (≤ 10) is given. Then <em>K</em> lines follow, each gives a query from your user: the two indices as the starting station and the destination, respectively.</p>
+<p>The following figure shows the sample map.</p>
+<p><img src="https://images.ptausercontent.com/932c8f1b-7dd5-489d-a774-a91c1fabba7f.jpg" alt="samplemap.jpg"></p>
+<p>Note: It is guaranteed that all the stations are reachable, and all the queries consist of legal station numbers.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each query, first print in a line the minimum number of stops. Then you are supposed to show the optimal path in a friendly format as the following:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Take Line#X1 from S1 to S2.</span><br><span class="line">Take Line#X2 from S2 to S3.</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+
+<p>where <code>X</code><em>i</em>‘s are the line numbers and <code>S</code><em>i</em>‘s are the station indices. Note: Besides the starting and ending stations, only the transfer stations shall be printed.</p>
+<p>If the quickest path is not unique, output the one with the minimum number of transfers, which is guaranteed to be unique.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">4</span><br><span class="line">7 1001 3212 1003 1204 1005 1306 7797</span><br><span class="line">9 9988 2333 1204 2006 2005 2004 2003 2302 2001</span><br><span class="line">13 3011 3812 3013 3001 1306 3003 2333 3066 3212 3008 2302 3010 3011</span><br><span class="line">4 6666 8432 4011 1306</span><br><span class="line">3</span><br><span class="line">3011 3013</span><br><span class="line">6666 2001</span><br><span class="line">2004 3001</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">2</span><br><span class="line">Take Line#3 from 3011 to 3013.</span><br><span class="line">10</span><br><span class="line">Take Line#4 from 6666 to 1306.</span><br><span class="line">Take Line#3 from 1306 to 2302.</span><br><span class="line">Take Line#2 from 2302 to 2001.</span><br><span class="line">6</span><br><span class="line">Take Line#2 from 2004 to 1204.</span><br><span class="line">Take Line#1 from 1204 to 1306.</span><br><span class="line">Take Line#3 from 1306 to 3001.</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>pat甲级</category>
+      </categories>
+  </entry>
+  <entry>
     <title>1134 Vertex Cover</title>
     <url>/2020/04/08/1134-Vertex-Cover/</url>
     <content><![CDATA[<p>A <strong>vertex cover</strong> of a graph is a set of vertices such that each edge of the graph is incident to at least one vertex of the set. Now given a graph with several vertex sets, you are supposed to tell if each of them is a vertex cover or not.</p>
