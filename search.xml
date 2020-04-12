@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1130 Infix Expression</title>
+    <url>/2020/04/12/1130-Infix-Expression/</url>
+    <content><![CDATA[<p>Given a syntax tree (binary), you are supposed to output the corresponding infix expression, with parentheses reflecting the precedences of the operators.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives a positive integer N (≤ 20) which is the total number of nodes in the syntax tree. Then N lines follow, each gives the information of a node (the <em>i</em>-th line corresponds to the <em>i</em>-th node) in the format:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">data left_child right_child</span><br></pre></td></tr></table></figure>
+
+<p>where <code>data</code> is a string of no more than 10 characters, <code>left_child</code> and <code>right_child</code> are the indices of this node’s left and right children, respectively. The nodes are indexed from 1 to N. The NULL link is represented by −1. The figures 1 and 2 correspond to the samples 1 and 2, respectively.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="https://images.ptausercontent.com/4d1c4a98-33cc-45ff-820f-c548845681ba.JPG" alt="infix1.JPG"></th>
+<th align="center"><img src="https://images.ptausercontent.com/b5a3c36e-91ad-494a-8853-b46e1e8b60cc.JPG" alt="infix2.JPG"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Figure 1</td>
+<td align="center">Figure 2</td>
+</tr>
+</tbody></table>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each case, print in a line the infix expression, with parentheses reflecting the precedences of the operators. Note that there must be no extra parentheses for the final expression, as is shown by the samples. There must be no space between any symbols.</p>
+<h3 id="Sample-Input-1"><a href="#Sample-Input-1" class="headerlink" title="Sample Input 1:"></a>Sample Input 1:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">8</span><br><span class="line">* 8 7</span><br><span class="line">a -1 -1</span><br><span class="line">* 4 1</span><br><span class="line">+ 2 5</span><br><span class="line">b -1 -1</span><br><span class="line">d -1 -1</span><br><span class="line">- -1 6</span><br><span class="line">c -1 -1</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output-1"><a href="#Sample-Output-1" class="headerlink" title="Sample Output 1:"></a>Sample Output 1:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(a+b)*(c*(-d))</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Input-2"><a href="#Sample-Input-2" class="headerlink" title="Sample Input 2:"></a>Sample Input 2:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">8</span><br><span class="line">2.35 -1 -1</span><br><span class="line">* 6 1</span><br><span class="line">- -1 4</span><br><span class="line">% 7 8</span><br><span class="line">+ 2 3</span><br><span class="line">a -1 -1</span><br><span class="line">str -1 -1</span><br><span class="line">871 -1 -1</span><br></pre></td></tr></table></figure>
+
+<h3 id="Sample-Output-2"><a href="#Sample-Output-2" class="headerlink" title="Sample Output 2:"></a>Sample Output 2:</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">(a*2.35)+(-(str%871))</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>pat甲级</category>
+        <category>树</category>
+      </categories>
+  </entry>
+  <entry>
     <title>1131 Subway Map</title>
     <url>/2020/04/09/1131-Subway-Map/</url>
     <content><![CDATA[<p>In the big cities, the subway systems always look so complex to the visitors. To give you some sense, the following figure shows the map of Beijing subway. Now you are supposed to help people with your computer skills! Given the starting position of your user, your task is to find the quickest way to his/her destination.</p>
