@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-04-16T00:59:44.637Z</updated>
+  <updated>2020-04-17T04:29:17.357Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hibernate关联关系映射</title>
+    <link href="https://0810-cao.github.io/2020/04/17/Hibernate%E5%85%B3%E8%81%94%E5%85%B3%E7%B3%BB%E6%98%A0%E5%B0%84/"/>
+    <id>https://0810-cao.github.io/2020/04/17/Hibernate%E5%85%B3%E8%81%94%E5%85%B3%E7%B3%BB%E6%98%A0%E5%B0%84/</id>
+    <published>2020-04-17T04:29:17.000Z</published>
+    <updated>2020-04-17T04:29:17.357Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hibernate入门</title>
+    <link href="https://0810-cao.github.io/2020/04/17/Hibernate%E5%85%A5%E9%97%A8/"/>
+    <id>https://0810-cao.github.io/2020/04/17/Hibernate%E5%85%A5%E9%97%A8/</id>
+    <published>2020-04-17T04:28:59.000Z</published>
+    <updated>2020-04-17T04:30:44.439Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;hibernate介绍&lt;br&gt;开源框架、对JDBC封装、直接操作java对象就可以操作数据库对象中的表、ORM（对象关系映射）映射框架&lt;br&gt;类似hibernate这样jdbc封装框架：mybatis开发中持久化层框架中主流&lt;br&gt;导入jar包&lt;br&gt;hibernate核心
+        
+      
+    
+    </summary>
+    
+    
+      <category term="java高级应用" scheme="https://0810-cao.github.io/categories/java%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>python爬虫初试</title>
@@ -456,56 +496,6 @@
     <updated>2020-03-08T02:06:19.920Z</updated>
     
     <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="java高级应用" scheme="https://0810-cao.github.io/categories/java%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>struts2的文件上传和下载</title>
-    <link href="https://0810-cao.github.io/2020/03/08/struts2%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%92%8C%E4%B8%8B%E8%BD%BD/"/>
-    <id>https://0810-cao.github.io/2020/03/08/struts2%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E5%92%8C%E4%B8%8B%E8%BD%BD/</id>
-    <published>2020-03-08T01:48:04.000Z</published>
-    <updated>2020-03-24T12:06:42.933Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;public void writefile(){&lt;br&gt;FileUtils.copyFile(upload,new
-        
-      
-    
-    </summary>
-    
-    
-      <category term="java高级应用" scheme="https://0810-cao.github.io/categories/java%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ognl表达式</title>
-    <link href="https://0810-cao.github.io/2020/03/08/ognl%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    <id>https://0810-cao.github.io/2020/03/08/ognl%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
-    <published>2020-03-08T01:47:40.000Z</published>
-    <updated>2020-03-11T08:48:13.759Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;1）ognl表达式：是对象导航图语言。也是一种struts2默认的表达式语言，xwork提供ognl支持。支持对象方法调用、支持类静态的方法调用和值访问、访问ognl上下文和actioncontext、支持赋值操作和表达式串联、操作集合对象。OGNL上下文概念就是一个map
-        
-      
     
     </summary>
     

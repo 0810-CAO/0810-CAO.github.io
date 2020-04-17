@@ -80,14 +80,14 @@
 
 
 
-<meta name="description" content="A vertex cover of a graph is a set of vertices such that each edge of the graph is incident to at least one vertex of the set. Now given a graph with several vertex sets, you are supposed to tell if e">
+<meta name="description" content="hibernate介绍开源框架、对JDBC封装、直接操作java对象就可以操作数据库对象中的表、ORM（对象关系映射）映射框架类似hibernate这样jdbc封装框架：mybatis开发中持久化层框架中主流导入jar包hibernate核心jar包  hibernate3.jarhibernate必须jar包  hibernate&#x2F;lib&#x2F;required目录下hibernate的jpa实现">
 <meta property="og:type" content="article">
-<meta property="og:title" content="1134 Vertex Cover">
-<meta property="og:url" content="https://0810-cao.github.io/2020/04/08/1134-Vertex-Cover/index.html">
+<meta property="og:title" content="Hibernate入门">
+<meta property="og:url" content="https://0810-cao.github.io/2020/04/17/Hibernate%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="A vertex cover of a graph is a set of vertices such that each edge of the graph is incident to at least one vertex of the set. Now given a graph with several vertex sets, you are supposed to tell if e">
-<meta property="article:published_time" content="2020-04-08T12:35:46.000Z">
-<meta property="article:modified_time" content="2020-04-08T13:56:13.363Z">
+<meta property="og:description" content="hibernate介绍开源框架、对JDBC封装、直接操作java对象就可以操作数据库对象中的表、ORM（对象关系映射）映射框架类似hibernate这样jdbc封装框架：mybatis开发中持久化层框架中主流导入jar包hibernate核心jar包  hibernate3.jarhibernate必须jar包  hibernate&#x2F;lib&#x2F;required目录下hibernate的jpa实现">
+<meta property="article:published_time" content="2020-04-17T04:28:59.000Z">
+<meta property="article:modified_time" content="2020-04-17T04:30:44.439Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://0810-cao.github.io/2020/04/08/1134-Vertex-Cover/"/>
+  <link rel="canonical" href="https://0810-cao.github.io/2020/04/17/Hibernate入门/"/>
 
 
 
 
 
-  <title>1134 Vertex Cover | 0810-CAO Blog</title>
+  <title>Hibernate入门 | 0810-CAO Blog</title>
   
 
 
@@ -296,7 +296,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/04/08/1134-Vertex-Cover/">
+    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/04/17/Hibernate%E5%85%A5%E9%97%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCX-99">
@@ -313,7 +313,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">1134 Vertex Cover</h1>
+          <h1 class="post-title" itemprop="name headline">Hibernate入门</h1>
         
 
         <div class="post-meta">
@@ -325,8 +325,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-08T20:35:46+08:00">
-                2020-04-08
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-17T12:28:59+08:00">
+                2020-04-17
               </time>
             
 
@@ -348,8 +348,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/pat%E7%94%B2%E7%BA%A7/" itemprop="url" rel="index">
-                    <span itemprop="name">pat甲级</span>
+                  <a href="/categories/java%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/" itemprop="url" rel="index">
+                    <span itemprop="name">java高级应用</span>
                   </a>
                 </span>
 
@@ -379,7 +379,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  433
+                  1.5k
                 </span>
               
 
@@ -395,7 +395,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  6
                 </span>
               
             </div>
@@ -416,19 +416,40 @@
       
 
       
-        <p>A <strong>vertex cover</strong> of a graph is a set of vertices such that each edge of the graph is incident to at least one vertex of the set. Now given a graph with several vertex sets, you are supposed to tell if each of them is a vertex cover or not.</p>
-<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line gives two positive integers <em>N</em> and <em>M</em> (both no more than 104), being the total numbers of vertices and the edges, respectively. Then <em>M</em> lines follow, each describes an edge by giving the indices (from 0 to <em>N</em>−1) of the two ends of the edge.</p>
-<p>After the graph, a positive integer <em>K</em> (≤ 100) is given, which is the number of queries. Then <em>K</em> lines of queries follow, each in the format:</p>
-<p><em>N**v</em> <em>v</em>[1] <em>v</em>[2]⋯<em>v</em>[<em>N*</em>v*]</p>
-<p>where <em>N**v</em> is the number of vertices in the set, and <em>v</em>[<em>i</em>]’s are the indices of the vertices.</p>
-<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each query, print in a line <code>Yes</code> if the set is a vertex cover, or <code>No</code> if not.</p>
-<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">10 11</span><br><span class="line">8 7</span><br><span class="line">6 8</span><br><span class="line">4 5</span><br><span class="line">8 4</span><br><span class="line">8 1</span><br><span class="line">1 2</span><br><span class="line">1 4</span><br><span class="line">9 8</span><br><span class="line">9 1</span><br><span class="line">1 0</span><br><span class="line">2 4</span><br><span class="line">5</span><br><span class="line">4 0 3 8 4</span><br><span class="line">6 6 1 7 5 4 9</span><br><span class="line">3 1 8 4</span><br><span class="line">2 2 8</span><br><span class="line">7 9 8 7 6 5 4 2</span><br></pre></td></tr></table></figure>
-
-<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">No</span><br><span class="line">Yes</span><br><span class="line">Yes</span><br><span class="line">No</span><br><span class="line">No</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">( )</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> m,n,k,nv,a,b,num;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;n,&amp;m);</span><br><span class="line">	<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;v[n];</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;m;i++) &#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;a,&amp;b);</span><br><span class="line">		v[a].push_back(i);</span><br><span class="line">		v[b].push_back(i);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;k);</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;k;i++) &#123;</span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;nv);</span><br><span class="line">		<span class="keyword">int</span> flag=<span class="number">0</span>;</span><br><span class="line">		<span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;vc(m,<span class="number">0</span>);</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;nv;j++) &#123;</span><br><span class="line">			<span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;num);</span><br><span class="line">			<span class="keyword">for</span> (<span class="keyword">int</span> k=<span class="number">0</span>;k&lt;v[num].<span class="built_in">size</span>();k++) &#123;</span><br><span class="line">				vc[v[num][k]]=<span class="number">1</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;m;j++) &#123;</span><br><span class="line">			<span class="keyword">if</span> (vc[j]==<span class="number">0</span>) &#123;</span><br><span class="line">				<span class="built_in">printf</span>(<span class="string">"No\n"</span>);</span><br><span class="line">				flag=<span class="number">1</span>;</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> (flag==<span class="number">0</span>) &#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"Yes\n"</span>);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>判断给出的图中每条边至少存在一点在测试集合中，解题思路将每个点与边的代号绑定，从测试集合出发判断边是否符合条件</p>
+        <p>hibernate介绍<br>开源框架、对JDBC封装、直接操作java对象就可以操作数据库对象中的表、ORM（对象关系映射）映射框架<br>类似hibernate这样jdbc封装框架：mybatis开发中持久化层框架中主流<br>导入jar包<br>hibernate核心jar包  hibernate3.jar<br>hibernate必须jar包  hibernate/lib/required目录下<br>hibernate的jpa实现  hibernate/lib/jpa目录<br>日志 log4j<br>log4j使用<br>手动<br>配置<br>在程序中使用log4j记录日志<br>步骤一：定义记录器<br>private static final Logger log=Logger.getLogger(Log4jtest.class);<br>步骤二：使用log4j提供每个级别方法，记录日志<br>log.fatal(“致命错误”);<br>log.error(“普通错误”);<br>log.warn(“警告信息”);<br>log.info(“普通信息”);<br>log.debug(“调式信息”);<br>log.trace(“堆栈信息”);<br>常用：error、warn、info、debug<br>1）创建一个类与表的映射文件<br>1、名称<br>类名.hbm.xml——–customer.bhm.xml<br>2、位置<br>与实体在同一个包下<br>3、约束<br>Hibernate3.jar org/hibernate/hibernate-mapping-3.0.dtd文件中定义<br><!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"><br>4、元素</p>
+<!-- name代表实体类名，table代表表名 -->
+<pre><code>&lt;hibernate-mapping&gt;
+&lt;!-- 主键生成策略--&gt;
+&lt;class name=&quot;cn.itcast.domain.Customer&quot; table=&quot;customer&quot;&gt;
+&lt;!-- name=id代表customer类中属性 column=id代表的是table表中的字段 --&gt;
+&lt;id name=&quot;id&quot; column=&quot;id&quot;&gt;
+   &lt;generator class=&quot;native&quot;/&gt;
+&lt;/id&gt;
+ &lt;!-- 其他属性使用properties标签映射--&gt;
+ &lt;!--基于java写法--&gt;
+&lt;property name=&quot;age&quot; column=&quot;age&quot; type=&quot;int&quot;/&gt;
+&lt;!-- 基于hibernate写法--&gt;
+&lt;property name=&quot;name&quot; column=&quot;name&quot; type=&quot;string&quot;/&gt;
+&lt;!-- 基于sql写法--&gt;
+&lt;property name=&quot;city&quot;&gt;
+&lt;column name=&quot;city&quot; sql-type=&quot;varchar(20)&quot;&gt;&lt;/column&gt;
+&lt;/property&gt;
+&lt;/class&gt;
+&lt;/hibernate-mapping&gt;</code></pre><p>2）创建一个hibernate配置文件<br>hibernate.cfg.xml放置在src下<br>位置：src下<br>名称：hibernate.cfg.xml<br>约束：<br><!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd"><br>元素：<br>关于元素配置时<property name=””>name值可以参考hbernate/project/etc/hibernate.properties文件中配置<br>3）编写代码，执行crud代码,hibernate框架<br>得到配置对象<br>Configuration config=new Configuration();<br>得到一个SessionFactory<br>SessionFactory factory=config.buildSessionFactory();<br>得到一个Session<br>Session session=factory.openSession();<br>开启事务<br>Transaction t=session.beginTransaction();<br>执行操作，具体的crud操作<br>提交事务<br>t.commit();<br>释放资源<br>session.close();<br>factory.close();<br>操作1：添加<br>//5.1 创建一个对象<br>        Customer c=new  Customer();<br>        c.setName(“李华”);<br>        c.setAge(20);<br>        c.setCity(“北京”);（修改加上c.setId(“1”);）<br>        //5.2数据存储到表中<br>        session.save(c);(save-&gt;update)<br>操作2：查找<br>封装类中添加相应函数<br>//Customer c=(Customer) session.get(Customer.class,1);<br>Customer c=(Customer) session.load(Customer.class,1);<br>操作3：删除<br>先查询然后将session.save(c)-&gt;delete(c);<br>操作4：查询所有信息<br>1、HQL<br>Query query=session.createQuery(“from Customer”);Customer类名<br>query.list();<br>2、Sql<br>SQLQuery query=session.createSqlQuery(“select id,name,age,city”);sql语句<br>query.list();<br>3、面向对象 QBC<br>Criteria cc=session.createCriteria(Customer.class);<br>List list=cc.list();</p>
+<p>hibernate的核心配置hibernate.hbm.xml文件<br>1、对于hibernate的核心配置文件存在以下两种：<br>1）hibernate.cfg.xml<br>2）hibernate.properties不能配置<mapping>映射，编码实现：<br>Configuration cfg=new Configuration( ).addResource(XXX.hbm.xml )<br>2、hibernate.cfg.xml常用属性<br> <!--输出运行时生成的SQL语句--><br>    <property name="hibernate.show_sql">true</property>显示sql语句<br><property name="format_sql">true</property>格式化sql语句<br><property name=”hibernate.hbm2ddl.auto”>create</property><br>create:启动前先drop再create、create-drop关闭系统前执行drop、update更新表结构、validate验证现有表与配置的hibernate是否一致抛出异常<br><property name=”hibernate.connection.autocommit”>true</property>设置事务自动提交，存在问题使用seesion.flush()即可</p>
+<p>关于hibernate核心API<br>1、Configuration<br>用于加载hibernate配置<br>1）自动加载Configuration config=new Configuration().config();读取hibernate.cfg.xml文件<br>2）手动加载<br>Configuration config=new Configuration().config(File file);加载指定文件<br>Configuration config=new Configuration().config(String path);<br>Configuration config=new Configuration().config(Document xml);<br>也可以<br>Configuration config=new Configuration()；<br>config.addResource(“cn/itcast/domain/Customer.hbm.xml”)加载配置文件<br>config.addClass(Customer.class);默认查找customer.hbm.xml文件<br>config.setProperty(String name,String value)加载配置项<br>2、SessionFactory<br>获取session对象，SessionFactory是一个重量级组件（内存占据大）<br>可以针对获取session操作，进行抽取工具 。<br>private static final Configuration config;<br>    private static final SessionFactory factory;<br>    static {<br>        config=new Configuration().configure();<br>        factory=config.buildSessionFactory();<br>    }<br>    public static Session getSession() {<br>        return factory.openSession();<br>    }<br>SessionFactory维护hibernate中的二级缓存线程安全<br>hibernate内部维护了一个连接池，从内部的连接池中获取connection对象<br>通过SessionFactory可以获取session对象：1）openSession()随机获取2）getCurrentSession()<br>在hibernate中使用c3p0连接池<br>1）在hibernate.cfg.xml文件中配置<br>hibernate.connection.provider_class org.hibernate.connection.C3P0ConnectionProvider<br>代表当前要使用的连接池是c3p0连接池<br>2）配置c3p0连接池属性</p>
+<!--在连接池中可用的数据库连接的最少数目-->
+<p><property name="c3p0.min_size">5</property></p>
+<!--在连接池中可用的数据库连接的最大数目-->
+<p><property name="c3p0.max_size">20</property></p>
+<!--连接池中数据库处于空闲时间超过timeout时间/秒，会从连接池清除-->
+<p><property name="c3p0.timeout">120</property></p>
+<!--每3000秒检查所有连接池中空闲连接-->
+<p><property name="c3p0.idle_test_period">3000</property><br>需要导入c3p0的jar包 hibernate/lib\optional\c3p0<br>3、Session<br>代表hibernate操作回话对象，相当于connection，单线程对象，线程不安全<br>Session session=sessionFactory.openSession();<br>常用API<br>save 完成插入<br>update 完成修改<br>delete 完成删除<br>get/load根据主键字段查询 get直接获取对象、load延迟加载<br>createQuery\createSQLQuery创建查询对象Query接受HQL、SQL<br>createCriteria()面向对象条件查询<br>4、Transaction<br>Transaction接口主要用于管理事务，它是Hibernate的数据库事务接口，且对底层的事务接口进行了封装。<br>Transaction t=sessopn.beginTrasaction();<br>rollback()事务回滚<br>commit()事务提交<br>wasCommitted()返回boolean,判断事务是否提交<br>wasRollback() 返回boolean判断事务是否回滚<br>5、Query<br>1）session.createQuery(String hql);<br>①list()返回List<Object>,代表查询出的所有信息<br>②uniqueResult();返回一个Object，查询结果只返回一个值时，可以使用<br>③分页查询<br>setFirstResult(int firstresult);，设置返回结果从第几条开始<br>setMaxResults(int maxresults);，设置本次返回结果记录条数<br>④查询某一部分属性信息<br>例如：得到customer类的id与name属性<br>在Customer类中添加构造方法，构造方法参数id,name<br>HQL语句 select new Customer(id,name) from Customer<br>⑤条件查询<br>1、可以使用占位符”?”<br>from Customer where name=?;<br>通过query.setParameter(0,值);从0开始记位进行赋值<br>2、可以直接给要赋值字段起名字<br>from Customer where name=:a;<br>query.setParameter(“a”,值);<br>2）session.createSQLQuery(String sql);<br>3）session.createCriteria(Object);<br>Criteria criteria=session.createCriteria(Customer.class);<br>①查询全部<br>List<Customer> cs=criteria.list();<br>for(Customer c:cs) {<br>System.out.println(c);<br>}<br>②只返回一个<br>Customer cs=(Customer)criteria.uniqueResult();<br>③条件查询<br>AND:criteria.add(Restrictions.eq(“id”, 50)).add(Restrictions.eq(“name”,”name2”));<br>OR:criteria.add(Restrictions.or(Restrictions.eq(“id”, 50),Restrictions.eq(“name”,”name3”)));<br>④分页<br>setFirstResult();<br>setMaxResults;同Query</p>
 
       
     </div>
@@ -477,8 +498,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/03/28/1135-Is-It-A-Red-Black-Tree/" rel="next" title="1135 Is It A Red-Black Tree">
-                <i class="fa fa-chevron-left"></i> 1135 Is It A Red-Black Tree
+              <a href="/2020/04/15/python%E7%88%AC%E8%99%AB%E5%88%9D%E8%AF%95/" rel="next" title="python爬虫初试">
+                <i class="fa fa-chevron-left"></i> python爬虫初试
               </a>
             
           </div>
@@ -487,8 +508,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2020/04/09/1131-Subway-Map/" rel="prev" title="1131 Subway Map">
-                1131 Subway Map <i class="fa fa-chevron-right"></i>
+              <a href="/2020/04/17/Hibernate%E5%85%B3%E8%81%94%E5%85%B3%E7%B3%BB%E6%98%A0%E5%B0%84/" rel="prev" title="Hibernate关联关系映射">
+                Hibernate关联关系映射 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -541,17 +562,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -631,22 +643,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Input-Specification"><span class="nav-number">1.</span> <span class="nav-text">Input Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-Specification"><span class="nav-number">2.</span> <span class="nav-text">Output Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input"><span class="nav-number">3.</span> <span class="nav-text">Sample Input:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output"><span class="nav-number">4.</span> <span class="nav-text">Sample Output:</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
