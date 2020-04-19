@@ -18,6 +18,9 @@
 
 <p>一开始以为使用vector然后写一个compare来排序，然后看大神直接在结构体重载运算符，并使用set直接排序，先来将第一个数略过，将输出放在前面，插入放在后面最后注意要记得把已经存在在set中数据更新删除。</p>
 ]]></content>
+      <categories>
+        <category>pat甲级</category>
+      </categories>
   </entry>
   <entry>
     <title>Hibernate关联关系映射</title>
