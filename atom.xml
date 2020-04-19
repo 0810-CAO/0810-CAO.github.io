@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-04-17T05:06:04.855Z</updated>
+  <updated>2020-04-19T03:26:48.357Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1129 Recommendation System</title>
+    <link href="https://0810-cao.github.io/2020/04/19/1129-Recommendation-System/"/>
+    <id>https://0810-cao.github.io/2020/04/19/1129-Recommendation-System/</id>
+    <published>2020-04-19T02:10:32.000Z</published>
+    <updated>2020-04-19T03:26:48.357Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Recommendation system predicts the preference that a user would give to an item. Now you are asked to program a very simple
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hibernate关联关系映射</title>
@@ -487,23 +510,6 @@
     <id>https://0810-cao.github.io/2020/03/08/spring/</id>
     <published>2020-03-08T01:48:44.000Z</published>
     <updated>2020-03-08T02:06:25.461Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="java高级应用" scheme="https://0810-cao.github.io/categories/java%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hibernate的检索与实务处理</title>
-    <link href="https://0810-cao.github.io/2020/03/08/hibernate%E7%9A%84%E6%A3%80%E7%B4%A2%E4%B8%8E%E5%AE%9E%E5%8A%A1%E5%A4%84%E7%90%86/"/>
-    <id>https://0810-cao.github.io/2020/03/08/hibernate%E7%9A%84%E6%A3%80%E7%B4%A2%E4%B8%8E%E5%AE%9E%E5%8A%A1%E5%A4%84%E7%90%86/</id>
-    <published>2020-03-08T01:48:33.000Z</published>
-    <updated>2020-03-08T02:06:19.920Z</updated>
     
     <summary type="html">
     
