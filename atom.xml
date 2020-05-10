@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-04-28T01:33:51.149Z</updated>
+  <updated>2020-05-10T10:12:15.952Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1127 ZigZagging on a Tree</title>
+    <link href="https://0810-cao.github.io/2020/05/10/1127-ZigZagging-on-a-Tree/"/>
+    <id>https://0810-cao.github.io/2020/05/10/1127-ZigZagging-on-a-Tree/</id>
+    <published>2020-05-10T10:05:32.000Z</published>
+    <updated>2020-05-10T10:12:15.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Suppose that all the keys in a binary tree are distinct positive integers. A unique binary tree can be determined by a given pair of
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hibernate关联关系映射</title>
@@ -499,34 +526,6 @@
     
     
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1151 LCA in a Binary Tree</title>
-    <link href="https://0810-cao.github.io/2020/03/12/1151-LCA-in-a-Binary-Tree/"/>
-    <id>https://0810-cao.github.io/2020/03/12/1151-LCA-in-a-Binary-Tree/</id>
-    <published>2020-03-12T09:40:54.000Z</published>
-    <updated>2020-03-14T02:27:40.936Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;The lowest common ancestor (LCA) of two nodes U and V in a tree is the deepest node that has both U and V as descendants.&lt;/p&gt;
-&lt;p&gt;Given
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-      <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
     
     
   </entry>
