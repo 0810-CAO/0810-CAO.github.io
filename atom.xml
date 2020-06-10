@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-06-10T12:27:17.453Z</updated>
+  <updated>2020-06-03T06:34:02.047Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,33 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>C++快刷笔记</title>
-    <link href="https://0810-cao.github.io/2020/06/10/C-%E5%BF%AB%E5%88%B7%E7%AC%94%E8%AE%B0/"/>
-    <id>https://0810-cao.github.io/2020/06/10/C-%E5%BF%AB%E5%88%B7%E7%AC%94%E8%AE%B0/</id>
-    <published>2020-06-10T12:23:28.000Z</published>
-    <updated>2020-06-10T12:27:17.453Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;1、namespace:命名空间，使得可同时调用同名函数。namespace a{void b()}调用只需要a::b()&lt;br&gt;2、std::endl
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="复习巩固" scheme="https://0810-cao.github.io/tags/%E5%A4%8D%E4%B9%A0%E5%B7%A9%E5%9B%BA/"/>
-    
-      <category term="1" scheme="https://0810-cao.github.io/tags/1/"/>
-    
-  </entry>
   
   <entry>
     <title>web实战小项目</title>
@@ -530,6 +503,31 @@
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
     
       <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1146 Topological Order</title>
+    <link href="https://0810-cao.github.io/2020/03/12/1146-Topological-Order/"/>
+    <id>https://0810-cao.github.io/2020/03/12/1146-Topological-Order/</id>
+    <published>2020-03-12T12:37:47.000Z</published>
+    <updated>2020-03-14T03:42:23.716Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;This is a problem given in the Graduate Entrance Exam in 2018: Which of the following is NOT a topological order obtained from the given
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
     
     
   </entry>
