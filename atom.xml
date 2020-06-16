@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-06-15T11:29:55.215Z</updated>
+  <updated>2020-06-16T02:14:03.351Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C++快刷(0)</title>
+    <link href="https://0810-cao.github.io/2020/06/16/C-%E5%BF%AB%E5%88%B7-0/"/>
+    <id>https://0810-cao.github.io/2020/06/16/C-%E5%BF%AB%E5%88%B7-0/</id>
+    <published>2020-06-16T02:13:06.000Z</published>
+    <updated>2020-06-16T02:14:03.351Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="综合" scheme="https://0810-cao.github.io/tags/%E7%BB%BC%E5%90%88/"/>
+    
+  </entry>
   
   <entry>
     <title>云计算课设</title>
@@ -501,31 +526,6 @@
     
     
       <category term="计算机" scheme="https://0810-cao.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1141 PAT Ranking of Institutions</title>
-    <link href="https://0810-cao.github.io/2020/03/24/1141-PAT-Ranking-of-Institutions/"/>
-    <id>https://0810-cao.github.io/2020/03/24/1141-PAT-Ranking-of-Institutions/</id>
-    <published>2020-03-24T14:00:07.000Z</published>
-    <updated>2020-03-24T14:22:43.929Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;After each PAT, the PAT Center will announce the ranking of institutions based on their students’ performances. Now you are asked to
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
     
     
   </entry>
