@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-06-19T09:09:04.095Z</updated>
+  <updated>2020-06-19T09:10:49.838Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -17,11 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>C++快刷(8)</title>
+    <link href="https://0810-cao.github.io/2020/06/19/C-%E5%BF%AB%E5%88%B7-8/"/>
+    <id>https://0810-cao.github.io/2020/06/19/C-%E5%BF%AB%E5%88%B7-8/</id>
+    <published>2020-06-19T09:10:49.000Z</published>
+    <updated>2020-06-19T09:10:49.838Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>C++快刷(7)</title>
     <link href="https://0810-cao.github.io/2020/06/19/C-%E5%BF%AB%E5%88%B7-7/"/>
     <id>https://0810-cao.github.io/2020/06/19/C-%E5%BF%AB%E5%88%B7-7/</id>
     <published>2020-06-19T08:50:16.000Z</published>
-    <updated>2020-06-19T09:09:04.095Z</updated>
+    <updated>2020-06-19T13:37:33.858Z</updated>
     
     <summary type="html">
     
@@ -527,33 +542,6 @@
     
     
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1135 Is It A Red-Black Tree</title>
-    <link href="https://0810-cao.github.io/2020/03/28/1135-Is-It-A-Red-Black-Tree/"/>
-    <id>https://0810-cao.github.io/2020/03/28/1135-Is-It-A-Red-Black-Tree/</id>
-    <published>2020-03-28T13:52:46.000Z</published>
-    <updated>2020-04-06T13:07:48.700Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;There is a kind of balanced binary search tree named &lt;strong&gt;red-black tree&lt;/strong&gt; in the data structure. It has the following 5
-        
-      
-    
-    </summary>
-    
-    
-      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-      <category term="树" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E6%A0%91/"/>
     
     
   </entry>
