@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-06-28T02:40:24.604Z</updated>
+  <updated>2020-06-29T00:32:09.023Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1118 Birds in Forest</title>
+    <link href="https://0810-cao.github.io/2020/06/29/1118-Birds-in-Forest/"/>
+    <id>https://0810-cao.github.io/2020/06/29/1118-Birds-in-Forest/</id>
+    <published>2020-06-29T00:16:17.000Z</published>
+    <updated>2020-06-29T00:32:09.023Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Some scientists took pictures of thousands of birds in a forest. Assume that all the birds appear in the same picture belong to the same
+        
+      
+    
+    </summary>
+    
+    
+      <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
+    
+      <category term="并查集" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1119 Pre- and Post-order Traversals</title>
@@ -526,31 +553,6 @@
     
     
       <category term="pat甲级" scheme="https://0810-cao.github.io/categories/pat%E7%94%B2%E7%BA%A7/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>持久化对象与一级缓存</title>
-    <link href="https://0810-cao.github.io/2020/04/17/%E6%8C%81%E4%B9%85%E5%8C%96%E5%AF%B9%E8%B1%A1%E4%B8%8E%E4%B8%80%E7%BA%A7%E7%BC%93%E5%AD%98/"/>
-    <id>https://0810-cao.github.io/2020/04/17/%E6%8C%81%E4%B9%85%E5%8C%96%E5%AF%B9%E8%B1%A1%E4%B8%8E%E4%B8%80%E7%BA%A7%E7%BC%93%E5%AD%98/</id>
-    <published>2020-04-17T04:29:17.000Z</published>
-    <updated>2020-04-25T09:17:36.150Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;持久化对象的三种状态&lt;br&gt;1、瞬时态（transient）:此对象是由new命令创建、开辟内存空间的对象，不存在持久化标识OID，尚未与Hibernate
-        
-      
-    
-    </summary>
-    
-    
-      <category term="java高级应用" scheme="https://0810-cao.github.io/categories/java%E9%AB%98%E7%BA%A7%E5%BA%94%E7%94%A8/"/>
     
     
   </entry>

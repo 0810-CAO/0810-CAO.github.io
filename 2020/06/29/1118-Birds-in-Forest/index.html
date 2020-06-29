@@ -80,14 +80,14 @@
 
 
 
-<meta name="description" content="Notice that the number 123456789 is a 9-digit number consisting exactly the numbers from 1 to 9, with no duplication. Double it we will obtain 246913578, which happens to be another 9-digit number con">
+<meta name="description" content="Some scientists took pictures of thousands of birds in a forest. Assume that all the birds appear in the same picture belong to the same tree. You are supposed to help the scientists to count the maxi">
 <meta property="og:type" content="article">
-<meta property="og:title" content="1023 Have Fun with Numbers">
-<meta property="og:url" content="https://0810-cao.github.io/2020/02/09/1023-Have-Fun-with-Numbers/index.html">
+<meta property="og:title" content="1118 Birds in Forest">
+<meta property="og:url" content="https://0810-cao.github.io/2020/06/29/1118-Birds-in-Forest/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="Notice that the number 123456789 is a 9-digit number consisting exactly the numbers from 1 to 9, with no duplication. Double it we will obtain 246913578, which happens to be another 9-digit number con">
-<meta property="article:published_time" content="2020-02-09T05:20:28.000Z">
-<meta property="article:modified_time" content="2020-02-09T06:12:24.089Z">
+<meta property="og:description" content="Some scientists took pictures of thousands of birds in a forest. Assume that all the birds appear in the same picture belong to the same tree. You are supposed to help the scientists to count the maxi">
+<meta property="article:published_time" content="2020-06-29T00:16:17.000Z">
+<meta property="article:modified_time" content="2020-06-29T00:32:09.023Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://0810-cao.github.io/2020/02/09/1023-Have-Fun-with-Numbers/"/>
+  <link rel="canonical" href="https://0810-cao.github.io/2020/06/29/1118-Birds-in-Forest/"/>
 
 
 
 
 
-  <title>1023 Have Fun with Numbers | 0810-CAO Blog</title>
+  <title>1118 Birds in Forest | 0810-CAO Blog</title>
   
 
 
@@ -286,7 +286,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/02/09/1023-Have-Fun-with-Numbers/">
+    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/06/29/1118-Birds-in-Forest/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCX-99">
@@ -303,7 +303,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">1023 Have Fun with Numbers</h1>
+          <h1 class="post-title" itemprop="name headline">1118 Birds in Forest</h1>
         
 
         <div class="post-meta">
@@ -315,8 +315,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-09T13:20:28+08:00">
-                2020-02-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-06-29T08:16:17+08:00">
+                2020-06-29
               </time>
             
 
@@ -340,6 +340,17 @@
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/pat%E7%94%B2%E7%BA%A7/" itemprop="url" rel="index">
                     <span itemprop="name">pat甲级</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/pat%E7%94%B2%E7%BA%A7/%E5%B9%B6%E6%9F%A5%E9%9B%86/" itemprop="url" rel="index">
+                    <span itemprop="name">并查集</span>
                   </a>
                 </span>
 
@@ -369,7 +380,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  416
+                  551
                 </span>
               
 
@@ -385,7 +396,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  2
+                  3
                 </span>
               
             </div>
@@ -406,16 +417,19 @@
       
 
       
-        <p>Notice that the number 123456789 is a 9-digit number consisting exactly the numbers from 1 to 9, with no duplication. Double it we will obtain 246913578, which happens to be another 9-digit number consisting exactly the numbers from 1 to 9, only in a different permutation. Check to see the result if we double it again!</p>
-<p>Now you are suppose to check if there are more numbers with this property. That is, double a given number with <em>k</em> digits, you are to tell if the resulting number consists of only a permutation of the digits in the original number.</p>
-<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input contains one test case. Each case contains one positive integer with no more than 20 digits.</p>
-<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each test case, first print in a line “Yes” if doubling the input number gives a number that consists of only a permutation of the digits in the original number, or “No” if not. Then in the next line, print the doubled number.</p>
-<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1234567899</span><br></pre></td></tr></table></figure>
+        <p>Some scientists took pictures of thousands of birds in a forest. Assume that all the birds appear in the same picture belong to the same tree. You are supposed to help the scientists to count the maximum number of trees in the forest, and for any pair of birds, tell if they are on the same tree.</p>
+<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each case, the first line contains a positive number <em>N</em> (≤104) which is the number of pictures. Then <em>N</em> lines follow, each describes a picture in the format:</p>
+<p><em>K</em> <em>B</em>1 <em>B</em>2 … <em>B**K</em></p>
+<p>where <em>K</em> is the number of birds in this picture, and <em>B**i</em>‘s are the indices of birds. It is guaranteed that the birds in all the pictures are numbered continuously from 1 to some number that is no more than 104.</p>
+<p>After the pictures there is a positive number <em>Q</em> (≤104) which is the number of queries. Then <em>Q</em> lines follow, each contains the indices of two birds.</p>
+<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each test case, first output in a line the maximum possible number of trees and the number of birds. Then for each query, print in a line <code>Yes</code> if the two birds belong to the same tree, or <code>No</code> if not.</p>
+<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">3 10 1 2</span><br><span class="line">2 3 4</span><br><span class="line">4 1 5 7 8</span><br><span class="line">3 9 6 4</span><br><span class="line">2</span><br><span class="line">10 5</span><br><span class="line">3 7</span><br></pre></td></tr></table></figure>
 
-<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Yes</span><br><span class="line">2469135798</span><br></pre></td></tr></table></figure>
+<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2 10</span><br><span class="line">Yes</span><br><span class="line">No</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">bign</span> &#123;</span></span><br><span class="line">	<span class="keyword">int</span> d[<span class="number">21</span>];</span><br><span class="line">	<span class="keyword">int</span> len;</span><br><span class="line">	bign() &#123;</span><br><span class="line">		<span class="built_in">memset</span>(d, <span class="number">0</span>, <span class="keyword">sizeof</span>(d));</span><br><span class="line">		len = <span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function">bign <span class="title">change</span><span class="params">(<span class="keyword">char</span> str[])</span> </span>&#123;<span class="comment">//转化bign型</span></span><br><span class="line">	bign a;</span><br><span class="line">	a.len = <span class="built_in">strlen</span>(str);</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; a.len; i++) &#123;</span><br><span class="line">		a.d[i] = str[a.len - i - <span class="number">1</span>] - <span class="string">'0'</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> a;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">bign <span class="title">multi</span><span class="params">(bign a, <span class="keyword">int</span> b)</span> </span>&#123;<span class="comment">//乘法</span></span><br><span class="line">	bign c;</span><br><span class="line">	<span class="keyword">int</span> carry = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; a.len; i++) &#123;</span><br><span class="line">		<span class="keyword">int</span> temp = a.d[i] * b + carry;</span><br><span class="line">		c.d[c.len++] = temp % <span class="number">10</span>;</span><br><span class="line">		carry = temp / <span class="number">10</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">while</span>(carry != <span class="number">0</span>) &#123;</span><br><span class="line">		c.d[c.len++] = carry % <span class="number">10</span>;</span><br><span class="line">		carry /= <span class="number">10</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> c;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">Judge</span><span class="params">(bign a, bign b)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(a.len != b.len) <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">	<span class="keyword">int</span> count[<span class="number">10</span>] = &#123;<span class="number">0</span>&#125;;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; a.len; i++) &#123;</span><br><span class="line">		count[a.d[i]]++;</span><br><span class="line">		count[b.d[i]]--;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">		<span class="keyword">if</span>(count[i] != <span class="number">0</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">print</span><span class="params">(bign a)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = a.len - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">"%d"</span>, a.d[i]);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="keyword">char</span> str[<span class="number">21</span>];</span><br><span class="line">	<span class="built_in">scanf</span>(<span class="string">"%s"</span>,str);</span><br><span class="line">	bign a = change(str);</span><br><span class="line">	bign mul = multi(a, <span class="number">2</span>);</span><br><span class="line">	<span class="keyword">if</span>(Judge(a, mul) == <span class="literal">true</span>) <span class="built_in">printf</span>(<span class="string">"Yes\n"</span>);</span><br><span class="line">	<span class="keyword">else</span> <span class="built_in">printf</span>(<span class="string">"No\n"</span>);</span><br><span class="line">	<span class="built_in">print</span>(mul);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> <span class="built_in">max</span>=<span class="number">10001</span>;</span><br><span class="line"><span class="keyword">int</span> fa[<span class="built_in">max</span>]=&#123;<span class="number">0</span>&#125;,sum[<span class="built_in">max</span>]=&#123;<span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">int</span> m,n,k;</span><br><span class="line"><span class="keyword">bool</span> exist[<span class="built_in">max</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">findfather</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(x!=fa[x])&#123;</span><br><span class="line">        x=fa[x];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">union</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> fA=findfather(a);</span><br><span class="line">    <span class="keyword">int</span> fB=findfather(b);</span><br><span class="line">    <span class="keyword">if</span>(fA!=fB)&#123;</span><br><span class="line">        fa[fA]=fB;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;<span class="built_in">max</span>;i++)&#123;</span><br><span class="line">        fa[i]=i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> id,temp;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++)&#123;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;k&gt;&gt;id;</span><br><span class="line">        exist[id]=<span class="literal">true</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;i&lt;k<span class="number">-1</span>;j++)&#123;</span><br><span class="line">            <span class="built_in">cin</span>&gt;&gt;temp;</span><br><span class="line">            <span class="keyword">union</span>(id,temp);</span><br><span class="line">            exist[temp]=<span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=<span class="built_in">max</span>;i++)&#123;</span><br><span class="line">        <span class="keyword">if</span>(exist[i]=<span class="literal">true</span>)&#123;</span><br><span class="line">            <span class="keyword">int</span> root=findfather(i);</span><br><span class="line">            sum[root]++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> numtree=<span class="number">0</span>,numbird=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;<span class="built_in">max</span>;i++)&#123;</span><br><span class="line">        <span class="keyword">if</span>(exist[i]==<span class="literal">true</span>&amp;&amp;sum[i]!=<span class="number">0</span>)&#123;</span><br><span class="line">            numtree++;</span><br><span class="line">            numbird+=sum[i];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;numtree&lt;&lt;<span class="string">" "</span>&lt;&lt;numbird;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;m;</span><br><span class="line">    <span class="keyword">int</span> a,b;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;m;i++)&#123;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;a&gt;&gt;b;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%s\n"</span>,(findfather(a)==findfather(b))?<span class="string">"Yes"</span>:<span class="string">"No"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<p>找到每幅画的根节点，并不断的union，最终会形成一个大的集合。然后利用给出的exist(true)得到集合的数目以及鸟的个数，最后是直接根据给出的节点来比较其根节点是否一致即可。此类问题可使用并查集模板解决。</p>
 
       
     </div>
@@ -464,8 +478,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/02/05/1022-Digital-Library/" rel="next" title="1022 Digital Library">
-                <i class="fa fa-chevron-left"></i> 1022 Digital Library
+              <a href="/2020/06/28/1119-Pre-and-Post-order-Traversals/" rel="next" title="1119 Pre- and Post-order Traversals">
+                <i class="fa fa-chevron-left"></i> 1119 Pre- and Post-order Traversals
               </a>
             
           </div>
@@ -473,10 +487,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/02/09/1026-Table-Tennis/" rel="prev" title="1026 Table Tennis">
-                1026 Table Tennis <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
