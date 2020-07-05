@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="0810-CAO Blog">
 <meta property="og:description" content="1234567字体：font-family 字体簇可选值（serif衬线字体、sans-serif非衬线字体、monospace等宽字体）指定该字体类别，浏览器会自动选择。可以指定多种字体使用,隔开即可。  @font-face &amp;#123;font-family: &quot;myfont&quot;;src: url(&quot;&quot;);&amp;#125;提供服务器上字体给用户来使用（字体名">
 <meta property="article:published_time" content="2020-07-04T14:02:30.000Z">
-<meta property="article:modified_time" content="2020-07-05T09:29:43.517Z">
+<meta property="article:modified_time" content="2020-07-05T14:20:45.211Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -380,7 +380,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  884
+                  1.4k
                 </span>
               
 
@@ -396,7 +396,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3
+                  6
                 </span>
               
             </div>
@@ -426,7 +426,11 @@
 
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">背景图片：</span><br><span class="line">background-image: url();,可同时设置背景图片和颜色，此时背景颜色称为背景图片的背景色，若背景图片大于背景色会隐藏部分。background-repeat设置背景重复方式：repeat-沿着x、y轴重复，repeat-x、repeat-y，no-repeat.</span><br><span class="line">background-position:设置背景图片位置，top、left、right、bottom、center。至少需要两个值定位，也可以使用偏移量来确定位置，可使用负值。</span><br><span class="line">background-clip:设置背景范围，border-box(默认值)背景可以出现在边框下方，padding-box-此时不会出现在边框，content-box-只出现在内容区。</span><br><span class="line">background-origin:背景图片的偏移量计算的原点，padding-box-从内边距开始计算，border-box-从边框处开始，content-box-从内容区开始。</span><br><span class="line">background-size:背景图片尺寸，可以认为是给图片缩放实现完整显示。需要给定宽高。若只给定一个值另一个值会自适应。可使用auto来确定。cover-比例不变，将元素铺满。contain-比例不变，图片完整显示。</span><br><span class="line">background-attachment:背景图片是否跟随元素移动，scroll-移动，fixed-固定（很少使用）</span><br><span class="line">以上的属性可在一个background:中设置即可，若同时设置需注意size必须在position后面使用&#x2F;隔开，origin需在clip之前。</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">渐变色：</span><br><span class="line">1）线性渐变（沿着一条直线）background-image: linear-gradient(red,yellow);从红色向黄色渐变，自上而下。</span><br><span class="line">linear-gradient(to left,red,yellow);可指定方向。也可使用45deg使用度数确定方向、0.5turn来使用圈来确定。可以设定每种颜色开始渐变的位置red 50px。background-image: repeating-linear-gradient,重复渐变的范围，此时可设置开始位置。</span><br><span class="line">2）径向渐变（四周放射渐变）background-image: radial-gradient。可指定大小（需设置宽高），其他与线性类似。当添加at top left;来确定圆心位置。</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">表格：</span><br><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;table&gt; tr-行，td-列。&lt;td colspan&#x3D;&quot;2&quot;&gt;&lt;&#x2F;td&gt; 、&lt;td rowspan&#x3D;&quot;2&quot;&gt;&lt;&#x2F;td&gt;,横向、纵向合并两个单元格。</span><br><span class="line">长表格，&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;&lt;&#x2F;tbody&gt;&lt;tfoot&gt;&lt;&#x2F;tfoot&gt;&lt;&#x2F;table&gt;,将单元格分为三个部分，无论放置的位置如何都固定显示未头部、中部、尾部。</span><br><span class="line">设置边框之间距离，border-spacing:0px;合并边框，border-collapse:collapse;,该属性可用于为表格分边界线不至于显示重叠的边界线。</span><br><span class="line">为避免大量的行而分辨不清使用tr:nth-child(2n)&#123;background-color:&#125;。注意tr不是table的子元素，两者之间存在一个tbody。</span><br><span class="line">td中的元素默认是垂直居中的，使用vertical-align调整。</span><br><span class="line">不使用表格布局。</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">表单：</span><br><span class="line">用于提交数据。form，&lt;input type&#x3D;&quot;text&quot; name&#x3D;&quot;username&quot;&gt;</span><br><span class="line">单选按钮，&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;choose&quot; value&#x3D;&quot;a&quot; check&gt;&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;choose&quot; value&#x3D;&quot;b&quot; check&gt;value指定发送给服务器的值、checked初始选择。</span><br><span class="line">多选，&lt;input type&#x3D;&quot;checkbox&quot; name&#x3D;&quot;choose&quot; value&#x3D;&quot;a&quot; check&gt;,与单选类似</span><br><span class="line">下拉列表，&lt;select name&#x3D;&quot;a&quot;&gt;&lt;option selected value&#x3D;&quot;1&quot;&gt;选项一&lt;&#x2F;option&gt;selected默认选择</span><br></pre></td></tr></table></figure>
 
 
       
