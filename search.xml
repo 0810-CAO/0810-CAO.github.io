@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JS(4)</title>
+    <url>/2020/07/10/JS-4/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>javascript</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>JS(3)</title>
+    <url>/2020/07/10/JS-3/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>javascript</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>JS(2)</title>
+    <url>/2020/07/10/JS-2/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>javascript</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>JS(1)</title>
+    <url>/2020/07/10/JS-1/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>javascript</category>
+      </categories>
+  </entry>
+  <entry>
     <title>HTML5(4)</title>
     <url>/2020/07/09/HTML5-4/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">响应式布局：</span><br><span class="line">即媒体查询，在不同设备或不同状态分别设置样式。</span><br><span class="line">语法@media all,print&#123;&#125;，查询规则&#123;&#125;,媒体类型，all所有设备、print打印设备、screen带屏幕的设备、speech屏幕阅读器。可添加一个only来兼容老版本的浏览器。</span><br><span class="line">媒体特性：</span><br><span class="line">width视口宽度、height视口高度</span><br><span class="line">@medio (width:500px)&#123;body&#123;background:#fff&#125;&#125;当视口宽度为500px生效。一般只是考虑宽度,一般使用一个范围来改变@medio (min&#x2F;max-width:500px)&#123;body&#123;background:#fff&#125;&#125;大于&#x2F;小于指定宽度生效。</span><br><span class="line">一般比较常用的端点，&lt;768最小屏幕max-width&#x3D;768px、&gt;768小屏幕min-width&#x3D;768px、&gt;992中屏幕min-width&#x3D;992px、&gt;1200大屏幕max-width&#x3D;1200px</span><br><span class="line">@medio (min-width:500px) and (max-width:800px)&#123;body&#123;background:#fff&#125;&#125;设置范围生效</span><br></pre></td></tr></table></figure>
