@@ -80,14 +80,14 @@
 
 
 
-<meta name="description" content="Keep moving">
+<meta name="description" content="1234567891011121314151617alert(&quot;error&quot;);控制浏览器弹出一个警告框document.write(&quot;hello&quot;)页面中输出一个内容console.log(&quot;word&quot;)控制台输出内容script一旦引入外部文件就不能编写代码，若需要则需要重新创建一个script标签来编写。字面量：可以直接输出使用，使">
 <meta property="og:type" content="article">
 <meta property="og:title" content="JS(1)">
 <meta property="og:url" content="https://0810-cao.github.io/2020/07/10/JS-1/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="Keep moving">
+<meta property="og:description" content="1234567891011121314151617alert(&quot;error&quot;);控制浏览器弹出一个警告框document.write(&quot;hello&quot;)页面中输出一个内容console.log(&quot;word&quot;)控制台输出内容script一旦引入外部文件就不能编写代码，若需要则需要重新创建一个script标签来编写。字面量：可以直接输出使用，使">
 <meta property="article:published_time" content="2020-07-09T23:41:51.000Z">
-<meta property="article:modified_time" content="2020-07-09T23:42:23.781Z">
+<meta property="article:modified_time" content="2020-07-10T03:21:54.554Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -369,7 +369,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  554
                 </span>
               
 
@@ -385,7 +385,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -406,7 +406,13 @@
       
 
       
-        
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">alert(&quot;error&quot;);控制浏览器弹出一个警告框</span><br><span class="line">document.write(&quot;hello&quot;)页面中输出一个内容</span><br><span class="line">console.log(&quot;word&quot;)控制台输出内容</span><br><span class="line">script一旦引入外部文件就不能编写代码，若需要则需要重新创建一个script标签来编写。</span><br><span class="line">字面量：可以直接输出使用，使用变量来保存字面量。var a&#x3D;123;</span><br><span class="line">数据类型：string(字符串)、number(数值)、boolean(布尔值)、null(空值)、undefined(未定义)、object(对象)。</span><br><span class="line">字符串，单双引号嵌套使用需要分开，可以使用\转义字符。</span><br><span class="line">console.log(typeof a);检查一个变量类型</span><br><span class="line">js中表示数字最大值，Number.MAX_VALUE。若表示的数字超过最大值则返回一个Infinity&#x2F;-Infinity字面量</span><br><span class="line">NAN(不是一个数字)类型是一个number。不要使用js对精确度要求较高的运算。</span><br><span class="line">转换为String:</span><br><span class="line">调用方法，var a&#x3D;123;a&#x3D;a.toString();不影响原变量。null、undefined无该方法。</span><br><span class="line">调用函数，a&#x3D;String(a);null、undefined类型会直接变为字面量。</span><br><span class="line">转换为Number:</span><br><span class="line">调用函数,var b&#x3D;&quot;234&quot;;var c&#x3D;Number(b)。&quot;abc&quot;等字符串转换成NaN，若字符串是空串转换为0</span><br><span class="line">boolean值true-1、false-0。undefined-NaN。</span><br><span class="line">parseInt()将一个字符串转换为Number，将串中有效的整数提取出来、parseFloat()提取有效的小数。非字符串使用会先转换成字符串再进行。</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">进制：</span><br><span class="line">16进制，a&#x3D;0x10。8进制，01。</span><br><span class="line">var a&#x3D;&quot;040&quot; a&#x3D;parseInt(a,10)指定转换的进制。</span><br><span class="line">转换为boolean()，Boolean(a)</span><br><span class="line">数字转为boolean，除0、NaN之外都是true</span><br><span class="line">字符串转为boolean，除空串之外都是true</span><br><span class="line">null、undefined都转换为false</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">运算符：</span><br><span class="line">typeof运算符对每一个值的类型以string返回。</span><br><span class="line">任何值与NaN运算都是NaN,可以使用+对数字运算，对字符串连接。</span><br><span class="line">任何值与字符串做加法运算都会转换成字符串，可用于将任意类型转换为string。a+&quot;&quot;</span><br><span class="line">-、*对两个值做减、乘法运算，都转换为Number后运算。可借用此类特性将其他数据类型转换为Number。a-0</span><br><span class="line">result&#x3D;9%3;result&#x3D;0</span><br></pre></td></tr></table></figure>
+
+
       
     </div>
     
