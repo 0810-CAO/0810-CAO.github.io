@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="0810-CAO Blog">
 <meta property="og:description" content="1234567891011121314151617alert(&quot;error&quot;);控制浏览器弹出一个警告框document.write(&quot;hello&quot;)页面中输出一个内容console.log(&quot;word&quot;)控制台输出内容script一旦引入外部文件就不能编写代码，若需要则需要重新创建一个script标签来编写。字面量：可以直接输出使用，使">
 <meta property="article:published_time" content="2020-07-09T23:41:51.000Z">
-<meta property="article:modified_time" content="2020-07-11T12:06:29.559Z">
+<meta property="article:modified_time" content="2020-07-11T14:36:17.522Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -345,6 +345,17 @@
 
                 
                 
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/javascript/basic/" itemprop="url" rel="index">
+                    <span itemprop="name">basic</span>
+                  </a>
+                </span>
+
+                
+                
               
             </span>
           
@@ -369,7 +380,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  2k
+                  2.5k
                 </span>
               
 
@@ -385,7 +396,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  8
+                  9
                 </span>
               
             </div>
@@ -422,7 +433,11 @@
 
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">原型对象</span><br><span class="line">相当于一个公共的区域，所有同一个类的实例都可以访问到这个原型对象。可以将对象共有的内容，同一设置到原型对象中，当访问对象中的一个属性或方法时，会现在自身寻找有则直接使用，否则去原型对象中寻找使用</span><br><span class="line">function Myclass()&#123;&#125;</span><br><span class="line">Myclass.prototype.a&#x3D;123;</span><br><span class="line">Myclass.prototype.sayname&#x3D;function()&#123;alert(this.name);&#125;</span><br><span class="line">var c&#x3D;new Myclass();</span><br><span class="line">c.sayname();</span><br><span class="line">console.log(c.a);</span><br><span class="line">c.hasOwnProperty(&quot;sayname&quot;)检查对象自身是否含有某个属性。</span><br><span class="line">c._proto_._proto_.hasOwnProperty(&quot;hasOwnProperty&quot;)查看原型中函数是否存在</span><br><span class="line">console.log(per);直接打印一个对象，实际上是输出对象的toString()方法的返回值，可以对该对象的toString()方法修改，Myclass.prototype.toString&#x3D;function()&#123;return &quot;Myclass[name&#x3D;]&quot;+this.name;&#125;修改原型的toSting即可对所有该类的都修改</span><br><span class="line">将不再使用的对象设置为null。</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">数组：</span><br><span class="line">var array&#x3D;new Array();</span><br><span class="line">push()、pop()、unshift()向数组开头添加一个或多个元素、shift删除第一个元素并可以返回</span><br><span class="line">可以使用for循环来遍历数组，也可以使用forEach</span><br><span class="line">arr.forEach(function(value,index,obj))value：当前遍历的元素、index：当前元素的索引、obj：当前遍历的数组。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">数组：</span><br><span class="line">var array&#x3D;new Array();</span><br><span class="line">push()、pop()、unshift()向数组开头添加一个或多个元素、shift删除第一个元素并可以返回</span><br><span class="line">可以使用for循环来遍历数组，也可以使用forEach</span><br><span class="line">arr.forEach(function(value,index,obj))value：当前遍历的元素、index：当前元素的索引、obj：当前遍历的数组。</span><br><span class="line">var a&#x3D;arr.slice(start,end)从某个数组中提取出指定元素，包含开始不包含结束，可省略end取start及其之后的元素。end也可使用负值。var b&#x3D;arr.splice(开始的索引,删除的数量,&quot;第三个及以后可以传递新的元素自动插入开始索引前面&quot;)删除原数组元素并其添加新元素。会对原数组产生影响</span><br><span class="line">a.concat(b,&quot;a&quot;,&quot;b&quot;);连接多个数组。不会对原数组影响</span><br><span class="line">result&#x3D;arr.join(&quot;-&quot;);将数组转换为字符串，不会对原数组影响,可指定连接符。默认为,连接。</span><br><span class="line">arr.reverse();反转，对原数组影响</span><br><span class="line">arr.sort();对原数组元素排序，按照unicode编码排序，对原数组产生影响。可指定排序规则</span><br><span class="line">arr&#x3D;[1,2,3];arr.sort(function(a,b)&#123;</span><br><span class="line">return a-b;降序</span><br><span class="line">&#125;);根据返回值来改变顺序,return 1改变，-1、0不改变</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">call、apply都是函数对象的方法，需要函数对象来调用。可以将一个对象指定为第一个参数，此时这个对象将会成为函数执行时的this。call可以将实参在对象之后依次传递，apply则需要将实参封装到一个数组中统一传递。</span><br><span class="line">调用函数时，浏览器每次都会传递两个隐含的参数，1函数的上下文对象this2封装实参的对象arguments（类数组对象，通过索引来操作数据，可获取实参长度）function fun()&#123;console.log(arguments.length&#x2F;arguments[1]);&#125;fun(&quot;a&quot;,1);不定义形参可以使用</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">date：</span><br><span class="line">var d&#x3D;new Date(&quot;12&#x2F;13&#x2F;2020 12:12:12&quot;);</span><br><span class="line">getDate();获取当前是几日</span><br><span class="line">getDay();周几，返回0-6的值</span><br><span class="line">getMonth&#x2F;Hours&#x2F;Minutes&#x2F;Seconds();月份，0-11</span><br><span class="line">getFullYear();年份</span><br><span class="line">getTime();时间戳，毫秒</span><br><span class="line">time&#x3D;Date.now();当前执行时的时间戳</span><br></pre></td></tr></table></figure>
 
 
       
@@ -567,7 +582,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">19</span>
+                  <span class="site-state-item-count">20</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>

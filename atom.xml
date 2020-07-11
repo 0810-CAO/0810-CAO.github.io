@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-07-09T23:42:59.597Z</updated>
+  <updated>2020-07-11T14:34:27.116Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://0810-cao.github.io/2020/07/10/JS-4/"/>
     <id>https://0810-cao.github.io/2020/07/10/JS-4/</id>
     <published>2020-07-09T23:42:42.000Z</published>
-    <updated>2020-07-09T23:42:59.597Z</updated>
+    <updated>2020-07-11T14:34:27.116Z</updated>
     
     <summary type="html">
     
@@ -29,6 +29,8 @@
     
     
       <category term="javascript" scheme="https://0810-cao.github.io/categories/javascript/"/>
+    
+      <category term="basic" scheme="https://0810-cao.github.io/categories/javascript/basic/"/>
     
     
   </entry>
@@ -38,7 +40,7 @@
     <link href="https://0810-cao.github.io/2020/07/10/JS-3/"/>
     <id>https://0810-cao.github.io/2020/07/10/JS-3/</id>
     <published>2020-07-09T23:42:36.000Z</published>
-    <updated>2020-07-09T23:42:56.458Z</updated>
+    <updated>2020-07-11T14:34:04.663Z</updated>
     
     <summary type="html">
     
@@ -46,6 +48,8 @@
     
     
       <category term="javascript" scheme="https://0810-cao.github.io/categories/javascript/"/>
+    
+      <category term="basic" scheme="https://0810-cao.github.io/categories/javascript/basic/"/>
     
     
   </entry>
@@ -55,7 +59,7 @@
     <link href="https://0810-cao.github.io/2020/07/10/JS-2/"/>
     <id>https://0810-cao.github.io/2020/07/10/JS-2/</id>
     <published>2020-07-09T23:42:30.000Z</published>
-    <updated>2020-07-09T23:42:53.902Z</updated>
+    <updated>2020-07-11T14:34:01.940Z</updated>
     
     <summary type="html">
     
@@ -63,6 +67,8 @@
     
     
       <category term="javascript" scheme="https://0810-cao.github.io/categories/javascript/"/>
+    
+      <category term="basic" scheme="https://0810-cao.github.io/categories/javascript/basic/"/>
     
     
   </entry>
@@ -72,7 +78,7 @@
     <link href="https://0810-cao.github.io/2020/07/10/JS-1/"/>
     <id>https://0810-cao.github.io/2020/07/10/JS-1/</id>
     <published>2020-07-09T23:41:51.000Z</published>
-    <updated>2020-07-11T12:06:29.559Z</updated>
+    <updated>2020-07-11T14:36:17.522Z</updated>
     
     <summary type="html">
     
@@ -88,6 +94,8 @@
     
     
       <category term="javascript" scheme="https://0810-cao.github.io/categories/javascript/"/>
+    
+      <category term="basic" scheme="https://0810-cao.github.io/categories/javascript/basic/"/>
     
     
   </entry>
