@@ -4,11 +4,19 @@
     <title>Bootstrap(2)</title>
     <url>/2020/08/06/Bootstrap-2/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>Web</category>
+        <category>Bootstrap</category>
+      </categories>
   </entry>
   <entry>
     <title>Bootstrap(1)</title>
     <url>/2020/08/06/Bootstrap-1/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>Web</category>
+        <category>Bootstrap</category>
+      </categories>
   </entry>
   <entry>
     <title>Ajax(3)</title>
@@ -23,6 +31,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>jQuery+Ajax</category>
       </categories>
   </entry>
@@ -39,6 +48,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>jQuery+Ajax</category>
       </categories>
   </entry>
@@ -67,14 +77,7 @@
 
 ]]></content>
       <categories>
-        <category>jQuery+Ajax</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>jQuery(4)</title>
-    <url>/2020/07/21/jQuery-4/</url>
-    <content><![CDATA[]]></content>
-      <categories>
+        <category>Web</category>
         <category>jQuery+Ajax</category>
       </categories>
   </entry>
@@ -89,6 +92,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>jQuery+Ajax</category>
       </categories>
   </entry>
@@ -113,6 +117,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>jQuery+Ajax</category>
       </categories>
   </entry>
@@ -151,6 +156,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>jQuery+Ajax</category>
       </categories>
   </entry>
@@ -175,6 +181,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>javascript</category>
         <category>advance</category>
       </categories>
@@ -192,6 +199,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>javascript</category>
         <category>basic</category>
       </categories>
@@ -213,6 +221,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>javascript</category>
         <category>basic</category>
       </categories>
@@ -236,6 +245,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>javascript</category>
         <category>basic</category>
       </categories>
@@ -263,6 +273,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>javascript</category>
         <category>basic</category>
       </categories>
@@ -294,6 +305,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>javascript</category>
         <category>basic</category>
       </categories>
@@ -313,6 +325,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>H5&amp;CSS</category>
         <category>basic</category>
       </categories>
@@ -338,6 +351,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>H5&amp;CSS</category>
         <category>basic</category>
       </categories>
@@ -377,6 +391,7 @@
 
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>H5&amp;CSS</category>
         <category>basic</category>
       </categories>
@@ -439,6 +454,7 @@
 <p>十三、TypeScript（简称TS）。ES 是 JS 的标准，TS 是 JS 的超集。TS属于进阶内容，建议把上面的基础掌握之后，再学TS。</p>
 ]]></content>
       <categories>
+        <category>Web</category>
         <category>H5&amp;CSS</category>
         <category>basic</category>
       </categories>
