@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-08-10T08:40:41.996Z</updated>
+  <updated>2020-08-13T01:44:45.458Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -17,13 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>MongoDB</title>
+    <link href="https://0810-cao.github.io/2020/08/13/MongoDB/"/>
+    <id>https://0810-cao.github.io/2020/08/13/MongoDB/</id>
+    <published>2020-08-13T01:44:45.000Z</published>
+    <updated>2020-08-13T01:44:45.458Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>node.js</title>
+    <link href="https://0810-cao.github.io/2020/08/13/node-js/"/>
+    <id>https://0810-cao.github.io/2020/08/13/node-js/</id>
+    <published>2020-08-13T01:40:35.000Z</published>
+    <updated>2020-08-13T10:33:19.887Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="node.js" scheme="https://0810-cao.github.io/categories/Web/node-js/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>HTML5(6)</title>
     <link href="https://0810-cao.github.io/2020/08/10/HTML5-6/"/>
     <id>https://0810-cao.github.io/2020/08/10/HTML5-6/</id>
     <published>2020-08-10T08:40:35.000Z</published>
-    <updated>2020-08-10T08:40:41.996Z</updated>
+    <updated>2020-08-11T01:49:14.399Z</updated>
     
     <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
     
     </summary>
     
@@ -42,7 +92,7 @@
     <link href="https://0810-cao.github.io/2020/08/10/HTML5-5/"/>
     <id>https://0810-cao.github.io/2020/08/10/HTML5-5/</id>
     <published>2020-08-10T08:40:16.000Z</published>
-    <updated>2020-08-10T14:24:09.878Z</updated>
+    <updated>2020-08-11T01:23:04.641Z</updated>
     
     <summary type="html">
     
@@ -512,64 +562,6 @@
       <category term="javascript" scheme="https://0810-cao.github.io/categories/Web/javascript/"/>
     
       <category term="basic" scheme="https://0810-cao.github.io/categories/Web/javascript/basic/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>HTML5(4)</title>
-    <link href="https://0810-cao.github.io/2020/07/09/HTML5-4/"/>
-    <id>https://0810-cao.github.io/2020/07/09/HTML5-4/</id>
-    <published>2020-07-09T09:51:06.000Z</published>
-    <updated>2020-08-06T03:32:31.380Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="H5&amp;CSS" scheme="https://0810-cao.github.io/categories/Web/H5-CSS/"/>
-    
-      <category term="basic" scheme="https://0810-cao.github.io/categories/Web/H5-CSS/basic/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>HTML5(3)</title>
-    <link href="https://0810-cao.github.io/2020/07/08/HTML5-3/"/>
-    <id>https://0810-cao.github.io/2020/07/08/HTML5-3/</id>
-    <published>2020-07-08T07:27:24.000Z</published>
-    <updated>2020-08-06T03:32:26.346Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="H5&amp;CSS" scheme="https://0810-cao.github.io/categories/Web/H5-CSS/"/>
-    
-      <category term="basic" scheme="https://0810-cao.github.io/categories/Web/H5-CSS/basic/"/>
     
     
   </entry>
