@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>webpack(2)</title>
+    <url>/2020/08/18/webpack-2/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Web</category>
+        <category>webpack</category>
+      </categories>
+  </entry>
+  <entry>
     <title>webpack(1)</title>
     <url>/2020/08/18/webpack-1/</url>
     <content><![CDATA[]]></content>

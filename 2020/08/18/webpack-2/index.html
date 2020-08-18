@@ -80,14 +80,14 @@
 
 
 
-<meta name="description" content="Recommendation system predicts the preference that a user would give to an item. Now you are asked to program a very simple recommendation system that rates the user’s preference by the number of time">
+<meta name="description" content="Keep moving">
 <meta property="og:type" content="article">
-<meta property="og:title" content="1129 Recommendation System">
-<meta property="og:url" content="https://0810-cao.github.io/2020/04/19/1129-Recommendation-System/index.html">
+<meta property="og:title" content="webpack(2)">
+<meta property="og:url" content="https://0810-cao.github.io/2020/08/18/webpack-2/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="Recommendation system predicts the preference that a user would give to an item. Now you are asked to program a very simple recommendation system that rates the user’s preference by the number of time">
-<meta property="article:published_time" content="2020-04-19T02:10:32.000Z">
-<meta property="article:modified_time" content="2020-04-19T03:27:15.729Z">
+<meta property="og:description" content="Keep moving">
+<meta property="article:published_time" content="2020-08-18T09:40:09.000Z">
+<meta property="article:modified_time" content="2020-08-18T09:40:23.343Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="https://0810-cao.github.io/2020/04/19/1129-Recommendation-System/"/>
+  <link rel="canonical" href="https://0810-cao.github.io/2020/08/18/webpack-2/"/>
 
 
 
 
 
-  <title>1129 Recommendation System | 0810-CAO Blog</title>
+  <title>webpack(2) | 0810-CAO Blog</title>
   
 
 
@@ -286,7 +286,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/04/19/1129-Recommendation-System/">
+    <link itemprop="mainEntityOfPage" href="https://0810-cao.github.io/2020/08/18/webpack-2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CCX-99">
@@ -303,7 +303,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">1129 Recommendation System</h1>
+          <h1 class="post-title" itemprop="name headline">webpack(2)</h1>
         
 
         <div class="post-meta">
@@ -315,8 +315,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-19T10:10:32+08:00">
-                2020-04-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-08-18T17:40:09+08:00">
+                2020-08-18
               </time>
             
 
@@ -338,8 +338,19 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/pat%E7%94%B2%E7%BA%A7/" itemprop="url" rel="index">
-                    <span itemprop="name">pat甲级</span>
+                  <a href="/categories/Web/" itemprop="url" rel="index">
+                    <span itemprop="name">Web</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/webpack/" itemprop="url" rel="index">
+                    <span itemprop="name">webpack</span>
                   </a>
                 </span>
 
@@ -369,7 +380,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  547
+                  0
                 </span>
               
 
@@ -385,7 +396,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  3
+                  1
                 </span>
               
             </div>
@@ -406,21 +417,7 @@
       
 
       
-        <p>Recommendation system predicts the preference that a user would give to an item. Now you are asked to program a very simple recommendation system that rates the user’s preference by the number of times that an item has been accessed by this user.</p>
-<h3 id="Input-Specification"><a href="#Input-Specification" class="headerlink" title="Input Specification:"></a>Input Specification:</h3><p>Each input file contains one test case. For each test case, the first line contains two positive integers: N (≤ 50,000), the total number of queries, and K (≤ 10), the maximum number of recommendations the system must show to the user. Then given in the second line are the indices of items that the user is accessing – for the sake of simplicity, all the items are indexed from 1 to N. All the numbers in a line are separated by a space.</p>
-<h3 id="Output-Specification"><a href="#Output-Specification" class="headerlink" title="Output Specification:"></a>Output Specification:</h3><p>For each case, process the queries one by one. Output the recommendations for each query in a line in the format:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">query: rec[1] rec[2] ... rec[K]</span><br></pre></td></tr></table></figure>
-
-<p>where <code>query</code> is the item that the user is accessing, and <code>rec[i]</code> (<code>i</code>=1, … K) is the <code>i</code>-th item that the system recommends to the user. The first K items that have been accessed most frequently are supposed to be recommended in non-increasing order of their frequencies. If there is a tie, the items will be ordered by their indices in increasing order.</p>
-<p>Note: there is no output for the first item since it is impossible to give any recommendation at the time. It is guaranteed to have the output for at least one query.</p>
-<h3 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input:"></a>Sample Input:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">12 3</span><br><span class="line">3 5 7 5 5 3 2 1 8 3 8 12</span><br></pre></td></tr></table></figure>
-
-<h3 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output:"></a>Sample Output:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">5: 3</span><br><span class="line">7: 3 5</span><br><span class="line">5: 3 5 7</span><br><span class="line">5: 5 3 7</span><br><span class="line">3: 5 3 7</span><br><span class="line">2: 5 3 7</span><br><span class="line">1: 5 3 2</span><br><span class="line">8: 5 3 1</span><br><span class="line">3: 5 3 1</span><br><span class="line">8: 3 5 1</span><br><span class="line">12: 3 5 8</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;set&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int sum[50000];</span><br><span class="line">struct node&#123;</span><br><span class="line">	int value,cnt;</span><br><span class="line">	bool operator&lt;(const node &amp;a)const&#123;</span><br><span class="line">		return (cnt!&#x3D;a.cnt)?cnt&gt;a.cnt:value&lt;a.value;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line">int main( )&#123;</span><br><span class="line">	int n,k,num;</span><br><span class="line">	scanf(&quot;%d%d&quot;,&amp;n,&amp;k);</span><br><span class="line">	set&lt;node&gt;s;</span><br><span class="line">	for (int i&#x3D;0;i&lt;n;i++) &#123;</span><br><span class="line">		scanf(&quot;%d&quot;,&amp;num);</span><br><span class="line">		if (i!&#x3D;0) &#123;</span><br><span class="line">			printf(&quot;%d:&quot;,num);</span><br><span class="line">			int tempcnt&#x3D;0;</span><br><span class="line">			for (auto it&#x3D;s.begin();tempcnt&lt;k&amp;&amp;it!&#x3D;s.end();it++) &#123;</span><br><span class="line">				printf(&quot; %d&quot;,it-&gt;value);</span><br><span class="line">				tempcnt++;</span><br><span class="line">			&#125;</span><br><span class="line">			printf(&quot;\n&quot;);</span><br><span class="line">		&#125;</span><br><span class="line">		auto it&#x3D;s.find(node&#123;num,sum[num]&#125;);</span><br><span class="line">		if (it!&#x3D;s.end()) &#123;</span><br><span class="line">			s.erase(it);</span><br><span class="line">		&#125;</span><br><span class="line">		sum[num]++;</span><br><span class="line">		s.insert(node&#123;num,sum[num]&#125;);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>一开始以为使用vector然后写一个compare来排序，然后看大神直接在结构体重载运算符，并使用set直接排序，先来将第一个数略过，将输出放在前面，插入放在后面最后注意要记得把已经存在在set中数据更新删除。</p>
-
+        
       
     </div>
     
@@ -468,8 +465,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/04/17/%E6%8C%81%E4%B9%85%E5%8C%96%E5%AF%B9%E8%B1%A1%E4%B8%8E%E4%B8%80%E7%BA%A7%E7%BC%93%E5%AD%98/" rel="next" title="持久化对象与一级缓存">
-                <i class="fa fa-chevron-left"></i> 持久化对象与一级缓存
+              <a href="/2020/08/18/webpack-1/" rel="next" title="webpack(1)">
+                <i class="fa fa-chevron-left"></i> webpack(1)
               </a>
             
           </div>
@@ -477,10 +474,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/04/25/Hibernate%E5%85%B3%E8%81%94%E5%85%B3%E7%B3%BB%E6%98%A0%E5%B0%84/" rel="prev" title="Hibernate关联关系映射">
-                Hibernate关联关系映射 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -532,17 +525,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -622,22 +606,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Input-Specification"><span class="nav-number">1.</span> <span class="nav-text">Input Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-Specification"><span class="nav-number">2.</span> <span class="nav-text">Output Specification:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Input"><span class="nav-number">3.</span> <span class="nav-text">Sample Input:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Sample-Output"><span class="nav-number">4.</span> <span class="nav-text">Sample Output:</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
