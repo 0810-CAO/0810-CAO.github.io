@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-08-14T08:41:54.826Z</updated>
+  <updated>2020-08-18T09:39:24.554Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>webpack(1)</title>
+    <link href="https://0810-cao.github.io/2020/08/18/webpack-1/"/>
+    <id>https://0810-cao.github.io/2020/08/18/webpack-1/</id>
+    <published>2020-08-18T08:27:55.000Z</published>
+    <updated>2020-08-18T09:39:24.554Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="webpack" scheme="https://0810-cao.github.io/categories/Web/webpack/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>MongoDB</title>
@@ -522,35 +541,6 @@
     <id>https://0810-cao.github.io/2020/07/10/JS-2/</id>
     <published>2020-07-09T23:42:30.000Z</published>
     <updated>2020-08-18T03:25:38.654Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="javascript" scheme="https://0810-cao.github.io/categories/Web/javascript/"/>
-    
-      <category term="basic" scheme="https://0810-cao.github.io/categories/Web/javascript/basic/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>JS(1)</title>
-    <link href="https://0810-cao.github.io/2020/07/10/JS-1/"/>
-    <id>https://0810-cao.github.io/2020/07/10/JS-1/</id>
-    <published>2020-07-09T23:41:51.000Z</published>
-    <updated>2020-08-06T03:38:29.059Z</updated>
     
     <summary type="html">
     
