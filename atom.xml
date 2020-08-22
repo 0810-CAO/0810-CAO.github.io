@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-08-20T14:30:37.279Z</updated>
+  <updated>2020-08-22T14:10:29.448Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,87 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ES6(3)</title>
+    <link href="https://0810-cao.github.io/2020/08/21/ES6-3/"/>
+    <id>https://0810-cao.github.io/2020/08/21/ES6-3/</id>
+    <published>2020-08-21T03:52:41.000Z</published>
+    <updated>2020-08-22T14:10:29.448Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="ES" scheme="https://0810-cao.github.io/categories/Web/ES/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ES6(2)</title>
+    <link href="https://0810-cao.github.io/2020/08/21/ES6-2/"/>
+    <id>https://0810-cao.github.io/2020/08/21/ES6-2/</id>
+    <published>2020-08-21T03:52:36.000Z</published>
+    <updated>2020-08-22T14:06:57.259Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="ES" scheme="https://0810-cao.github.io/categories/Web/ES/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ES6(1)</title>
+    <link href="https://0810-cao.github.io/2020/08/21/ES6-1/"/>
+    <id>https://0810-cao.github.io/2020/08/21/ES6-1/</id>
+    <published>2020-08-21T03:51:39.000Z</published>
+    <updated>2020-08-22T04:15:56.701Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="ES" scheme="https://0810-cao.github.io/categories/Web/ES/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>webpack(5)</title>
@@ -481,89 +562,6 @@
       <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
     
       <category term="jQuery+Ajax" scheme="https://0810-cao.github.io/categories/Web/jQuery-Ajax/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>jQuery(2)</title>
-    <link href="https://0810-cao.github.io/2020/07/21/jQuery-2/"/>
-    <id>https://0810-cao.github.io/2020/07/21/jQuery-2/</id>
-    <published>2020-07-21T00:13:40.000Z</published>
-    <updated>2020-08-06T03:32:38.924Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="jQuery+Ajax" scheme="https://0810-cao.github.io/categories/Web/jQuery-Ajax/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>jQuery(1)</title>
-    <link href="https://0810-cao.github.io/2020/07/21/jQuery-1/"/>
-    <id>https://0810-cao.github.io/2020/07/21/jQuery-1/</id>
-    <published>2020-07-21T00:13:35.000Z</published>
-    <updated>2020-08-07T02:40:46.502Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="jQuery+Ajax" scheme="https://0810-cao.github.io/categories/Web/jQuery-Ajax/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>JS(6)</title>
-    <link href="https://0810-cao.github.io/2020/07/18/JS-6/"/>
-    <id>https://0810-cao.github.io/2020/07/18/JS-6/</id>
-    <published>2020-07-18T11:48:17.000Z</published>
-    <updated>2020-08-06T03:39:01.662Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="javascript" scheme="https://0810-cao.github.io/categories/Web/javascript/"/>
-    
-      <category term="advance" scheme="https://0810-cao.github.io/categories/Web/javascript/advance/"/>
     
     
   </entry>
