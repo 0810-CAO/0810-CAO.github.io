@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-08-30T01:39:14.853Z</updated>
+  <updated>2020-08-30T07:48:07.646Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -21,12 +21,16 @@
     <link href="https://0810-cao.github.io/2020/08/30/vue-8/"/>
     <id>https://0810-cao.github.io/2020/08/30/vue-8/</id>
     <published>2020-08-30T01:39:14.000Z</published>
-    <updated>2020-08-30T01:39:14.853Z</updated>
+    <updated>2020-08-30T07:48:07.646Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="vue" scheme="https://0810-cao.github.io/categories/Web/vue/"/>
     
     
   </entry>
@@ -36,12 +40,25 @@
     <link href="https://0810-cao.github.io/2020/08/30/vue-7/"/>
     <id>https://0810-cao.github.io/2020/08/30/vue-7/</id>
     <published>2020-08-30T01:39:10.000Z</published>
-    <updated>2020-08-30T01:39:10.935Z</updated>
+    <updated>2020-08-31T03:14:40.577Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;p&gt;数据代理、模板解析、数据绑定&lt;/p&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
     </summary>
     
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="vue" scheme="https://0810-cao.github.io/categories/Web/vue/"/>
     
     
   </entry>
@@ -51,12 +68,27 @@
     <link href="https://0810-cao.github.io/2020/08/30/vue-6/"/>
     <id>https://0810-cao.github.io/2020/08/30/vue-6/</id>
     <published>2020-08-30T01:39:06.000Z</published>
-    <updated>2020-08-30T01:39:06.841Z</updated>
+    <updated>2020-08-30T13:15:09.411Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;p&gt;1、路由路径携带参数&lt;/p&gt;
+&lt;p&gt;Param/query/router-view也可以携带数据&lt;/p&gt;
+&lt;p&gt;2、编程式路由导航，使用除了&lt;router-link&gt;来定义导航链接，借助router来实现&lt;/p&gt;
+&lt;p&gt;this.$router.push 
+        
+      
+    
     </summary>
     
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="vue" scheme="https://0810-cao.github.io/categories/Web/vue/"/>
     
     
   </entry>
@@ -66,7 +98,7 @@
     <link href="https://0810-cao.github.io/2020/08/24/vue-5/"/>
     <id>https://0810-cao.github.io/2020/08/24/vue-5/</id>
     <published>2020-08-24T06:23:20.000Z</published>
-    <updated>2020-08-30T01:38:47.674Z</updated>
+    <updated>2020-08-30T01:45:29.575Z</updated>
     
     <summary type="html">
     
@@ -94,7 +126,7 @@
     <link href="https://0810-cao.github.io/2020/08/24/vue-4/"/>
     <id>https://0810-cao.github.io/2020/08/24/vue-4/</id>
     <published>2020-08-24T06:23:17.000Z</published>
-    <updated>2020-08-29T14:15:17.202Z</updated>
+    <updated>2020-08-30T07:47:35.765Z</updated>
     
     <summary type="html">
     
@@ -178,7 +210,7 @@
     <link href="https://0810-cao.github.io/2020/08/24/vue-1/"/>
     <id>https://0810-cao.github.io/2020/08/24/vue-1/</id>
     <published>2020-08-24T06:23:07.000Z</published>
-    <updated>2020-08-25T04:52:35.166Z</updated>
+    <updated>2020-08-30T09:49:55.767Z</updated>
     
     <summary type="html">
     
