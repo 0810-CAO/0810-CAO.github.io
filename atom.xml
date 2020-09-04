@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-09-01T03:33:57.940Z</updated>
+  <updated>2020-09-04T14:36:09.113Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>axios(3)</title>
+    <link href="https://0810-cao.github.io/2020/09/04/axios-3/"/>
+    <id>https://0810-cao.github.io/2020/09/04/axios-3/</id>
+    <published>2020-09-04T14:36:09.000Z</published>
+    <updated>2020-09-04T14:36:09.113Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>axios(2)</title>
+    <link href="https://0810-cao.github.io/2020/09/04/axios-2/"/>
+    <id>https://0810-cao.github.io/2020/09/04/axios-2/</id>
+    <published>2020-09-04T14:36:03.000Z</published>
+    <updated>2020-09-04T14:36:03.731Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>axios(1)</title>
+    <link href="https://0810-cao.github.io/2020/09/04/axios-1/"/>
+    <id>https://0810-cao.github.io/2020/09/04/axios-1/</id>
+    <published>2020-09-04T14:35:54.000Z</published>
+    <updated>2020-09-04T14:35:54.719Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>vue(8)</title>
@@ -482,83 +527,6 @@
       <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
     
       <category term="webpack" scheme="https://0810-cao.github.io/categories/Web/webpack/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>webpack(1)</title>
-    <link href="https://0810-cao.github.io/2020/08/18/webpack-1/"/>
-    <id>https://0810-cao.github.io/2020/08/18/webpack-1/</id>
-    <published>2020-08-18T08:27:55.000Z</published>
-    <updated>2020-08-19T15:02:12.415Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="webpack" scheme="https://0810-cao.github.io/categories/Web/webpack/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>MongoDB</title>
-    <link href="https://0810-cao.github.io/2020/08/13/MongoDB/"/>
-    <id>https://0810-cao.github.io/2020/08/13/MongoDB/</id>
-    <published>2020-08-13T01:44:45.000Z</published>
-    <updated>2020-08-14T08:41:54.826Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>node.js</title>
-    <link href="https://0810-cao.github.io/2020/08/13/node-js/"/>
-    <id>https://0810-cao.github.io/2020/08/13/node-js/</id>
-    <published>2020-08-13T01:40:35.000Z</published>
-    <updated>2020-08-13T10:33:19.887Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="node.js" scheme="https://0810-cao.github.io/categories/Web/node-js/"/>
     
     
   </entry>
