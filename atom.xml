@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-09-04T14:36:09.113Z</updated>
+  <updated>2020-09-04T14:38:42.743Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -21,12 +21,16 @@
     <link href="https://0810-cao.github.io/2020/09/04/axios-3/"/>
     <id>https://0810-cao.github.io/2020/09/04/axios-3/</id>
     <published>2020-09-04T14:36:09.000Z</published>
-    <updated>2020-09-04T14:36:09.113Z</updated>
+    <updated>2020-09-04T14:38:42.743Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="axios" scheme="https://0810-cao.github.io/categories/Web/axios/"/>
     
     
   </entry>
@@ -36,12 +40,16 @@
     <link href="https://0810-cao.github.io/2020/09/04/axios-2/"/>
     <id>https://0810-cao.github.io/2020/09/04/axios-2/</id>
     <published>2020-09-04T14:36:03.000Z</published>
-    <updated>2020-09-04T14:36:03.731Z</updated>
+    <updated>2020-09-04T14:38:40.107Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="axios" scheme="https://0810-cao.github.io/categories/Web/axios/"/>
     
     
   </entry>
@@ -51,12 +59,24 @@
     <link href="https://0810-cao.github.io/2020/09/04/axios-1/"/>
     <id>https://0810-cao.github.io/2020/09/04/axios-1/</id>
     <published>2020-09-04T14:35:54.000Z</published>
-    <updated>2020-09-04T14:35:54.719Z</updated>
+    <updated>2020-09-04T14:40:45.519Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
     </summary>
     
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="axios" scheme="https://0810-cao.github.io/categories/Web/axios/"/>
     
     
   </entry>
