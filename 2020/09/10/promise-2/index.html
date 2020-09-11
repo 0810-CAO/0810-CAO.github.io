@@ -80,16 +80,18 @@
 
 
 
-<meta name="description" content="Keep moving">
+<meta name="description" content="3. 自定义Promise1. 定义整体结构 2. Promise构造函数的实现 3. promise.then()&#x2F;catch()的实现 4. Promise.resolve()&#x2F;reject()的实现 5. Promise.all&#x2F;race()的实现 6. Promise.resolveDelay()&#x2F;rejectDelay()的实现 7. ES6 class版本4. async与await1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="promise(2)">
 <meta property="og:url" content="https://0810-cao.github.io/2020/09/10/promise-2/index.html">
 <meta property="og:site_name" content="0810-CAO Blog">
-<meta property="og:description" content="Keep moving">
+<meta property="og:description" content="3. 自定义Promise1. 定义整体结构 2. Promise构造函数的实现 3. promise.then()&#x2F;catch()的实现 4. Promise.resolve()&#x2F;reject()的实现 5. Promise.all&#x2F;race()的实现 6. Promise.resolveDelay()&#x2F;rejectDelay()的实现 7. ES6 class版本4. async与await1">
+<meta property="og:image" content="http://vipkshttp1.wiz.cn/ks/share/resources/49c30824-dcdf-4bd0-af2a-708f490b44a1/92b8cbfb-a474-4859-943b-6048e9dc66f6/index_files/60b9ff398449db2dcfef9197e2187ae6.png">
 <meta property="article:published_time" content="2020-09-10T11:01:35.000Z">
-<meta property="article:modified_time" content="2020-09-10T11:03:35.403Z">
+<meta property="article:modified_time" content="2020-09-11T14:39:17.815Z">
 <meta property="article:author" content="CCX-99">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://vipkshttp1.wiz.cn/ks/share/resources/49c30824-dcdf-4bd0-af2a-708f490b44a1/92b8cbfb-a474-4859-943b-6048e9dc66f6/index_files/60b9ff398449db2dcfef9197e2187ae6.png">
 
 
 
@@ -380,7 +382,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  332
                 </span>
               
 
@@ -417,7 +419,25 @@
       
 
       
-        
+        <h4 id="3-自定义Promise"><a href="#3-自定义Promise" class="headerlink" title="3. 自定义Promise"></a>3. 自定义Promise</h4><pre><code>1. 定义整体结构
+2. Promise构造函数的实现
+3. promise.then()/catch()的实现
+4. Promise.resolve()/reject()的实现
+5. Promise.all/race()的实现
+6. Promise.resolveDelay()/rejectDelay()的实现
+7. ES6 class版本</code></pre><h4 id="4-async与await"><a href="#4-async与await" class="headerlink" title="4. async与await"></a>4. async与await</h4><pre><code>1. async 函数
+    函数的返回值为promise对象
+    promise对象的结果由async函数执行的返回值决定
+2. await 表达式
+    await右侧的表达式一般为promise对象, 但也可以是其它的值
+    如果表达式是promise对象, await返回的是promise成功的值
+    如果表达式是其它值, 直接将此值作为await的返回值
+3. 注意:
+    await必须写在async函数中, 但async函数中可以没有await
+    如果await的promise失败了, 就会抛出异常, 需要通过try...catch来捕获处理</code></pre><h4 id="5-JS异步之宏队列与微队列"><a href="#5-JS异步之宏队列与微队列" class="headerlink" title="5. JS异步之宏队列与微队列"></a>5. JS异步之宏队列与微队列</h4><p><img src="http://vipkshttp1.wiz.cn/ks/share/resources/49c30824-dcdf-4bd0-af2a-708f490b44a1/92b8cbfb-a474-4859-943b-6048e9dc66f6/index_files/60b9ff398449db2dcfef9197e2187ae6.png" alt="宏队列与微队列"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1. 宏列队: 用来保存待执行的宏任务(回调), 比如: 定时器回调&#x2F;DOM事件回调&#x2F;ajax回调</span><br><span class="line">2. 微列队: 用来保存待执行的微任务(回调), 比如: promise的回调&#x2F;MutationObserver的回调</span><br><span class="line">3. JS执行时会区别这2个队列</span><br><span class="line">	JS引擎首先必须先执行所有的初始化同步任务代码</span><br><span class="line">	每次准备取出第一个宏任务执行前, 都要将所有的微任务一个一个取出来执行</span><br></pre></td></tr></table></figure>
+
+
       
     </div>
     
@@ -525,8 +545,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -606,6 +635,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#3-自定义Promise"><span class="nav-number">1.</span> <span class="nav-text">3. 自定义Promise</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-async与await"><span class="nav-number">2.</span> <span class="nav-text">4. async与await</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-JS异步之宏队列与微队列"><span class="nav-number">3.</span> <span class="nav-text">5. JS异步之宏队列与微队列</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
