@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>koa(2)</title>
+    <url>/2020/09/16/koa-2/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Web</category>
+        <category>koa</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>koa(1)</title>
+    <url>/2020/09/16/koa-1/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Web</category>
+        <category>koa</category>
+      </categories>
+  </entry>
+  <entry>
     <title>express(2)</title>
     <url>/2020/09/16/express-2/</url>
     <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>);</span><br><span class="line"><span class="keyword">const</span> bodyParser = <span class="built_in">require</span>(<span class="string">'body-parser'</span>);</span><br><span class="line"><span class="keyword">const</span> app = express();</span><br><span class="line"><span class="comment">// 拦截所有请求</span></span><br><span class="line"><span class="comment">// extended: false 方法内部使用querystring模块处理请求参数的格式</span></span><br><span class="line"><span class="comment">// extended: true 方法内部使用第三方模块qs处理请求参数的格式</span></span><br><span class="line">app.use(bodyParser.urlencoded(&#123; <span class="attr">extended</span>: <span class="literal">false</span> &#125;))</span><br><span class="line">app.post(<span class="string">'/add'</span>, (req, res) =&gt; &#123;</span><br><span class="line">    <span class="comment">// 接收post请求参数</span></span><br><span class="line">    res.send(req.body)</span><br><span class="line">&#125;)</span><br><span class="line">app.listen(<span class="number">3000</span>);</span><br></pre></td></tr></table></figure>
