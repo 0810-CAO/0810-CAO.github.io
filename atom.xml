@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-09-11T14:39:17.815Z</updated>
+  <updated>2020-09-16T14:58:13.008Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>promise(2)</title>
-    <link href="https://0810-cao.github.io/2020/09/10/promise-2/"/>
-    <id>https://0810-cao.github.io/2020/09/10/promise-2/</id>
-    <published>2020-09-10T11:01:35.000Z</published>
-    <updated>2020-09-11T14:39:17.815Z</updated>
+    <title>express(2)</title>
+    <link href="https://0810-cao.github.io/2020/09/16/express-2/"/>
+    <id>https://0810-cao.github.io/2020/09/16/express-2/</id>
+    <published>2020-09-16T10:41:39.000Z</published>
+    <updated>2020-09-16T14:58:13.008Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,91 @@
       
         
         
-          &lt;h4 id=&quot;3-自定义Promise&quot;&gt;&lt;a href=&quot;#3-自定义Promise&quot; class=&quot;headerlink&quot; title=&quot;3. 自定义Promise&quot;&gt;&lt;/a&gt;3. 自定义Promise&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;1. 定义整体结构
-2.
+          &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="express" scheme="https://0810-cao.github.io/categories/Web/express/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>express(1)</title>
+    <link href="https://0810-cao.github.io/2020/09/16/express-1/"/>
+    <id>https://0810-cao.github.io/2020/09/16/express-1/</id>
+    <published>2020-09-16T10:41:10.000Z</published>
+    <updated>2020-09-16T12:45:40.237Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;npm i –global nodemon 监听node，需改后不需要重新启动node&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="express" scheme="https://0810-cao.github.io/categories/Web/express/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>vite(1)</title>
+    <link href="https://0810-cao.github.io/2020/09/14/vite-1/"/>
+    <id>https://0810-cao.github.io/2020/09/14/vite-1/</id>
+    <published>2020-09-14T12:52:13.000Z</published>
+    <updated>2020-09-14T13:36:44.572Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;cnpm i -g @vue/cli 安装vue3.0&lt;/p&gt;
+&lt;p&gt;Vue create 项目名 （y package.json y ）&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
+    
+      <category term="vite" scheme="https://0810-cao.github.io/categories/Web/vite/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>promise(2)</title>
+    <link href="https://0810-cao.github.io/2020/09/10/promise-2/"/>
+    <id>https://0810-cao.github.io/2020/09/10/promise-2/</id>
+    <published>2020-09-10T11:01:35.000Z</published>
+    <updated>2020-09-13T13:54:10.298Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;3-自定义Promise&quot;&gt;&lt;a href=&quot;#3-自定义Promise&quot; class=&quot;headerlink&quot; title=&quot;3. 自定义Promise&quot;&gt;&lt;/a&gt;3. 自定义Promise&lt;/h4&gt;&lt;figure class=&quot;highlight
         
       
     
@@ -157,7 +240,7 @@
     <link href="https://0810-cao.github.io/2020/08/30/vue-7/"/>
     <id>https://0810-cao.github.io/2020/08/30/vue-7/</id>
     <published>2020-08-30T01:39:10.000Z</published>
-    <updated>2020-08-31T13:21:45.450Z</updated>
+    <updated>2020-09-14T11:40:29.663Z</updated>
     
     <summary type="html">
     
@@ -479,91 +562,6 @@
       <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
     
       <category term="ES" scheme="https://0810-cao.github.io/categories/Web/ES/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>webpack(5)</title>
-    <link href="https://0810-cao.github.io/2020/08/20/webpack-5/"/>
-    <id>https://0810-cao.github.io/2020/08/20/webpack-5/</id>
-    <published>2020-08-20T14:30:13.000Z</published>
-    <updated>2020-08-20T14:30:37.279Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;# webpack5&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;此版本重点关注以下内容:&lt;/p&gt;
-&lt;p&gt;- 通过持久缓存提高构建性能.&lt;/p&gt;
-&lt;p&gt;- 使用更好的算法和默认值来改善长期缓存.&lt;/p&gt;
-&lt;p&gt;-
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="webpack" scheme="https://0810-cao.github.io/categories/Web/webpack/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>webpack(4)</title>
-    <link href="https://0810-cao.github.io/2020/08/20/webpack-4/"/>
-    <id>https://0810-cao.github.io/2020/08/20/webpack-4/</id>
-    <published>2020-08-20T13:00:52.000Z</published>
-    <updated>2020-08-20T14:26:13.225Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="webpack" scheme="https://0810-cao.github.io/categories/Web/webpack/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>webpack(3)</title>
-    <link href="https://0810-cao.github.io/2020/08/20/webpack-3/"/>
-    <id>https://0810-cao.github.io/2020/08/20/webpack-3/</id>
-    <published>2020-08-20T03:37:23.000Z</published>
-    <updated>2020-08-20T11:56:59.338Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="webpack" scheme="https://0810-cao.github.io/categories/Web/webpack/"/>
     
     
   </entry>
