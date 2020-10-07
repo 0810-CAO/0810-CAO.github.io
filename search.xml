@@ -2132,7 +2132,7 @@ b. 实现功能
 <p>git add .</p>
 <p>git remote add origin <a href="mailto:git@github.com">git@github.com</a>:0810-CAO/cao-99.github.io.git</p>
 <p>(touch README  git add README git commit -m ‘music’)</p>
-<p>git push  origin master（git remote rm origin）</p>
+<p>git push  -u origin master（git remote rm origin）</p>
 <p>git checkout -b vue切换分支</p>
 <p>git checkout master</p>
 <p>切换到master将login分支提交到master</p>
