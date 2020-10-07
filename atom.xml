@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-09-19T13:04:36.321Z</updated>
+  <updated>2020-10-07T01:12:47.144Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>电商管理后台 API 接口（2）</title>
+    <link href="https://0810-cao.github.io/2020/10/07/%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0-API-%E6%8E%A5%E5%8F%A3%EF%BC%882%EF%BC%89/"/>
+    <id>https://0810-cao.github.io/2020/10/07/%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0-API-%E6%8E%A5%E5%8F%A3%EF%BC%882%EF%BC%89/</id>
+    <published>2020-10-07T01:09:20.000Z</published>
+    <updated>2020-10-07T01:12:47.144Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-7-分类参数管理&quot;&gt;&lt;a href=&quot;#1-7-分类参数管理&quot; class=&quot;headerlink&quot; title=&quot;1.7. 分类参数管理&quot;&gt;&lt;/a&gt;1.7. 分类参数管理&lt;/h2&gt;&lt;h3 id=&quot;1-7-1-参数列表&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>电商管理后台 API 接口（1）</title>
+    <link href="https://0810-cao.github.io/2020/10/07/%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0-API-%E6%8E%A5%E5%8F%A3%EF%BC%881%EF%BC%89/"/>
+    <id>https://0810-cao.github.io/2020/10/07/%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0-API-%E6%8E%A5%E5%8F%A3%EF%BC%881%EF%BC%89/</id>
+    <published>2020-10-07T01:09:16.000Z</published>
+    <updated>2020-10-07T01:12:42.370Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-电商管理后台-API-接口文档&quot;&gt;&lt;a href=&quot;#1-电商管理后台-API-接口文档&quot; class=&quot;headerlink&quot; title=&quot;1. 电商管理后台 API 接口文档&quot;&gt;&lt;/a&gt;1. 电商管理后台 API 接口文档&lt;/h1&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>node.js</title>
@@ -511,60 +557,6 @@
       <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
     
       <category term="vue" scheme="https://0810-cao.github.io/categories/Web/vue/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ES10-11</title>
-    <link href="https://0810-cao.github.io/2020/08/23/ES10-11/"/>
-    <id>https://0810-cao.github.io/2020/08/23/ES10-11/</id>
-    <published>2020-08-23T03:42:03.000Z</published>
-    <updated>2020-08-24T02:01:56.671Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="ES" scheme="https://0810-cao.github.io/categories/Web/ES/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ES8-9</title>
-    <link href="https://0810-cao.github.io/2020/08/23/ES8-9/"/>
-    <id>https://0810-cao.github.io/2020/08/23/ES8-9/</id>
-    <published>2020-08-23T03:41:57.000Z</published>
-    <updated>2020-08-23T14:50:27.800Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="ES" scheme="https://0810-cao.github.io/categories/Web/ES/"/>
     
     
   </entry>
