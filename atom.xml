@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-10-11T01:59:50.001Z</updated>
+  <updated>2020-10-16T01:47:53.495Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>渗透测试</title>
+    <link href="https://0810-cao.github.io/2020/10/16/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    <id>https://0810-cao.github.io/2020/10/16/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/</id>
+    <published>2020-10-16T01:39:33.000Z</published>
+    <updated>2020-10-16T01:47:53.495Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;http://www.pentest-standard.org/index.php/Main_Page&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="白帽" scheme="https://0810-cao.github.io/categories/%E7%99%BD%E5%B8%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>电商管理后台 API 接口（2）</title>
     <link href="https://0810-cao.github.io/2020/10/07/%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0-API-%E6%8E%A5%E5%8F%A3%EF%BC%882%EF%BC%89/"/>
     <id>https://0810-cao.github.io/2020/10/07/%E7%94%B5%E5%95%86%E7%AE%A1%E7%90%86%E5%90%8E%E5%8F%B0-API-%E6%8E%A5%E5%8F%A3%EF%BC%882%EF%BC%89/</id>
     <published>2020-10-07T01:09:20.000Z</published>
-    <updated>2020-10-11T01:59:50.001Z</updated>
+    <updated>2020-10-14T07:00:08.573Z</updated>
     
     <summary type="html">
     
@@ -35,10 +60,6 @@
     
     </summary>
     
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="shop" scheme="https://0810-cao.github.io/categories/Web/shop/"/>
     
     
   </entry>
@@ -521,33 +542,6 @@
     <id>https://0810-cao.github.io/2020/08/24/vue-2/</id>
     <published>2020-08-24T06:23:10.000Z</published>
     <updated>2020-08-25T14:31:25.500Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="vue" scheme="https://0810-cao.github.io/categories/Web/vue/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>vue(1)</title>
-    <link href="https://0810-cao.github.io/2020/08/24/vue-1/"/>
-    <id>https://0810-cao.github.io/2020/08/24/vue-1/</id>
-    <published>2020-08-24T06:23:07.000Z</published>
-    <updated>2020-08-30T09:49:55.767Z</updated>
     
     <summary type="html">
     
