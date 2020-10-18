@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>vue(4)</title>
+    <url>/2020/10/18/vue-4/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Web</category>
+        <category>vue</category>
+        <category>basic</category>
+      </categories>
+  </entry>
+  <entry>
     <title>vue(5)</title>
     <url>/2020/10/17/vue-5/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;vue创建项目并在本地运行</span><br><span class="line">vue init webpack vue_first</span><br><span class="line">cd vue_first</span><br><span class="line">&#x2F;&#x2F;运行项目</span><br><span class="line">npm run dev</span><br><span class="line">http:&#x2F;&#x2F;localhost:8080</span><br><span class="line">&#x2F;&#x2F;静态环境打包发布</span><br><span class="line">npm run build&#x2F;&#x2F;打包</span><br><span class="line">npm install -g serve</span><br><span class="line">serve dist</span><br><span class="line">http:&#x2F;&#x2F;localhost:5000</span><br><span class="line">&#x2F;&#x2F;服务器打包发布</span><br><span class="line">在webpack.prod.conf.js中的output中添加类似的项目名称</span><br><span class="line">publicPath: &#39;&#x2F;vue_first&#x2F;&#39;</span><br><span class="line">将打包后的文件移动复制到tomcat&#x2F;webapps文件夹中</span><br><span class="line">安装tomcat</span><br><span class="line">cd &#x2F;Library&#x2F;tomcat&#x2F;bin </span><br><span class="line">sudo chmod 755 *.sh</span><br><span class="line">sudo sh .&#x2F;startup.sh&#x2F;&#x2F;开启</span><br><span class="line">sh .&#x2F;shutdown.sh&#x2F;&#x2F;关闭</span><br><span class="line">在.eslintignore中添加</span><br><span class="line">*.js</span><br><span class="line">*.vue  即可忽略eslint校验</span><br></pre></td></tr></table></figure>
