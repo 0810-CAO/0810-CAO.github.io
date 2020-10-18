@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-10-17T13:46:49.239Z</updated>
+  <updated>2020-10-18T06:26:50.210Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>vue(4.1)</title>
-    <link href="https://0810-cao.github.io/2020/10/17/vue-4-1/"/>
-    <id>https://0810-cao.github.io/2020/10/17/vue-4-1/</id>
+    <title>vue(5)</title>
+    <link href="https://0810-cao.github.io/2020/10/17/vue-5/"/>
+    <id>https://0810-cao.github.io/2020/10/17/vue-5/</id>
     <published>2020-10-17T13:45:26.000Z</published>
-    <updated>2020-10-17T13:46:49.239Z</updated>
+    <updated>2020-10-18T06:26:50.210Z</updated>
     
     <summary type="html">
     
@@ -395,11 +395,11 @@
   </entry>
   
   <entry>
-    <title>vue(8)</title>
-    <link href="https://0810-cao.github.io/2020/09/01/vue-8/"/>
-    <id>https://0810-cao.github.io/2020/09/01/vue-8/</id>
+    <title>vue(10)</title>
+    <link href="https://0810-cao.github.io/2020/09/01/vue-10/"/>
+    <id>https://0810-cao.github.io/2020/09/01/vue-10/</id>
     <published>2020-09-01T03:25:25.000Z</published>
-    <updated>2020-09-01T03:33:57.940Z</updated>
+    <updated>2020-10-18T06:25:38.200Z</updated>
     
     <summary type="html">
     
@@ -422,11 +422,11 @@
   </entry>
   
   <entry>
-    <title>vue(7)</title>
-    <link href="https://0810-cao.github.io/2020/08/30/vue-7/"/>
-    <id>https://0810-cao.github.io/2020/08/30/vue-7/</id>
+    <title>vue(9)</title>
+    <link href="https://0810-cao.github.io/2020/08/30/vue-9/"/>
+    <id>https://0810-cao.github.io/2020/08/30/vue-9/</id>
     <published>2020-08-30T01:39:10.000Z</published>
-    <updated>2020-09-14T11:40:29.663Z</updated>
+    <updated>2020-10-18T06:25:54.755Z</updated>
     
     <summary type="html">
     
@@ -449,11 +449,11 @@
   </entry>
   
   <entry>
-    <title>vue(6)</title>
-    <link href="https://0810-cao.github.io/2020/08/30/vue-6/"/>
-    <id>https://0810-cao.github.io/2020/08/30/vue-6/</id>
+    <title>vue(8)</title>
+    <link href="https://0810-cao.github.io/2020/08/30/vue-8/"/>
+    <id>https://0810-cao.github.io/2020/08/30/vue-8/</id>
     <published>2020-08-30T01:39:06.000Z</published>
-    <updated>2020-08-30T13:15:09.411Z</updated>
+    <updated>2020-10-18T06:26:05.948Z</updated>
     
     <summary type="html">
     
@@ -479,11 +479,11 @@
   </entry>
   
   <entry>
-    <title>vue(5)</title>
-    <link href="https://0810-cao.github.io/2020/08/24/vue-5/"/>
-    <id>https://0810-cao.github.io/2020/08/24/vue-5/</id>
+    <title>vue(7)</title>
+    <link href="https://0810-cao.github.io/2020/08/24/vue-7/"/>
+    <id>https://0810-cao.github.io/2020/08/24/vue-7/</id>
     <published>2020-08-24T06:23:20.000Z</published>
-    <updated>2020-08-30T01:45:29.575Z</updated>
+    <updated>2020-10-18T06:26:18.621Z</updated>
     
     <summary type="html">
     
@@ -507,11 +507,11 @@
   </entry>
   
   <entry>
-    <title>vue(4)</title>
-    <link href="https://0810-cao.github.io/2020/08/24/vue-4/"/>
-    <id>https://0810-cao.github.io/2020/08/24/vue-4/</id>
+    <title>vue(6)</title>
+    <link href="https://0810-cao.github.io/2020/08/24/vue-6/"/>
+    <id>https://0810-cao.github.io/2020/08/24/vue-6/</id>
     <published>2020-08-24T06:23:17.000Z</published>
-    <updated>2020-08-30T07:47:35.765Z</updated>
+    <updated>2020-10-18T06:26:35.232Z</updated>
     
     <summary type="html">
     
@@ -541,7 +541,7 @@
     <link href="https://0810-cao.github.io/2020/08/24/vue-3/"/>
     <id>https://0810-cao.github.io/2020/08/24/vue-3/</id>
     <published>2020-08-24T06:23:14.000Z</published>
-    <updated>2020-10-17T16:17:26.605Z</updated>
+    <updated>2020-10-18T06:27:23.694Z</updated>
     
     <summary type="html">
     
@@ -559,6 +559,8 @@
       <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
     
       <category term="vue" scheme="https://0810-cao.github.io/categories/Web/vue/"/>
+    
+      <category term="basic" scheme="https://0810-cao.github.io/categories/Web/vue/basic/"/>
     
     
   </entry>
