@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://0810-cao.github.io/"/>
-  <updated>2020-10-18T14:51:58.372Z</updated>
+  <updated>2020-10-29T02:58:54.458Z</updated>
   <id>https://0810-cao.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://0810-cao.github.io/2020/10/29/test/"/>
+    <id>https://0810-cao.github.io/2020/10/29/test/</id>
+    <published>2020-10-29T02:33:21.232Z</published>
+    <updated>2020-10-29T02:58:54.458Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Untitled</title>
+    <link href="https://0810-cao.github.io/2020/10/29/Untitled/"/>
+    <id>https://0810-cao.github.io/2020/10/29/Untitled/</id>
+    <published>2020-10-29T02:33:16.013Z</published>
+    <updated>2020-10-29T02:33:16.013Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>vue(4)</title>
@@ -50,7 +80,7 @@
     <link href="https://0810-cao.github.io/2020/10/17/vue-5/"/>
     <id>https://0810-cao.github.io/2020/10/17/vue-5/</id>
     <published>2020-10-17T13:45:26.000Z</published>
-    <updated>2020-10-18T06:26:50.210Z</updated>
+    <updated>2020-10-30T13:07:48.451Z</updated>
     
     <summary type="html">
     
@@ -494,64 +524,6 @@
 &lt;p&gt;Param/query/router-view也可以携带数据&lt;/p&gt;
 &lt;p&gt;2、编程式路由导航，使用除了&lt;router-link&gt;来定义导航链接，借助router来实现&lt;/p&gt;
 &lt;p&gt;this.$router.push 
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="vue" scheme="https://0810-cao.github.io/categories/Web/vue/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>vue(7)</title>
-    <link href="https://0810-cao.github.io/2020/08/24/vue-7/"/>
-    <id>https://0810-cao.github.io/2020/08/24/vue-7/</id>
-    <published>2020-08-24T06:23:20.000Z</published>
-    <updated>2020-10-18T06:26:18.621Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;查询github中匹配的user信息&lt;/p&gt;
-&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web" scheme="https://0810-cao.github.io/categories/Web/"/>
-    
-      <category term="vue" scheme="https://0810-cao.github.io/categories/Web/vue/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>vue(6)</title>
-    <link href="https://0810-cao.github.io/2020/08/24/vue-6/"/>
-    <id>https://0810-cao.github.io/2020/08/24/vue-6/</id>
-    <published>2020-08-24T06:23:17.000Z</published>
-    <updated>2020-10-18T06:26:35.232Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;组件间通信&lt;/p&gt;
-&lt;p&gt;1、props&lt;/p&gt;
-&lt;p&gt;2、vue自定义事件  &amp;lt;TodoHeader @addtodo=”addtodo” /&amp;gt;  … this.$emit(‘addtodo’,todo)&lt;/p&gt;
-&lt;p&gt;3、npm install –save
         
       
     
